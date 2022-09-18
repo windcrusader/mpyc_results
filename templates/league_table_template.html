@@ -1,0 +1,78 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Brad Henderson Custom">
+<meta NAME="TITLE" CONTENT="Laser League Table as at {{updatetime}}" >
+<meta NAME="OWNER" CONTENT="MPYC" >
+<style type="text/css">
+<!--
+P {font-family: Verdana, Arial, Helvetica, sans-serif;font-size:10pt;color: black;margin-left: 0.1in}
+
+UL {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color:black; margin-left: 1.5in; list-style: disc; list-style-position: outside}
+NL {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color:black; margin-left: 1.5in; list-style-position: outside}
+P.Body {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt; color:black;margin-left:1.0in }
+Title {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14pt;color:black; font-weight: bold; text-align: center}
+H1 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14pt;color:navy; font-weight: bold; text-align: left ; page-break-after:avoid}
+H2 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12pt;color:navy; font-weight: bold; text-align: left;  page-break-after:avoid}
+H3 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt;color:navy; font-weight: bold; text-align: left;  page-break-after:avoid}
+H4 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt;color:black; font-weight: normal; text-align: left;  page-break-after:avoid}
+TT {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:0pt; color:Black; margin-left: 2mm; margin-right: 2mm;} 
+td.goodfont {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt; color:Black; margin-left: 2mm; margin-right: 2mm;} 
+-->
+</style>
+<TITLE>Laser League Table as at {{updatetime}}</TITLE>
+</HEAD>
+<BODY>
+<h1>League Table for MPYC</h1><p>Last updated {{updatetime}}</p>
+
+<p>This table shows the results of selected races on 'match-ups' between boats. <BR>
+The sail symbols show where you stand in the table:<BR> 
+<img src='sailred.gif' height='20px' alt='Red Sail' title='Your boat number and skipper'> You are the red sail<BR>
+<img src='sailwhite.gif' height='20px' alt='White Sail' title='Other boat number, skipper and your wins and losses against them'> Boats that are more than one win ahead of or behind you have a white sail<BR>
+<img src='sailyellow.gif' height='20px' alt='Yellow Sail' title='Other boat number, skipper and your wins and losses against them'> Boats of within one win or loss of you have a yellow sail<BR>
+</p>
+<p> Matchup results are based on the corrected handicapped result using the latest Portsmouth Yardstick (PY) 2016 numbers. </p>
+<p> Results are sorted alphabetically by sailor and there are seperate entries for each class (ie if you sail a LASER, and a LASER
+4.7 you will have two entries in the table).  The only line that is meaningful to you is your line - don't pay attention to other 
+sailor's lines in the table. </p>
+<p><strong>Tip:</strong> hover your mouse over each sail to see the details including win/loss figures</strong></p>
+<table border=0>
+<tr>
+<th><h3>Class</h3></th>
+<th><h3>Yacht</h3></th>
+<th><h3>Skipper</h3></th>
+<th><h3>League Table</h3></th>
+
+ </tr>
+{% for skipper in table if skipper[0].helmi.club == 'mpyc' %}
+ <tr>
+<td class='goodfont'>{{skipper[0].helmi.yclass}}</td>
+<td class='goodfont'>{{skipper[0].helmi.sailno}}</td>
+<td class='goodfont'>{{skipper[0].helmi.name}}</td>
+<td><TT>
+{%- for matchup in skipper -%}
+{% if matchup.helmi.name == matchup.helmj.name and matchup.helmi.yclass == matchup.helmj.yclass and matchup.helmi.sailno == matchup.helmj.sailno %}
+<img src='sailred.gif' height='20px' alt='Red Sail' title='This is you: {{matchup.helmj.sailno}} {{matchup.helmj.name}} {{matchup.helmj.yclass}}'>
+{% elif matchup.races == 0 or matchup.helmi.name == matchup.helmj.name%}
+{# elif matchup.helmi.yclass != matchup.helmj.yclass %}
+<img src='sailblue.gif' height='20px' alt='Blue Sail' title='[{{matchup.pct}}%][{{matchup.score}}] {{matchup.helmj.sailno}}-{{matchup.helmj.name}} {{matchup.helmj.yclass}} has {{matchup.losses}} wins against you (Red) and {{matchup.wins}} losses from {{matchup.races}} match ups'>
+#}
+{% elif matchup.score > 1 or matchup.score < -1 %}
+<img src='sailwhite.gif' height='20px' alt='White Sail' title='[{{matchup.pct}}%][{{matchup.score}}] {{matchup.helmj.sailno}}-{{matchup.helmj.name}} {{matchup.helmj.yclass}} has {{matchup.losses}} wins against you (Red) and {{matchup.wins}} losses from {{matchup.races}} match ups'>
+{% elif matchup.score <= 1  and matchup.score >= -1 %}
+<img src='sailyellow.gif' height='20px' alt='Yellow Sail' title='[{{matchup.pct}}%][{{matchup.score}}] {{matchup.helmj.sailno}}-{{matchup.helmj.name}} {{matchup.helmj.yclass}} has {{matchup.losses}} wins against you (Red) and {{matchup.wins}} losses from {{matchup.races}} match ups'>
+{% endif %}
+{% endfor %}
+</TT></td>
+</tr>
+{% endfor %}
+
+</table>
+
+<h3>How it works</h3><p>If you beat another boat - say you come 5th and the other skipper comes 9th, you score one 'win' for that match-up. It is like a virtual match race.</p>
+<p>This table lets you see where you stand and pick the boats you are competing against.<BR>Boats from other clubs are not listed in our table, but are included in the league. <BR>For open class races, such as the Short Course Series, you can even 'match up' against boats from other classes!</p>
+<p>Note that 'match-ups' include 'equal' match-ups, mainly where both boats DNF.<BR>A DNS (did not start) does not count as a match-up for either boat</p>
+</BODY>
+</HTML>

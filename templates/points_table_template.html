@@ -1,0 +1,50 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<HTML>
+<HEAD>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<meta NAME="GENERATOR" CONTENT="Brad Henderson Custom">
+<meta NAME="TITLE" CONTENT="MPYC Points Table as at {{updatetime}}" >
+<meta NAME="OWNER" CONTENT="MPYC" >
+<style type="text/css">
+<!--
+P {font-family: Verdana, Arial, Helvetica, sans-serif;font-size:10pt;color: black;margin-left: 0.1in}
+
+UL {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color:black; margin-left: 1.5in; list-style: disc; list-style-position: outside}
+NL {font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 10pt; color:black; margin-left: 1.5in; list-style-position: outside}
+P.Body {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt; color:black;margin-left:1.0in }
+Title {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14pt;color:black; font-weight: bold; text-align: center}
+H1 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:14pt;color:navy; font-weight: bold; text-align: left ; page-break-after:avoid}
+H2 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12pt;color:navy; font-weight: bold; text-align: left;  page-break-after:avoid}
+H3 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt;color:navy; font-weight: bold; text-align: left;  page-break-after:avoid}
+H4 {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt;color:black; font-weight: normal; text-align: left;  page-break-after:avoid}
+TT {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:0pt; color:Black; margin-left: 2mm; margin-right: 2mm;} 
+td.goodfont {font-family:Verdana, Arial, Helvetica, sans-serif;font-size:10pt; color:Black; margin-left: 2mm; margin-right: 2mm;} 
+-->
+</style>
+<TITLE>MPYC Point Table as at {{updatetime}}</TITLE>
+</HEAD>
+<BODY>
+<h1>Points Table for Members</h1><p>Last updated {{updatetime}}</p>
+
+<p>This table shows the current standing in the seasonal points competiton.  Points are scored by members in every race according to the 
+formula points = 300 / (2 + position).  <BR>
+If you come first in a race you score 100 points, second 75 and so forth.  Race position is determined according to corrected time based on PY 2016 numbers. <BR>
+You must be a financial member of MPYC to score points. Non members and members from affiliated clubs cannot score points but can push members down the individual race rankings.
+
+<table border=1>
+<tr>
+<th><h3>Helm Name</h3></th>
+<th><h3>Season Points</h3></th>
+<th><h3>(Form) Last 10 races</h3></th>
+</tr>
+{% for skipper in table %}
+<tr>
+<td class='goodfont'>{{skipper[0]}}</td>
+<td class='goodfont'>{{skipper[1]}}</td>
+<td class='goodfont'>{{skipper[2]}}</td>
+{% endfor %}
+
+</table>
+</BODY>
+</HTML>
