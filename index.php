@@ -2,11 +2,27 @@
 <?php
 print "<img src='MPYCbanner.png'>";
 print "<h2> Results 22/23 </h2>";
-
-foreach (glob("*.htm") as $file)
+$files = glob("22*.htm"); 
+$stack = glob("23*.htm");
+$files = array_merge($files,$stack);
+rsort($files);
+foreach ($files as $key => $file)
+if (($key >= $_GET["page"] * 10) && ($key < ($_GET["page"] +1) *10))
 print "<div class='fileicon'>
            <a href='$file'>
-               <p class='filetext'>$file</p>
+               <p class='filetext'>$key: $file</p>
            </a>
-      </div>";
+      </div>";;
+$total = count($files) / 10;
+$i = 0;
+print "<p> Page:";
+while ($i <= $total):
+    print "<a href='?page=$i'> $i</a>";
+    $i++;
+endwhile;
+print "<h2> Season Championship </h2>";
+print "<a href='leaguetable2223.htm'> League Table</a><br>";
+print "<a href='pointstable2223.htm'> Points Table</a><br>";
+print "<h2> Historical Season Tables </h2>";
+print "<a href='archive'>Archive</a>";
 ?>
