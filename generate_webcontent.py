@@ -575,9 +575,9 @@ def handicap_adjust(races_detail):
 
     # Get average corrected time for top 2/3 of fleet to exclude poor
     # performers
-    correction = {"LASER": {"sum": 0.0, "r": 0},
-                  "LASER RADIAL": {"sum": 0.0, "r": 0},
-                  "LASER 4.7": {"sum": 0.0, "r": 0}}
+    correction = {"ILCA 7": {"sum": 0.0, "r": 0},
+                  "ILCA 6": {"sum": 0.0, "r": 0},
+                  "ILCA 4": {"sum": 0.0, "r": 0}}
     for racekey in candidate_races:
         # print(f"Processing handicap adjustment for race id {racekey}")
         results = races_detail[racekey]
