@@ -53,7 +53,7 @@ class Globals():
     today = datetime.datetime.today()
     todayformat = '%s' % (today.strftime('%d %b %y %H:%M'))
     rank_method = 'PCT'
-    season = "2223"
+    season = "2324"
     table_position_file = "historical_positions.json"
     # Minimum number of yachts of a class in a race for consideration in
     # handicap adjustment calculation.
