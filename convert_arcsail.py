@@ -54,11 +54,11 @@ def read_file(filename):
             if start == True and row[0] == "data" and row[1][0] == "p":
                 #print("Found race data")
                 if row[14] == "LASEM":
-                    bclass = "LASER RADIAL"
+                    bclass = "ILCA 6"
                 elif row[14] == "LASE":
-                    bclass = "LASER"
+                    bclass = "ILCA 7"
                 elif row[14] == "LAS4.7":
-                    bclass = "LASER 4.7" 
+                    bclass = "ILCA 4" 
                 results.append(Result(elapsed = row[7],sailno = row[22],
                                       helmname = row[21],bclass = bclass,
                                       raceno = row[23], code = row[16]))
