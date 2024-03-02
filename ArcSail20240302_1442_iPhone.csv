@@ -1,0 +1,178 @@
+ScoringType,name,comments,hasMinimumRaces,highPointsAreGood,shouldAveragePoints
+data,Low Point System,Scoring matches boat placement in race,0,0,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,Sailing Club,,,,,
+Race,raceId,name,startTime,endTime,fleet:Fleet:fleetId,status,windForce,isFinalized,event:Event:eventId,scoreIsStale,distance,scoringMultiplier,teamTime:TeamRaceTime:teamRaceTimeId
+data,R3(p47),R3,2024_03_02 11_19_14 GMT+13:00,2024_03_02 11_40_17 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p470:p471:p472:p473:p467:p466:p468:p474:p469:p465
+data,R4(p48),R4,2024_03_02 11_43_40 GMT+13:00,2024_03_02 12_06_00 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p479:p480:p475:p481:p482:p476:p483:p477:p484:p478
+data,R5(p49),R5,2024_03_02 12_09_15 GMT+13:00,2024_03_02 12_29_44 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p487:p494:p488:p489:p490:p485:p491:p492:p486:p493
+data,R2(p46),R2,2024_03_02 10_55_21 GMT+13:00,2024_03_02 11_15_49 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p456:p463:p457:p464:p458:p455:p459:p460:p461:p462
+data,R1(p45),R1,2024_03_02 10_35_18 GMT+13:00,2024_03_02 10_51_39 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p448:p451:p449:p450:p452:p445:p454:p446:p447
+FinishCode,finishCode,boatFinished,isFinishCode,boatStarted,canBeThrownOut,details,groupingOrder,isDisqualification,isPenaltyCode,penaltyAdjustmentPercent,redressType,shouldMoveToBottom,shouldMoveToTop
+data,DNF,1,0,1,1,Did not finish,0,0,0,0,x,1,0
+data,DNC,1,0,0,1,Did not start; did not come to starting area,0,0,0,0,x,1,0
+TeamRaceTimeScoring,teamRaceTimeScoringId,finishPlace,finishPlaceIgnoringTie,isForEvent,isIncluded,inclusionCount,points,event:Event:eventId,series:Series:name
+data,p483,4,4,1,1,1,4,Saturday&comma; 2 March 2024(p14),
+data,p477,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p491,1,1,1,1,1,1,Saturday&comma; 2 March 2024(p14),
+data,p502,2,2,1,1,1,2,Saturday&comma; 2 March 2024(p14),
+data,p485,3,3,1,1,1,3,Saturday&comma; 2 March 2024(p14),
+data,p506,4,4,1,1,1,4,Saturday&comma; 2 March 2024(p14),
+data,p512,4,4,1,1,1,4,Saturday&comma; 2 March 2024(p14),
+data,p500,4,4,1,1,1,4,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B323,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p478,5,5,1,1,1,5,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B322,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p476,3,3,1,1,1,3,Saturday&comma; 2 March 2024(p14),
+data,p497,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p484,2,2,1,1,1,2,Saturday&comma; 2 March 2024(p14),
+data,p499,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p490,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p520,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p511,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p505,1,1,1,1,1,1,Saturday&comma; 2 March 2024(p14),
+data,p519,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p495,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p479,1,1,1,1,1,1,Saturday&comma; 2 March 2024(p14),
+data,p473,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p515,3,3,1,1,1,3,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B317,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p493,2,2,1,1,1,2,Saturday&comma; 2 March 2024(p14),
+data,p513,2,2,1,1,1,2,Saturday&comma; 2 March 2024(p14),
+data,p508,5,5,1,1,1,5,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B319,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p498,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p489,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p492,3,3,1,1,1,3,Saturday&comma; 2 March 2024(p14),
+data,p486,5,5,1,1,1,5,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B318,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p521,5,5,1,1,1,5,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B315,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B313,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p516,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p474,4,4,1,1,1,4,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B320,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B316,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p510,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p507,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B321,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p488,6,6,1,1,1,6,Saturday&comma; 2 March 2024(p14),
+data,p503,3,3,1,1,1,3,Saturday&comma; 2 March 2024(p14),
+data,t31207CF5-62F9-4440-8895-686EEBB3F2B314,11,11,1,1,1,11,Saturday&comma; 2 March 2024(p14),
+data,p494,1,1,1,1,1,1,Saturday&comma; 2 March 2024(p14),
+data,p518,1,1,1,1,1,1,Saturday&comma; 2 March 2024(p14),
+data,p475,2,2,1,1,1,2,Saturday&comma; 2 March 2024(p14),
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,Sailing Club,,,,,
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Amber Judkins,Amber,Judkins,,Sailing Club,Sailing Club
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Jeanie Borsboom,Jeanie,Borsboom,,Sailing Club,Sailing Club
+data,Sophie Borsboom,Sophie,Borsboom,,Sailing Club,Sailing Club
+data,Rainer  Kuprecht,Rainer ,Kuprecht,,Sailing Club,Sailing Club
+data,Mark Thompson,Mark,Thompson,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Andrew Robinson,Andrew,Robinson,,Sailing Club,Sailing Club
+data,Chris Green,Chris,Green,,Sailing Club,Sailing Club
+data,Martin Outram,Martin,Outram,,Sailing Club,Sailing Club
+BoatClass,boatClassID,boatType,name,napyCode,isSystem,portsmouthNumber,isWindAdjustFormula
+data,LASE,Centerboard,Laser (Int.),LASE,0,91.1,
+data,LASEM,Centerboard,Laser Radial/Laser M,LASEM,0,96.7,
+data,LAS2000,Centerboard,Laser 2000,LAS2000,0,92.5,
+data,SBRD,Centerboard,Sunbird,SBRD,0,114,
+data,LAS4.7,Centerboard,Laser 4.7 (Int.),LAS4.7,0,95.4,
+Handicap,handicapCode,canBeDeleted,handicapCode,denominatorConstant,isRounded,isSelected,isTimeOnTime,isWindAdjustFormula,name,numeratorConstant,windHandicap1,windHandicap3,windHandicap4,windHandicap9,windHandicapType,decimalPlaces
+data,PY,0,PY,0,1,0,1,0,Portsmouth Yardstick,1000,0,0,0,0,None,1
+data,NAPY,0,NAPY,0,0,0,1,0,North American Portsmouth Yardstick,100,0,0,0,0,Class,1
+HandicapValues,name,customValue,customWindHandicap1,customWindHandicap3,customWindHandicap4,customWindHandicap9,value,windHandicap1,windHandicap3,windHandicap4,windHandicap9,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode
+data,PY_Laser 4.7 (Int.),0,0,0,0,0,1208,0,0,0,0,LAS4.7,PY
+data,PY_Laser (Int.),0,0,0,0,0,1100,0,0,0,0,LASE,PY
+data,NAPY_Laser Radial/Laser M,0,0,0,0,0,96.7,99.4,97.3,93.6,0,LASEM,NAPY
+data,NAPY_Sunbird,0,0,0,0,0,114,114.5,115,0,0,SBRD,NAPY
+data,PY_Laser Radial/Laser M,0,0,0,0,0,1147,0,0,0,0,LASEM,PY
+data,NAPY_Laser (Int.),0,0,0,0,0,91.1,93.7,92.3,91,88.2,LASE,NAPY
+data,NAPY_Laser 2000,0,0,91.1,0,0,92.5,91.1,0,0,0,LAS2000,NAPY
+data,NAPY_Laser 4.7 (Int.),0,0,0,0,0,95.4,96.1,95.2,94.9,0,LAS4.7,NAPY
+Vessel,name,bowNumber,country,sailNumber,sortOrder,association:Association:name,primaryClub:Association:name,crew:Member:name,skipper:Member:name,boatClass:BoatClass:boatClassID,phrfRating
+data,512,,,512,       512,Sailing Club,Sailing Club,,Rainer  Kuprecht,LAS2000,0
+data,7,,,7,         7,Sailing Club,Sailing Club,,Sophie Borsboom,LASEM,0
+data,159768,,,159768,    159768,Sailing Club,Sailing Club,,Phil Galloway,LASEM,0
+data,136656,,,136656,    136656,Sailing Club,Sailing Club,,Andrew Robinson,LASEM,0
+data,123384,,,123384,    123384,Sailing Club,Sailing Club,,William Buick,LASE,0
+data,1073,,,1073,      1073,Sailing Club,Sailing Club,,Jeanie Borsboom,SBRD,0
+data,175282,,,175282,    175282,Sailing Club,Sailing Club,,Amber Judkins,LAS4.7,0
+data,136737,,,136737,    136737,Sailing Club,Sailing Club,,Mark Thompson,LASEM,0
+data,157003,,,157003,    157003,Sailing Club,Sailing Club,,Chris Green,LASE,0
+data,123381,,,123381,    123381,Sailing Club,Sailing Club,,Martin Outram,LASEM,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Amber Judkins,Amber,Judkins,,Sailing Club,Sailing Club
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Jeanie Borsboom,Jeanie,Borsboom,,Sailing Club,Sailing Club
+data,Rainer  Kuprecht,Rainer ,Kuprecht,,Sailing Club,Sailing Club
+data,Sophie Borsboom,Sophie,Borsboom,,Sailing Club,Sailing Club
+data,Martin Outram,Martin,Outram,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Andrew Robinson,Andrew,Robinson,,Sailing Club,Sailing Club
+data,Mark Thompson,Mark,Thompson,,Sailing Club,Sailing Club
+data,Chris Green,Chris,Green,,Sailing Club,Sailing Club
+TeamRaceTime,teamRaceTimeId,bce,bcr,expectedFinishTime,hasBeenMovedInTable,rowNumberInTable,rawElapsedTimeForSorting,correctedElapsedTime,elapsedTime,endTime,isJustForSeries,lastUpdateTime,handicapUsed,boatClass:BoatClass:boatClassID,crew:Member:name,finishCode:FinishCode:finishCode,nextRaceTime:TeamRaceTime:teamRaceTimeId,penalties:PenaltiesForTeam:penaltiesForTeamId,previousRaceTime:TeamRaceTime:teamRaceTimeId,scoringPoints:TeamRaceTimeScoring:teamRaceTimeScoringId,skipper:Member:name,boat:Vessel:name,race:Race:raceId
+data,p482,0,0,2024_03_02 11_58_32 GMT+13:00,1,6,937.524915933609,0,937.524915933609,2024_03_02 11_59_17 GMT+13:00,0,,0,LASE,,,p492,,p472,p503,William Buick,123384,R4(p48)
+data,p468,0,0,2024_03_02 11_33_38 GMT+13:00,1,1,840.8546630144119,0,840.8546630144119,2024_03_02 11_33_15 GMT+13:00,0,,0,LASEM,,,p478,,p458,p494,Andrew Robinson,136656,R3(p47)
+data,p476,0,0,,1,8,0,0,0,,0,,0,LAS2000,,DNF,p486,,p466,p511,Rainer  Kuprecht,512,R4(p48)
+data,p452,0,0,,1,6,924.8662970066071,0,924.8662970066071,2024_03_02 10_50_43 GMT+13:00,0,,0,LASE,,,p462,,,p476,William Buick,123384,R1(p45)
+data,p451,0,0,,1,7,960.0009390115738,0,960.0009390115738,2024_03_02 10_51_18 GMT+13:00,0,,0,LASEM,,,p461,,,p474,Phil Galloway,159768,R1(p45)
+data,p466,0,0,2024_03_02 11_39_15 GMT+13:00,1,9,0,0,0,,0,,0,LAS2000,,DNF,p476,,p456,p499,Rainer  Kuprecht,512,R3(p47)
+data,p456,0,0,,1,7,1200.779854059219,0,1200.779854059219,2024_03_02 11_15_21 GMT+13:00,0,,0,LAS2000,,,p466,,p446,p483,Rainer  Kuprecht,512,R2(p46)
+data,p449,0,0,,1,3,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LAS4.7,,DNC,p459,,,p477,Amber Judkins,175282,R1(p45)
+data,p464,0,0,,1,8,1219.075409054756,0,1219.075409054756,2024_03_02 11_15_40 GMT+13:00,0,,0,SBRD,,,p474,,,p486,Jeanie Borsboom,1073,R2(p46)
+data,p462,0,0,2024_03_02 11_10_45 GMT+13:00,1,9,1219.876342058182,0,1219.876342058182,2024_03_02 11_15_40 GMT+13:00,0,,0,LASE,,,p472,,p452,p488,William Buick,123384,R2(p46)
+data,p446,0,0,,1,1,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LAS2000,,DNC,p456,,,p473,Rainer  Kuprecht,512,R1(p45)
+data,p479,0,0,,1,3,0,0,0,,0,,0,LAS4.7,,DNC,p489,,p469,p507,Amber Judkins,175282,R4(p48)
+data,p489,0,0,,1,1,0,0,0,,0,,0,LAS4.7,,DNC,,,p479,p519,Amber Judkins,175282,R5(p49)
+data,p492,0,0,2024_03_02 12_24_53 GMT+13:00,1,8,992.9365830421448,0,992.9365830421448,2024_03_02 12_25_48 GMT+13:00,0,,0,LASE,,,,,p482,p512,William Buick,123384,R5(p49)
+data,p481,0,0,,1,5,926.9592260122299,0,926.9592260122299,2024_03_02 11_59_07 GMT+13:00,0,,0,LASEM,,,p491,,p471,p502,Phil Galloway,159768,R4(p48)
+data,p477,0,0,2024_03_02 11_58_30 GMT+13:00,1,7,960.4130100011826,0,960.4130100011826,2024_03_02 11_59_40 GMT+13:00,0,,0,LASEM,,,p487,,p467,p506,Martin Outram,123381,R4(p48)
+data,p460,0,0,,1,0,0,0,0,,0,,0,LASEM,,DNC,p470,,p450,t31207CF5-62F9-4440-8895-686EEBB3F2B320,Sophie Borsboom,7,R2(p46)
+data,p475,0,0,,1,1,0,0,0,,0,,0,LASEM,,DNC,p485,,p465,t31207CF5-62F9-4440-8895-686EEBB3F2B315,Mark Thompson,136737,R4(p48)
+data,p459,0,0,,1,2,0,0,0,,0,,0,LAS4.7,,DNC,p469,,p449,p489,Amber Judkins,175282,R2(p46)
+data,p484,0,0,2024_03_02 12_03_36 GMT+13:00,1,9,1337.216807961464,0,1337.216807961464,2024_03_02 12_05_57 GMT+13:00,0,,0,SBRD,,,p494,,p474,p508,Jeanie Borsboom,1073,R4(p48)
+data,p470,0,0,,1,4,0,0,0,,0,,0,LASEM,,DNC,p480,,p460,t31207CF5-62F9-4440-8895-686EEBB3F2B313,Sophie Borsboom,7,R3(p47)
+data,p445,0,0,,1,2,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p455,,,t31207CF5-62F9-4440-8895-686EEBB3F2B321,Mark Thompson,136737,R1(p45)
+data,p461,0,0,2024_03_02 11_11_21 GMT+13:00,1,4,928.069806098938,0,928.069806098938,2024_03_02 11_10_49 GMT+13:00,0,,0,LASEM,,,p471,,p451,p484,Phil Galloway,159768,R2(p46)
+data,p467,0,0,2024_03_02 11_35_22 GMT+13:00,1,2,889.9525830745697,0,889.9525830745697,2024_03_02 11_34_04 GMT+13:00,0,,0,LASEM,,,p477,,p457,p493,Martin Outram,123381,R3(p47)
+data,p458,0,0,2024_03_02 11_09_21 GMT+13:00,1,3,863.7114640474319,0,863.7114640474319,2024_03_02 11_09_44 GMT+13:00,0,,0,LASEM,,,p468,,p448,p491,Andrew Robinson,136656,R2(p46)
+data,p463,0,0,2024_03_02 11_11_26 GMT+13:00,1,6,0,0,0,,0,,0,LASE,,DNF,p473,,p454,p490,Chris Green,157003,R2(p46)
+data,p471,0,0,2024_03_02 11_34_42 GMT+13:00,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p481,,p461,p498,Phil Galloway,159768,R3(p47)
+data,p474,0,0,2024_03_02 11_39_33 GMT+13:00,1,7,1196.56032705307,0,1196.56032705307,2024_03_02 11_39_11 GMT+13:00,0,,0,SBRD,,,p484,,p464,p500,Jeanie Borsboom,1073,R3(p47)
+data,p455,0,0,,1,1,0,0,0,,0,,0,LASEM,,DNC,p465,,p445,t31207CF5-62F9-4440-8895-686EEBB3F2B319,Mark Thompson,136737,R2(p46)
+data,p448,0,0,,1,4,840.8888399600983,0,840.8888399600983,2024_03_02 10_49_19 GMT+13:00,0,,0,LASEM,,,p458,,,p479,Andrew Robinson,136656,R1(p45)
+data,p491,0,0,2024_03_02 12_24_42 GMT+13:00,1,7,986.4843550920486,0,986.4843550920486,2024_03_02 12_25_42 GMT+13:00,0,,0,LASEM,,,,,p481,p515,Phil Galloway,159768,R5(p49)
+data,p469,0,0,,1,8,0,0,0,,0,,0,LAS4.7,,DNF,p479,,p459,p495,Amber Judkins,175282,R3(p47)
+data,p465,0,0,,1,6,0,0,0,,0,,0,LASEM,,DNC,p475,,p455,t31207CF5-62F9-4440-8895-686EEBB3F2B314,Mark Thompson,136737,R3(p47)
+data,p473,0,0,,1,5,0,0,0,,0,,0,LASE,,DNC,p483,,p463,p497,Chris Green,157003,R3(p47)
+data,p447,0,0,,1,5,873.4725040197372,0,873.4725040197372,2024_03_02 10_49_52 GMT+13:00,0,,0,LASEM,,,p457,,,p475,Martin Outram,123381,R1(p45)
+data,p495,0,0,,,-1,0,0,0,,0,,0,SBRD,,DNC,,,p494,t31207CF5-62F9-4440-8895-686EEBB3F2B323,Jeanie Borsboom,1073,R1(p45)
+data,p472,0,0,2024_03_02 11_39_34 GMT+13:00,1,3,892.0044910907745,0,892.0044910907745,2024_03_02 11_34_06 GMT+13:00,0,,0,LASE,,,p482,,p462,p492,William Buick,123384,R3(p47)
+data,p488,0,0,2024_03_02 12_24_39 GMT+13:00,1,5,975.6475520133972,0,975.6475520133972,2024_03_02 12_25_31 GMT+13:00,0,,0,LASEM,,,,,p478,p518,Andrew Robinson,136656,R5(p49)
+data,p486,0,0,,1,9,1224.348589062691,0,1224.348589062691,2024_03_02 12_29_39 GMT+13:00,0,,0,LAS2000,,,,,p476,p521,Rainer  Kuprecht,512,R5(p49)
+data,p494,0,0,2024_03_02 12_31_32 GMT+13:00,1,0,0,0,0,,0,,0,SBRD,,DNC,p495,,p484,p520,Jeanie Borsboom,1073,R5(p49)
+data,p454,0,0,,1,8,965.4649019241333,0,965.4649019241333,2024_03_02 10_51_24 GMT+13:00,0,,0,LASE,,,p463,,,p478,Chris Green,157003,R1(p45)
+data,p490,0,0,,1,2,0,0,0,,0,,0,LASEM,,DNC,,,p480,t31207CF5-62F9-4440-8895-686EEBB3F2B317,Sophie Borsboom,7,R5(p49)
+data,p485,0,0,,1,3,0,0,0,,0,,0,LASEM,,DNC,,,p475,t31207CF5-62F9-4440-8895-686EEBB3F2B318,Mark Thompson,136737,R5(p49)
+data,p487,0,0,2024_03_02 12_25_16 GMT+13:00,1,6,984.9518730640411,0,984.9518730640411,2024_03_02 12_25_40 GMT+13:00,0,,0,LASEM,,,,,p477,p513,Martin Outram,123381,R5(p49)
+data,p493,0,0,,1,4,0,0,0,,0,,0,LASE,,DNC,,,p483,p516,Chris Green,157003,R5(p49)
+data,p483,0,0,,1,2,0,0,0,,0,,0,LASE,,DNC,p493,,p473,p510,Chris Green,157003,R4(p48)
+data,p480,0,0,,1,0,0,0,0,,0,,0,LASEM,,DNC,p490,,p470,t31207CF5-62F9-4440-8895-686EEBB3F2B316,Sophie Borsboom,7,R4(p48)
+data,p457,0,0,2024_03_02 11_09_54 GMT+13:00,1,5,968.0379010438919,0,968.0379010438919,2024_03_02 11_11_29 GMT+13:00,0,,0,LASEM,,,p467,,p447,p485,Martin Outram,123381,R2(p46)
+data,p478,0,0,2024_03_02 11_57_41 GMT+13:00,1,4,924.2599409818649,0,924.2599409818649,2024_03_02 11_59_04 GMT+13:00,0,,0,LASEM,,,p488,,p468,p505,Andrew Robinson,136656,R4(p48)
+data,p450,0,0,,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p460,,,t31207CF5-62F9-4440-8895-686EEBB3F2B322,Sophie Borsboom,7,R1(p45)
+Fleet,fleetId,name,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode,numUniqueDigits,boat:Vessel:name,burgee:Burgee:name
+data,Fleet Name(p18),Fleet Name,,,6,157003:123381:159768:136656:123384:7:136737:512:1073:175282,1
+Event,eventId,name,eventDate,scoringType:ScoringType:name,countdownMinutes,racePrepMinutes,aboutToStartMinutes,throwOuts,penaltyBasedOnStarting,minimumRaces,raceOfficer:Member:name,scoringType:ScoringType:name,official:Member:name,primaryClub:Association:name,scoringMultiplier,fleet:Fleet:fleetId
+data,Saturday&comma; 2 March 2024(p14),Saturday&comma; 2 March 2024,2024_03_02 10_19_17 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p18)
