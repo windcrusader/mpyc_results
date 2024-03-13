@@ -518,17 +518,19 @@ def convert_time_to_secs(timestring):
     Expecting one of the following formats:
     H:MM:SS
     HH:MM:SS
+    HH.MM.SS
     MM:SS
+    MM.SS
 
     """
-
+    # Replace dots with :
+    timestring = timestring.replace(".",":")
     if len(timestring) == 7:
-        # add the leading zero
-        time = datetime.time.fromisoformat("0" + timestring)
+            time = datetime.time.fromisoformat("0" + timestring)
     elif len(timestring) == 5:
-        time = datetime.time.fromisoformat("00:" + timestring)
+            time = datetime.time.fromisoformat("00:" + timestring)
     else:
-        time = datetime.time.fromisoformat(timestring)
+            time = datetime.time.fromisoformat(timestring)
 
     # return total seconds
     return (time.hour * 60 + time.minute) * 60 + time.second
