@@ -53,7 +53,7 @@ class Globals():
     today = datetime.datetime.today()
     todayformat = '%s' % (today.strftime('%d %b %y %H:%M'))
     rank_method = 'PCT'
-    season = "2324"
+    season = "2425"
     table_position_file = "historical_positions.json"
     # Minimum number of yachts of a class in a race for consideration in
     # handicap adjustment calculation.
@@ -382,6 +382,7 @@ def save_table_position(formatted_res, no_races):
             jdecode = json.load(tfile)
             jencode = copy.deepcopy(jdecode)
         else:
+            jdecode= {}
             jencode = {}
         # get number of races
         if no_races not in jdecode.keys():
@@ -487,7 +488,7 @@ def generate_points_table(sailresults, highpoint, num_races):
             formattedresults[-1].extend(resultshighpoint[helmname][:])
 
     # save current table position to file
-    last_table_state = save_table_position(formattedresults, num_races)
+    #last_table_state = save_table_position(formattedresults, num_races)
     # Add position delta to table
     # print(last_table_state)
     # print(formattedresults)

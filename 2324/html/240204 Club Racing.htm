@@ -1,0 +1,944 @@
+
+
+
+<!doctype html>
+
+<head>
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta name="description" content="sailwave results">
+<meta name="viewport" content="width=device-width">
+
+<title>Sailwave results for 240121 Club Racing at Mount Pleasant Yacht Club 2024</title>
+
+<style type="text/css">
+body {font-family: Sans-Serif; text-align: center;}
+.hardleft  {text-align: left; float: left;  margin: 15px 0  15px 25px;}
+.hardright {text-align: right; float: right; margin: 15px 25px 15px 0;}
+table {text-align: left; margin: 0px auto 30px auto; font-size: 1em; border-collapse: collapse; border: 0;}
+td, th {padding: 6px; border: 0; vertical-align: top;}
+.caption {padding: 5px; text-align: center; border: 0; font-weight: bold;}
+h1 {font-size: 1.6em;}
+h2 {font-size: 1.4em;}
+h3 {font-size: 1.2em;}
+p {text-align: center;}
+th {background-color: #cc0000; color: #ffffff;}
+.contents {text-align: left; margin-left: 20%;}
+.even {background-color: #d7d7d7;}
+a.racelink:link    {color: #ffffff;}
+a.racelink:visited {color: #ffffff;}
+.natflag {border: 1px #999 solid;}
+.nattext {font-size: 0.8em;}
+.place1 {font-weight: bold; background-color: #ffffaa;}
+.place2 {font-weight: bold; background-color: #aaaaff;}
+.place3 {font-weight: bold; background-color: #ffaaaa;}
+.placen {}
+tr:nth-child(even) {background: #ffeeee}
+tr:nth-child(odd) {background: #ffffff}
+tr:hover {background: #ffff99;}
+td:hover {background: #ffff00;}
+table.headertable {border: 0px;}
+table.headertable td{border: 0px;}
+table.headertable td:hover{background: #ffffff}
+table.headertable tr:hover{background: #ffffff}
+table.headertable {border: 0px;}
+table.headertable td{border: 0px;}
+</style>
+
+<script type="text/javascript">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+
+function swGetURLArgs() {
+
+  var url = location.href;
+  var qs  = url.substring(url.indexOf('?') + 1).split('&');
+
+  for(var i = 0, result = {}; i < qs.length; i++) {
+    qs[i]            = qs[i].split('=');
+    result[qs[i][0]] = decodeURIComponent(qs[i][1]);
+  }
+
+  return result;
+}
+
+//
+//  name=HighlightWins3v3
+//  dependencies=jQuery
+//  description=Highlight winning scores in summary tables.
+//  author=Jon Eskdale based on an idea by Colin Jenkins
+//  date=2016-07-04
+//  version=3.0  For use with Sailwave from V2.22.x
+//  Requires the following lines in the Results.htm file (Results.htm is in the Templates directory)
+//  string.set("summary.col.race.rank1.td",   "rank1")
+//  string.set("summary.col.race.rank2.td",   "rank2")
+//  string.set("summary.col.race.rank3.td",   "rank3")
+
+//  url=http://sailwave.com
+//  email=jon@sailwave.com
+//  twitter=eskdale
+//  comments=Edit colours to colours of your choice
+//
+
+$(document).ready(function() {
+var selectorRank1 = '.rank1';
+var selectorRank2 = '.rank2';
+var selectorRank3 = '.rank3';
+
+// Results with these codes will not get highlighted add or remove codes to your choice
+var ignoreText   = /^(?!.*\b(DNC|DNF|DNS|OCS|BFD|UFD|RET|DSQ|DGM|DNE)\b).*/i
+
+// Edit these colours to change the highlight colours for 1st, 2nd and 3rd
+var winsColour   = '#ffd700';
+var twoColour    = '#6a91c5';
+var threeColour  = '#da6841';
+
+
+// Change the background color for cells with class of rank1-3 and don't have a code specified
+$(function () {
+
+  $(selectorRank1).filter(function() {
+    return ignoreText.test($(this).text());
+  }).css("background", winsColour);
+  $(selectorRank2).filter(function() {
+        return ignoreText.test($(this).text());
+  }).css("background", twoColour);
+  $(selectorRank3).filter(function() {
+        return ignoreText.test($(this).text());
+  }).css("background", threeColour);
+
+});
+});
+</script>
+
+</head>
+
+<body>
+
+<header>
+</header>
+<table class="headertable" cellspacing="0" width="100%" cellpadding="0" border="0">
+<tbody>
+<div id="wrap">
+
+<tr>
+<td width="30%">
+<img style="display:block; height:100px;"  src="mpyc_logo.gif" alt="venue burgee" />
+</td>
+
+<td width="40%" align="center">
+<h1>240121 Club Racing</h1>
+<h2>Mount Pleasant Yacht Club</h2>
+</td>
+
+<td width="30%">
+</td>
+</tr>
+</tbody>
+</table>
+
+<div style="clear:both;"></div>
+
+<style>
+div.applicant-break {page-break-after:always;}
+</style>
+<h3 class="seriestitle">Results are final as of 21:20 on February 29, 2024</h3>
+<h3 class="racetitle" id="r1senior">R1 - SENIOR Division</h3>
+<div class="caption racecaption">
+Start: Start 1, Finishes: Finish time, Time: 123700
+</div>
+<table class="racetable" cellspacing="0" cellpadding="0" border="0">
+<colgroup span="11">
+<col class="exclude" />
+<col class="boat" />
+<col class="class" />
+<col class="sailno" />
+<col class="club" />
+<col class="helmname" />
+<col class="crewname" />
+<col class="rating" />
+<col class="elapsed" />
+<col class="corrected" />
+<col class="points" />
+</colgroup>
+<thead>
+<tr class="titlerow">
+<th>&nbsp;</th>
+<th>Boat</th>
+<th>Class</th>
+<th>SailNo</th>
+<th>Club</th>
+<th>HelmName</th>
+<th>CrewName</th>
+<th>PY</th>
+<th>Elapsed</th>
+<th>Corrected</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>136656</td>
+<td>mpyc</td>
+<td>Andrew Robinson</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:24:09</td>
+<td>0:21:03</td>
+<td>98.2</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>162134</td>
+<td>mpyc</td>
+<td>John Robinson</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:25:02</td>
+<td>0:21:50</td>
+<td>89.9</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>178659</td>
+<td>mpyc</td>
+<td>Laura Harding</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:25:21</td>
+<td>0:22:06</td>
+<td>83.3</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>168688</td>
+<td>mpyc</td>
+<td>Dom Sutton</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:26:05</td>
+<td>0:22:44</td>
+<td>76.7</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>123381</td>
+<td>mpyc</td>
+<td>Martin Outram</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:25:54</td>
+<td>0:23:33</td>
+<td>70.1</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>190328</td>
+<td>mpyc</td>
+<td>Annah Winheld</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:28:40</td>
+<td>0:23:44</td>
+<td>63.4</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>41985</td>
+<td>mpyc</td>
+<td>Phil Galloway</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:26:30</td>
+<td>0:24:05</td>
+<td>56.8</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>157145</td>
+<td>mpyc</td>
+<td>Nikki Reid</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:27:43</td>
+<td>0:24:10</td>
+<td>50.2</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>167112</td>
+<td>mpyc</td>
+<td>Izzy Harding</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:28:15</td>
+<td>0:24:38</td>
+<td>43.6</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>145572</td>
+<td>mpyc</td>
+<td>Mark Thompson</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:28:05</td>
+<td>0:25:32</td>
+<td>37.0</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>999</td>
+<td>mpyc</td>
+<td>Sonja Perrin</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:31:46</td>
+<td>0:26:18</td>
+<td>30.4</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>36758</td>
+<td>mpyc</td>
+<td>Tony Visker</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:29:23</td>
+<td>0:26:43</td>
+<td>23.7</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>797</td>
+<td>mpyc</td>
+<td>Tom Berliner</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:30:03</td>
+<td>0:27:19</td>
+<td>17.1</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>136697</td>
+<td>mpyc</td>
+<td>Chris Maurice</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:32:09</td>
+<td>0:29:14</td>
+<td>10.5</td>
+</tr>
+</tbody>
+</table>
+<h3 class="racetitle" id="r2senior">R2 - SENIOR Division</h3>
+<div class="caption racecaption">
+Start: Start 1, Finishes: Finish time, Time: 1314
+</div>
+<table class="racetable" cellspacing="0" cellpadding="0" border="0">
+<colgroup span="11">
+<col class="exclude" />
+<col class="boat" />
+<col class="class" />
+<col class="sailno" />
+<col class="club" />
+<col class="helmname" />
+<col class="crewname" />
+<col class="rating" />
+<col class="elapsed" />
+<col class="corrected" />
+<col class="points" />
+</colgroup>
+<thead>
+<tr class="titlerow">
+<th>&nbsp;</th>
+<th>Boat</th>
+<th>Class</th>
+<th>SailNo</th>
+<th>Club</th>
+<th>HelmName</th>
+<th>CrewName</th>
+<th>PY</th>
+<th>Elapsed</th>
+<th>Corrected</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>136656</td>
+<td>mpyc</td>
+<td>Andrew Robinson</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:23:18</td>
+<td>0:20:19</td>
+<td>99.8</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>168688</td>
+<td>mpyc</td>
+<td>Dom Sutton</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:23:50</td>
+<td>0:20:47</td>
+<td>93.3</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>178659</td>
+<td>mpyc</td>
+<td>Laura Harding</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:23:58</td>
+<td>0:20:54</td>
+<td>88.2</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>162134</td>
+<td>mpyc</td>
+<td>John Robinson</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:25:10</td>
+<td>0:21:56</td>
+<td>83.0</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>123381</td>
+<td>mpyc</td>
+<td>Martin Outram</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:24:33</td>
+<td>0:22:19</td>
+<td>77.8</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>159764</td>
+<td>mpyc</td>
+<td>Sophie Borsboom</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:25:40</td>
+<td>0:22:23</td>
+<td>72.6</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>41985</td>
+<td>mpyc</td>
+<td>Phil Galloway</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:25:12</td>
+<td>0:22:55</td>
+<td>67.4</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>Gretal</td>
+<td>ILCA 6</td>
+<td>44284</td>
+<td>mpyc</td>
+<td>Richard Mansell</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:26:44</td>
+<td>0:23:18</td>
+<td>62.3</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>157145</td>
+<td>mpyc</td>
+<td>Nikki Reid</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:26:52</td>
+<td>0:23:25</td>
+<td>57.1</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>123394</td>
+<td>mpyc</td>
+<td>Cale Ambury</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:29:42</td>
+<td>0:24:35</td>
+<td>51.9</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>136697</td>
+<td>mpyc</td>
+<td>Chris Maurice</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:27:25</td>
+<td>0:24:55</td>
+<td>44.2</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>36758</td>
+<td>mpyc</td>
+<td>Tony Visker</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:27:25</td>
+<td>0:24:55</td>
+<td>44.2</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>59431</td>
+<td>mpyc</td>
+<td>Rachel Croft</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:30:08</td>
+<td>0:24:57</td>
+<td>36.4</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>190328</td>
+<td>mpyc</td>
+<td>Annah Winheld</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:30:22</td>
+<td>0:25:08</td>
+<td>31.2</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>11</td>
+<td>mpyc</td>
+<td>Alex Croft</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:29:10</td>
+<td>0:25:26</td>
+<td>26.0</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>84</td>
+<td>mpyc</td>
+<td>Amber Judkins</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:30:47</td>
+<td>0:25:29</td>
+<td>20.9</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>LASER II</td>
+<td>777</td>
+<td>mpyc</td>
+<td>Rosa Borsboom</td>
+<td>Luke Thompson</td>
+<td>1085</td>
+<td>0:28:29</td>
+<td>0:26:15</td>
+<td>15.7</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>176916</td>
+<td>mpyc</td>
+<td>Julia Van Essen</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:31:48</td>
+<td>0:27:43</td>
+<td>10.5</td>
+</tr>
+</tbody>
+</table>
+<h3 class="racetitle" id="r3senior">R3 - SENIOR Division</h3>
+<div class="caption racecaption">
+Start: Start 1, Finishes: Finish time, Time: 1351
+</div>
+<table class="racetable" cellspacing="0" cellpadding="0" border="0">
+<colgroup span="11">
+<col class="exclude" />
+<col class="boat" />
+<col class="class" />
+<col class="sailno" />
+<col class="club" />
+<col class="helmname" />
+<col class="crewname" />
+<col class="rating" />
+<col class="elapsed" />
+<col class="corrected" />
+<col class="points" />
+</colgroup>
+<thead>
+<tr class="titlerow">
+<th>&nbsp;</th>
+<th>Boat</th>
+<th>Class</th>
+<th>SailNo</th>
+<th>Club</th>
+<th>HelmName</th>
+<th>CrewName</th>
+<th>PY</th>
+<th>Elapsed</th>
+<th>Corrected</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>136656</td>
+<td>mpyc</td>
+<td>Andrew Robinson</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:22:04</td>
+<td>0:19:14</td>
+<td>96.9</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>168688</td>
+<td>mpyc</td>
+<td>Dom Sutton</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:23:25</td>
+<td>0:20:25</td>
+<td>87.3</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>162134</td>
+<td>mpyc</td>
+<td>John Robinson</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:23:55</td>
+<td>0:20:51</td>
+<td>79.6</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>123381</td>
+<td>mpyc</td>
+<td>Martin Outram</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:23:06</td>
+<td>0:21:00</td>
+<td>71.9</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>159764</td>
+<td>mpyc</td>
+<td>Sophie Borsboom</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:24:52</td>
+<td>0:21:41</td>
+<td>64.3</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>41985</td>
+<td>mpyc</td>
+<td>Phil Galloway</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:24:09</td>
+<td>0:21:57</td>
+<td>56.6</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>59431</td>
+<td>mpyc</td>
+<td>Rachel Croft</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:27:20</td>
+<td>0:22:38</td>
+<td>48.9</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>123394</td>
+<td>mpyc</td>
+<td>Cale Ambury</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:28:14</td>
+<td>0:23:22</td>
+<td>41.2</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>Gretal</td>
+<td>ILCA 6</td>
+<td>44284</td>
+<td>mpyc</td>
+<td>Richard Mansell</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:28:04</td>
+<td>0:24:28</td>
+<td>33.5</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>11</td>
+<td>mpyc</td>
+<td>Alex Croft</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:28:20</td>
+<td>0:24:42</td>
+<td>25.9</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>136697</td>
+<td>mpyc</td>
+<td>Chris Maurice</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:27:19</td>
+<td>0:24:50</td>
+<td>18.2</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>84</td>
+<td>mpyc</td>
+<td>Amber Judkins</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:30:48</td>
+<td>0:25:30</td>
+<td>10.5</td>
+</tr>
+</tbody>
+</table>
+<h3 class="racetitle" id="r4senior">R4 - SENIOR Division</h3>
+<div class="caption racecaption">
+Start: Start 1, Finishes: Finish time, Time: 1425
+</div>
+<table class="racetable" cellspacing="0" cellpadding="0" border="0">
+<colgroup span="11">
+<col class="exclude" />
+<col class="boat" />
+<col class="class" />
+<col class="sailno" />
+<col class="club" />
+<col class="helmname" />
+<col class="crewname" />
+<col class="rating" />
+<col class="elapsed" />
+<col class="corrected" />
+<col class="points" />
+</colgroup>
+<thead>
+<tr class="titlerow">
+<th>&nbsp;</th>
+<th>Boat</th>
+<th>Class</th>
+<th>SailNo</th>
+<th>Club</th>
+<th>HelmName</th>
+<th>CrewName</th>
+<th>PY</th>
+<th>Elapsed</th>
+<th>Corrected</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>168688</td>
+<td>mpyc</td>
+<td>Dom Sutton</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:22:53</td>
+<td>0:19:57</td>
+<td>87.8</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>123394</td>
+<td>mpyc</td>
+<td>Cale Ambury</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:27:04</td>
+<td>0:22:24</td>
+<td>65.1</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 6</td>
+<td>11</td>
+<td>mpyc</td>
+<td>Alex Croft</td>
+<td>&nbsp;</td>
+<td>1147</td>
+<td>0:26:09</td>
+<td>0:22:48</td>
+<td>46.9</td>
+</tr>
+<tr class="even racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 4</td>
+<td>59431</td>
+<td>mpyc</td>
+<td>Rachel Croft</td>
+<td>&nbsp;</td>
+<td>1208</td>
+<td>0:28:24</td>
+<td>0:23:31</td>
+<td>28.7</td>
+</tr>
+<tr class="odd racerow">
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>ILCA 7</td>
+<td>41985</td>
+<td>mpyc</td>
+<td>Phil Galloway</td>
+<td>&nbsp;</td>
+<td>1100</td>
+<td>0:27:10</td>
+<td>0:24:42</td>
+<td>10.5</td>
+</tr>
+</tbody>
+</table>
+
+<p class="hardleft"><a href="http://www.mpyc.nz">www.mpyc.nz</a><br /><a href="mailto:"></a></p>
+<p class="hardright"><a href="http://"></a><br /><a href="mailto:"></a></p>
+<p>Sailwave Scoring Software 2.30.02<br /><a href="https://www.sailwave.com">www.sailwave.com</a></p>
+
+</div>
+
+<footer>
+</footer>
+
+<div id="scrollbottom"></div>
+
+</body>
+</html>
+
+
