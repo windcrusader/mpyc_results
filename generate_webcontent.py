@@ -398,8 +398,12 @@ def save_table_position(formatted_res, no_races):
     return jdecode[laststatekey]
 
 
-def generate_points_table(sailresults, highpoint, num_races):
-    '''This method generates the HTML points table'''
+def generate_points_table(sailresults, highpoint, num_races, nom_sail = True):
+    '''This method generates the HTML points table
+    If nom_sail is True then the table is processed with the sailor's results based on 
+    using that sail in every race, even if on the day they did not use that sail.
+    '''
+
     print('Generating points table...')
     outfilename = "htmloutput/pointstable" + Globals.season + ".htm"
     file = open(outfilename, 'w')
@@ -452,6 +456,7 @@ def generate_points_table(sailresults, highpoint, num_races):
                 # print(helm.results.items())
                 if helmres.props.name not in resultshighpoint.keys():
                     resultshighpoint[helmres.props.name] = [
+                        helmres.props.yclass,
                         round(float(helmres.props.comptotal)), results10,
                         helmres.races,
                         helmres.placetally[1],
@@ -459,29 +464,29 @@ def generate_points_table(sailresults, highpoint, num_races):
                         f"{helmres.placetally[1] / helmres.races * 100:4.1f}",
                         f"{float(helmres.props.comptotal) / helmres.races:4.1f}"]
                 else:
-                    resultshighpoint[helmres.props.name][0] += round(
+                    resultshighpoint[helmres.props.name][1] += round(
                         float(helmres.props.comptotal))
 
-                    resultshighpoint[helmres.props.name][1].extend(results10)
-                    resultshighpoint[helmres.props.name][2] += helmres.races
-                    resultshighpoint[helmres.props.name][3] += helmres.placetally[1]
-                    resultshighpoint[helmres.props.name][4] += helmres.placetally[2]
-                    resultshighpoint[helmres.props.name][5] += helmres.placetally[3]
-                    resultshighpoint[helmres.props.name][6] = f"{resultshighpoint[helmres.props.name][3] / resultshighpoint[helmres.props.name][2] * 100:4.1f}"
-                    resultshighpoint[helmres.props.name][7] = f"{resultshighpoint[helmres.props.name][0] / resultshighpoint[helmres.props.name][2]:4.1f}"                
+                    resultshighpoint[helmres.props.name][2].extend(results10)
+                    resultshighpoint[helmres.props.name][3] += helmres.races
+                    resultshighpoint[helmres.props.name][4] += helmres.placetally[1]
+                    resultshighpoint[helmres.props.name][5] += helmres.placetally[2]
+                    resultshighpoint[helmres.props.name][6] += helmres.placetally[3]
+                    resultshighpoint[helmres.props.name][7] = f"{resultshighpoint[helmres.props.name][4] / resultshighpoint[helmres.props.name][3] * 100:4.1f}"
+                    resultshighpoint[helmres.props.name][8] = f"{resultshighpoint[helmres.props.name][1] / resultshighpoint[helmres.props.name][3]:4.1f}"                
 
         # go through each helm and reorder results from last race to first
         # and trim any races greater than 10 entries
         for helmname in resultshighpoint.keys():
             # print(resultshighpoint[key][1])
             # resort in reverse race order
-            sortemp = sorted(resultshighpoint[helmname][1], reverse=True)
+            sortemp = sorted(resultshighpoint[helmname][2], reverse=True)
             # print(sortemp)
             # Now process into a comma seperated list of positions while
             # removing the race foreign key.
             temp = [item[1] for item in sortemp][0:10]
             # print(temp)
-            resultshighpoint[helmname][1] = ",".join(temp)
+            resultshighpoint[helmname][2] = ",".join(temp)
             # Add to formatted list to pass to the template.
             formattedresults.append(
                 [helmname])
@@ -510,6 +515,7 @@ def initialise_matrix(sailresults):  # initialise matrix
         for j in range(len(sailresultssorted)):
             matrix[i].append(MatchRes(sailresultssorted[i].props,
                              sailresultssorted[j].props))
+
     return matrix
 
 

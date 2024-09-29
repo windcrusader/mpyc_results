@@ -32,11 +32,17 @@ $(document).ready(function() {
 Points are scored by members in every race according to the
 Rinderle B high point scoring system.  <br/><br/>
 Points are scored according to race position and the number of other boats in the race. <br/>
-Race position is determined according to corrected time based on PY 2019 numbers. <br/>
+Race position is determined according to corrected time based on PY 2020 numbers. <br/>
 You must be a financial member of MPYC to score points. <br/>
 Non members and members from affiliated clubs cannot score points but can push members down the point tables.
+<br/> 
+<p style="color:red;"><em>
+Note that MPYC is trialling a new "nominated" sail size scoring system this season. All results in the season table
+are recalculated with the handicap from the largest sail the sailor has used in the season so far regardless of what
+sail was used on a particular day.
+</em>
+</p>
 
-<br/><br/>
 The Rinderle B scoring table can be found at: <br/>
 <a href="http://www.regattanetwork.com/clubmgmt/regatta_uploads/13936/rinderle_b_table.pdf">Rinderle B Table</a>
 <br/><br/>
@@ -53,6 +59,7 @@ The Rinderle B scoring table can be found at: <br/>
 <thead>
 <tr>
 <th>Helm Name</th>
+<th>Nominated sail</th>
 <th>Season Points</th>
 <th>(Form) Last 10 races</th>
 <th>Races</th>
@@ -74,6 +81,7 @@ The Rinderle B scoring table can be found at: <br/>
 <td>{{skipper[6]}}</td>
 <td>{{skipper[7]}}</td>
 <td>{{skipper[8]}}</td>
+<td>{{skipper[9]}}</td>
 </tr>
 {% endfor %}
 
