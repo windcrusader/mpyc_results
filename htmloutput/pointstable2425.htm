@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('#sorttable').DataTable({"order": [[2,'dsc']],
     "pageLength":50,
     "rowCallback": function( row, data, index ) {
-        if ( data[3] > 24 )
+        if ( data[4] > 24 )
         {
             $('td', row).css('background-color', 'LightSkyBlue');
         }
@@ -23,10 +23,10 @@ $(document).ready(function() {
 } );
 </script>
 
-<title>MPYC Point Table as at 26 Jan 25 22:24</title>
+<title>MPYC Point Table as at 26 Jan 25 22:31</title>
 </head>
 <body>
-<h1>Points Table for Members</h1><p>Last updated 26 Jan 25 22:24</p>
+<h1>Points Table for Members</h1><p>Last updated 26 Jan 25 22:31</p>
 
 <p>This table shows the current standing in the seasonal points competiton after 60 races. 
 Points are scored by members in every race according to the
