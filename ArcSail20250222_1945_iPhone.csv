@@ -1,0 +1,1539 @@
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Brad Henderson,Brad,Henderson,,MPYC,MPYC
+ScoringType,name,comments,hasMinimumRaces,highPointsAreGood,shouldAveragePoints
+data,Low Point System,Scoring matches boat placement in race,0,0,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Event,eventId,name,eventDate,scoringType:ScoringType:name,countdownMinutes,racePrepMinutes,aboutToStartMinutes,throwOuts,penaltyBasedOnStarting,minimumRaces,raceOfficer:Member:name,scoringType:ScoringType:name,official:Member:name,primaryClub:Association:name,scoringMultiplier,fleet:Fleet:fleetId
+data,Saturday&comma; 9 April 2022(p11),Saturday&comma; 9 April 2022,2022_04_09 11_06_35 GMT+12:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p14)
+data,Tuesday&comma; 15 December 2020(p7),Tuesday&comma; 15 December 2020,2020_12_15 17_38_09 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p10)
+data,Friday&comma; 31 August 2018(p4),Friday&comma; 31 August 2018,2018_08_31 15_13_44 GMT+12:00,Low Point System,3,2,1,,0,0,,Low Point System,,MPYC,1,Fleet 1(p7)
+data,Saturday&comma; 22 February 2025(p16),Saturday&comma; 22 February 2025,2025_02_22 12_42_17 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p20)
+data,Wednesday&comma; 2 February 2022(p10),Wednesday&comma; 2 February 2022,2022_02_02 17_59_47 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p13)
+data,Saturday&comma; 2 March 2024(p14),Saturday&comma; 2 March 2024,2024_03_02 10_19_17 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p18)
+data,Saturday&comma; 3 April 2021(p8),Saturday&comma; 3 April 2021,2021_04_03 10_30_12 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p11)
+data,Saturday&comma; 7 November 2020(p6),Saturday&comma; 7 November 2020,2020_11_07 10_21_03 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p9)
+data,Sunday&comma; 28 November 2021(p9),Sunday&comma; 28 November 2021,2021_11_28 11_50_47 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p12)
+data,Sunday&comma; 3 December 2023(p13),Sunday&comma; 3 December 2023,2023_12_03 09_58_01 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,MPYC(p17)
+data,Saturday&comma; 28 September 2024(p15),Saturday&comma; 28 September 2024,2024_09_28 13_57_38 GMT+12:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,(null)(p19)
+data,Thursday&comma; 30 August 2018(p1),Thursday&comma; 30 August 2018,2018_08_30 20_03_14 GMT+12:00,Low Point System,3,2,1,,0,4,Brad Henderson,Low Point System,,MPYC,1,Laser (Int.) Fleet(p1)
+data,Wednesday&comma; 9 November 2022(p12),Wednesday&comma; 9 November 2022,2022_11_09 18_19_59 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Laser (Int.) Fleet(p15)
+data,Saturday&comma; 21 September 2019(p5),Saturday&comma; 21 September 2019,2019_09_21 10_22_13 GMT+12:00,Low Point System,3,2,1,,0,0,Brad Henderson,Low Point System,,MPYC,1,Laser (Int.) Fleet(p8)
+Fleet,fleetId,name,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode,numUniqueDigits,boat:Vessel:name,burgee:Burgee:name
+data,MPYC(p17),MPYC,,NAPY,6,797:131870:162134:157143:157145:1073:178659:168688:179385:150073:181876:123381:36758:136656:217315:176916,1
+data,Fleet 1(p7),Fleet 1,,NAPY,6,44444:428:NZL100550:41985,1
+data,Fleet Name(p11),Fleet Name,,NAPY,6,1595:512:178802:428:124050:1759:44272:116033:10:86:44284:168688:41985:150010:179385:123381:14945:797,1
+data,Fleet Name(p12),Fleet Name,,PY,6,100550:123381:179385:131808:167148:168688:1000,1
+data,Laser (Int.) Fleet(p15),Laser (Int.) Fleet,,,6,181992:123381:11:168688:123384:167112:178659:136697:136740:131870:41985,1
+data,Fleet Name(p18),Fleet Name,,,6,512:175282:145572:7:123384:159768:123381:157003:136656:1073,1
+data,Fleet Name(p13),Fleet Name,,,6,195538:159764:136697:145572:131108:44444:168688,1
+data,Laser (Int.) Fleet(p1),Laser (Int.) Fleet,LASE,,6,NZL100550:41985:428,1
+data,Laser (Int.) Fleet(p8),Laser (Int.) Fleet,LASE,NAPY,6,36758:72966:124050:196411:181969:44284:41985,1
+data,Fleet Name(p19),Fleet Name,,PY,6,512:123381:124050:168688:123384:136697:145572:159764:217315:131870:41985,1
+data,Fleet Name(p10),Fleet Name,,NAPY,6,178659:123381:36758:6030:124050:131808:44272:195538:168688:11:157145:667,1
+data,Fleet Name(p14),Fleet Name,,,6,1073:1053:49609:123381:188804:93247:44284:145572:176916:429:44272:168688:10:159764:150010:41985:136656:512,1
+data,Fleet Name(p20),Fleet Name,,,6,136740:136697:123381:131870:86:1759:198112:145572:159764:150010:123384:1073:136656:31357:797,1
+data,Fleet Name(p9),Fleet Name,,NAPY,6,116119:124050:175282:44284:181969:157145:44293:178802:116033:36758:159762,1
+Race,raceId,name,startTime,endTime,fleet:Fleet:fleetId,status,windForce,isFinalized,event:Event:eventId,scoreIsStale,distance,scoringMultiplier,teamTime:TeamRaceTime:teamRaceTimeId
+data,R3(p37),R3,2022_04_09 13_26_33 GMT+12:00,2022_04_09 13_59_19 GMT+12:00,Fleet Name(p14),9,0,1,Saturday&comma; 9 April 2022(p11),1,0,1,p326:p337:p339:p340:p342:p325:p330:p336:p338:p335:p341:p333:p334:p328:p329:p331:p327:p332
+data,R5(p54),R5,2024_09_28 15_15_46 GMT+12:00,2024_09_28 15_39_45 GMT+12:00,Fleet Name(p19),9,0,1,Saturday&comma; 28 September 2024(p15),1,0,1,p541:p547:p548:p540:p546:p542:p549:p550:p545:p544:p543
+data,R1(p55),R1,2025_02_22 13_09_31 GMT+13:00,2025_02_22 13_41_38 GMT+13:00,Fleet Name(p20),9,0,1,Saturday&comma; 22 February 2025(p16),0,0,1,p560:p552:p563:p555:p556:p551:p559:p565:p561:p558:p553:p557:p564:p554:p562
+data,R1(p35),R1,2022_04_09 11_27_18 GMT+12:00,2022_04_09 12_30_35 GMT+12:00,Fleet Name(p14),9,0,1,Saturday&comma; 9 April 2022(p11),1,0,1,p290:p293:p292:p295:p301:p306:p343:p304:p300:p299:p296:p302:p294:p297:p298:p291:p303:p305
+data,R2(p32),R2,2022_02_02 18_47_44 GMT+13:00,2022_02_02 19_06_30 GMT+13:00,Fleet Name(p13),9,0,1,Wednesday&comma; 2 February 2022(p10),0,0,1,p274:p270:p272:p271:p275:p269:p273
+data,R2(p39),R2,2022_11_09 18_44_14 GMT+13:00,2022_11_09 19_18_04 GMT+13:00,Laser (Int.) Fleet(p15),9,0,1,Wednesday&comma; 9 November 2022(p12),0,0,1,p361:p355:p358:p356:p359:p360:p357:p362:p363:p364:p365
+data,R3(p52),R3,2024_09_28 15_00_26 GMT+12:00,2024_09_28 14_51_13 GMT+12:00,Fleet Name(p19),9,0,1,Saturday&comma; 28 September 2024(p15),0,0,1,p517:p520:p522:p523:p518:p516:p521:p524:p519:p525:p515
+data,R1(p11),R1,2019_09_21 10_35_00 GMT+12:00,2019_09_21 11_01_15 GMT+12:00,Laser (Int.) Fleet(p8),9,0,1,Saturday&comma; 21 September 2019(p5),0,0,1,p27:p28:p31:p29:p30:p33:p32
+data,R3(p40),R3,2022_11_09 19_21_28 GMT+13:00,2022_11_09 20_13_18 GMT+13:00,Laser (Int.) Fleet(p15),9,0,1,Wednesday&comma; 9 November 2022(p12),1,0,1,p367:p373:p371:p370:p375:p368:p369:p366:p372:p374:p376
+data,R4(p44),R4,2023_12_03 11_44_20 GMT+13:00,2023_12_03 12_13_09 GMT+13:00,MPYC(p17),9,0,1,Sunday&comma; 3 December 2023(p13),0,0,1,p425:p434:p433:p432:p436:p438:p423:p427:p426:p430:p437:p439:p429:p435:p431:p428
+data,R2(p18),R2,2020_12_15 18_11_43 GMT+13:00,2020_12_15 18_32_41 GMT+13:00,Fleet Name(p10),9,0,1,Tuesday&comma; 15 December 2020(p7),0,0,1,p100:p102:p97:p104:p101:p96:p95:p105:p103:p106:p98:p99
+data,R3(p13),R3,2019_09_21 11_34_00 GMT+12:00,2019_09_21 11_56_47 GMT+12:00,Laser (Int.) Fleet(p8),9,0,1,Saturday&comma; 21 September 2019(p5),0,0,1,p42:p44:p46:p43:p41:p45:p47
+data,R1(p14),R1,2020_11_07 10_26_42 GMT+13:00,2020_11_07 11_08_09 GMT+13:00,Fleet Name(p9),9,0,1,Saturday&comma; 7 November 2020(p6),0,0,1,p54:p81:p53:p57:p56:p50:p52:p55:p58:p49:p48
+data,R5(p21),R5,2020_12_15 19_26_25 GMT+13:00,2020_12_15 19_47_42 GMT+13:00,Fleet Name(p10),9,0,1,Tuesday&comma; 15 December 2020(p7),0,0,1,p138:p131:p140:p141:p137:p142:p136:p139:p132:p134:p133:p135
+data,R2(p23),R2,2021_04_03 11_49_55 GMT+13:00,2021_04_03 12_18_42 GMT+13:00,Fleet Name(p11),9,0,1,Saturday&comma; 3 April 2021(p8),0,0,1,p161:p162:p163:p168:p173:p175:p177:p166:p178:p170:p169:p167:p171:p174:p165:p176:p164:p172
+data,R3(p33),R3,2022_02_02 19_09_58 GMT+13:00,2022_02_02 19_25_42 GMT+13:00,Fleet Name(p13),9,0,1,Wednesday&comma; 2 February 2022(p10),0,0,1,p278:p280:p281:p277:p279:p282:p276
+data,R2(p12),R2,2019_09_21 11_06_00 GMT+12:00,2019_09_21 11_29_44 GMT+12:00,Laser (Int.) Fleet(p8),9,0,1,Saturday&comma; 21 September 2019(p5),0,0,1,p40:p36:p38:p35:p37:p39:p34
+data,R5(p26),R5,2021_04_03 13_21_18 GMT+13:00,2021_04_03 13_48_43 GMT+13:00,Fleet Name(p11),9,0,1,Saturday&comma; 3 April 2021(p8),0,0,1,p215:p225:p231:p226:p232:p221:p220:p227:p218:p228:p222:p224:p230:p219:p229:p216:p217:p223
+data,R1(p31),R1,2022_02_02 18_32_01 GMT+13:00,2022_02_02 18_44_01 GMT+13:00,Fleet Name(p13),9,0,1,Wednesday&comma; 2 February 2022(p10),0,0,1,p265:p267:p263:p262:p268:p266:p264
+data,R1(p22),R1,2021_04_03 11_11_55 GMT+13:00,2021_04_03 11_46_32 GMT+13:00,Fleet Name(p11),9,0,1,Saturday&comma; 3 April 2021(p8),0,0,1,p153:p148:p152:p150:p160:p154:p157:p146:p151:p144:p145:p149:p147:p143:p156:p158:p155:p159
+data,R3(p29),R3,2021_11_28 13_14_44 GMT+13:00,2021_11_28 13_44_48 GMT+13:00,Fleet Name(p12),9,0,1,Sunday&comma; 28 November 2021(p9),1,0,1,p247:p249:p250:p248:p246:p252:p251
+data,Race #1(p1),Race #1,2018_08_30 20_07_53 GMT+12:00,2018_08_30 20_08_23 GMT+12:00,Laser (Int.) Fleet(p1),9,0,1,Thursday&comma; 30 August 2018(p1),0,0,1,p2:p3:p4
+data,R3(p24),R3,2021_04_03 12_22_15 GMT+13:00,2021_04_03 12_47_10 GMT+13:00,Fleet Name(p11),9,0,1,Saturday&comma; 3 April 2021(p8),0,0,1,p186:p184:p180:p190:p183:p189:p179:p182:p192:p181:p187:p188:p191:p194:p185:p193:p196:p195
+data,R4(p30),R4,2021_11_28 13_48_12 GMT+13:00,2021_11_28 14_15_22 GMT+13:00,Fleet Name(p12),9,0,1,Sunday&comma; 28 November 2021(p9),1,0,1,p256:p255:p259:p254:p258:p257:p253
+data,R4(p34),R4,2022_02_02 19_29_09 GMT+13:00,2022_02_02 19_49_17 GMT+13:00,Fleet Name(p13),9,0,1,Wednesday&comma; 2 February 2022(p10),1,0,1,p288:p289:p287:p283:p286:p285:p284
+data,R1(p27),R1,2021_11_28 12_09_27 GMT+13:00,2021_11_28 12_38_23 GMT+13:00,Fleet Name(p12),9,0,1,Sunday&comma; 28 November 2021(p9),1,0,1,p236:p261:p233:p234:p260:p237:p238
+data,R1(p17),R1,2020_12_15 17_45_00 GMT+13:00,2020_12_15 18_06_10 GMT+13:00,Fleet Name(p10),9,0,1,Tuesday&comma; 15 December 2020(p7),0,0,1,p87:p86:p85:p91:p92:p94:p84:p90:p93:p88:p89:p82
+data,R1(p38),R1,2022_11_09 18_05_58 GMT+13:00,2022_11_09 18_40_58 GMT+13:00,Laser (Int.) Fleet(p15),9,0,1,Wednesday&comma; 9 November 2022(p12),0,0,1,p354:p346:p351:p353:p345:p344:p350:p349:p348:p352:p347
+data,R3(p43),R3,2023_12_03 11_13_24 GMT+13:00,2023_12_03 11_41_08 GMT+13:00,MPYC(p17),9,0,1,Sunday&comma; 3 December 2023(p13),0,0,1,p417:p414:p421:p406:p415:p410:p413:p416:p422:p411:p418:p419:p409:p408:p420:p412
+data,R3(p16),R3,2020_11_07 12_08_37 GMT+13:00,2020_11_07 12_42_14 GMT+13:00,Fleet Name(p9),9,0,1,Saturday&comma; 7 November 2020(p6),0,0,1,p74:p72:p73:p70:p76:p71:p78:p77:p79:p80:p75
+data,R1(p41),R1,2023_12_03 10_18_31 GMT+13:00,2023_12_03 10_41_09 GMT+13:00,MPYC(p17),9,0,1,Sunday&comma; 3 December 2023(p13),0,0,1,p380:p385:p378:p386:p388:p383:p382:p381:p377:p440:p441:p379:p384:p442:p389:p443
+data,R2(p46),R2,2024_03_02 10_55_21 GMT+13:00,2024_03_02 11_15_49 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p458:p461:p462:p455:p456:p463:p464:p460:p457:p459
+data,R2(p56),R2,2025_02_22 13_48_39 GMT+13:00,2025_02_22 14_17_43 GMT+13:00,Fleet Name(p20),9,0,1,Saturday&comma; 22 February 2025(p16),0,0,1,p567:p569:p568:p578:p566:p570:p579:p576:p573:p571:p580:p572:p577:p574:p575
+data,Race #2(p10),Race #2,2018_09_04 20_06_45 GMT+12:00,2018_09_04 20_33_44 GMT+12:00,Fleet 1(p7),9,0,1,Friday&comma; 31 August 2018(p4),0,0,1,p21:p22:p24:p23
+data,R3(p19),R3,2020_12_15 18_36_13 GMT+13:00,2020_12_15 18_56_13 GMT+13:00,Fleet Name(p10),9,0,1,Tuesday&comma; 15 December 2020(p7),0,0,1,p118:p117:p109:p111:p110:p115:p116:p107:p112:p114:p113:p108
+data,R5(p49),R5,2024_03_02 12_09_15 GMT+13:00,2024_03_02 12_29_44 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),1,0,1,p494:p491:p488:p490:p492:p489:p487:p485:p493:p486
+data,R4(p25),R4,2021_04_03 12_50_32 GMT+13:00,2021_04_03 13_17_54 GMT+13:00,Fleet Name(p11),9,0,1,Saturday&comma; 3 April 2021(p8),0,0,1,p213:p205:p209:p198:p212:p200:p211:p203:p208:p207:p206:p210:p214:p202:p199:p204:p197:p201
+data,R3(p47),R3,2024_03_02 11_19_14 GMT+13:00,2024_03_02 11_40_17 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p474:p471:p465:p470:p467:p468:p469:p466:p472:p473
+data,R2(p28),R2,2021_11_28 12_41_50 GMT+13:00,2021_11_28 13_11_16 GMT+13:00,Fleet Name(p12),9,0,1,Sunday&comma; 28 November 2021(p9),1,0,1,p243:p244:p245:p240:p241:p239:p242
+data,R2(p15),R2,2020_11_07 11_11_48 GMT+13:00,2020_11_07 12_05_16 GMT+13:00,Fleet Name(p9),9,0,1,Saturday&comma; 7 November 2020(p6),0,0,1,p60:p68:p69:p65:p67:p64:p66:p62:p61:p63:p59
+data,R2(p51),R2,2024_09_28 13_48_45 GMT+12:00,2024_09_28 14_20_26 GMT+12:00,Fleet Name(p19),9,0,1,Saturday&comma; 28 September 2024(p15),0,0,1,p506:p513:p512:p509:p510:p508:p514:p507:p504:p505:p511
+data,R3(p57),R3,2025_02_22 14_25_41 GMT+13:00,2025_02_22 14_52_46 GMT+13:00,Fleet Name(p20),9,0,1,Saturday&comma; 22 February 2025(p16),0,0,1,p583:p591:p595:p589:p588:p581:p585:p592:p587:p584:p593:p590:p594:p582:p586
+data,R1(p45),R1,2024_03_02 10_35_18 GMT+13:00,2024_03_02 10_51_39 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),1,0,1,p451:p445:p447:p452:p446:p448:p454:p450:p449
+data,R4(p48),R4,2024_03_02 11_43_40 GMT+13:00,2024_03_02 12_06_00 GMT+13:00,Fleet Name(p18),9,0,1,Saturday&comma; 2 March 2024(p14),0,0,1,p482:p483:p480:p484:p475:p481:p478:p477:p479:p476
+data,R4(p58),R4,2025_02_22 14_57_39 GMT+13:00,2025_02_22 15_24_29 GMT+13:00,Fleet Name(p20),9,0,1,Saturday&comma; 22 February 2025(p16),0,0,1,p602:p606:p607:p608:p610:p609:p600:p603:p597:p604:p598:p601:p596:p605:p599
+data,R4(p53),R4,2024_09_28 14_48_43 GMT+12:00,2024_09_28 15_12_32 GMT+12:00,Fleet Name(p19),9,0,1,Saturday&comma; 28 September 2024(p15),0,0,1,p530:p531:p537:p538:p539:p536:p535:p532:p534:p529:p533
+data,R4(p20),R4,2020_12_15 18_59_48 GMT+13:00,2020_12_15 19_23_08 GMT+13:00,Fleet Name(p10),9,0,1,Tuesday&comma; 15 December 2020(p7),0,0,1,p129:p130:p122:p123:p121:p120:p128:p119:p126:p127:p125:p124
+data,R1(p50),R1,2024_09_28 12_05_00 GMT+12:00,2024_09_28 14_02_06 GMT+12:00,Fleet Name(p19),9,0,1,Saturday&comma; 28 September 2024(p15),0,0,1,p496:p503:p497:p500:p501:p498:p502:p499
+data,R2(p36),R2,2022_04_09 12_37_20 GMT+12:00,2022_04_09 13_23_22 GMT+12:00,Fleet Name(p14),9,0,1,Saturday&comma; 9 April 2022(p11),0,0,1,p313:p321:p309:p317:p319:p324:p323:p310:p312:p311:p314:p307:p308:p322:p320:p315:p316:p318
+data,Race #1(p9),Race #1,2018_08_31 15_17_55 GMT+12:00,2018_08_31 15_33_51 GMT+12:00,Fleet 1(p7),9,0,1,Friday&comma; 31 August 2018(p4),0,0,1,p17:p19:p20:p18
+data,R2(p42),R2,2023_12_03 10_44_32 GMT+13:00,2023_12_03 11_10_00 GMT+13:00,MPYC(p17),9,0,1,Sunday&comma; 3 December 2023(p13),0,0,1,p403:p399:p401:p444:p396:p392:p400:p393:p390:p405:p402:p404:p398:p397:p395:p394
+FinishCode,finishCode,boatFinished,isFinishCode,boatStarted,canBeThrownOut,details,groupingOrder,isDisqualification,isPenaltyCode,penaltyAdjustmentPercent,redressType,shouldMoveToBottom,shouldMoveToTop
+data,DNC,1,0,0,1,Did not start; did not come to starting area,0,0,0,0,x,1,0
+data,DNS,1,0,0,1,Did not start (other than DNC and OCS),0,0,0,0,x,1,0
+data,DNF,1,0,1,1,Did not finish,0,0,0,0,x,1,0
+TeamRaceTimeScoring,teamRaceTimeScoringId,finishPlace,finishPlaceIgnoringTie,isForEvent,isIncluded,inclusionCount,points,event:Event:eventId,series:Series:name
+data,p71,4,4,1,1,1,4,Saturday&comma; 7 November 2020(p6),
+data,p531,7,7,1,1,1,7,Saturday&comma; 28 September 2024(p15),
+data,p223,4,4,1,1,1,4,Saturday&comma; 3 April 2021(p8),
+data,p123,6,6,1,1,1,6,Tuesday&comma; 15 December 2020(p7),
+data,p351,3,3,1,1,0,3,Wednesday&comma; 9 November 2022(p12),
+data,p384,7,7,1,1,1,7,Sunday&comma; 3 December 2023(p13),
+data,p96,10,10,1,1,1,10,Tuesday&comma; 15 December 2020(p7),
+data,p539,9,9,1,1,1,9,Saturday&comma; 28 September 2024(p15),
+data,p208,3,3,1,1,1,3,Saturday&comma; 3 April 2021(p8),
+data,p130,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p581,4,4,1,1,0,4,Saturday&comma; 22 February 2025(p16),
+data,p376,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p434,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p583,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p550,8,8,1,1,0,8,Saturday&comma; 28 September 2024(p15),
+data,p461,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p66,1,1,1,1,1,1,Saturday&comma; 7 November 2020(p6),
+data,p266,3,3,0,1,1,68.5,,Test
+data,p166,16,16,1,1,1,16,Saturday&comma; 3 April 2021(p8),
+data,p430,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p498,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p340,7,7,1,1,0,7,Wednesday&comma; 9 November 2022(p12),
+data,p157,1,1,1,1,1,1,Saturday&comma; 3 April 2021(p8),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28233,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p179,12,12,1,1,1,12,Saturday&comma; 3 April 2021(p8),
+data,p397,15,15,1,1,1,15,Sunday&comma; 3 December 2023(p13),
+data,p82,2,2,1,1,1,2,Saturday&comma; 7 November 2020(p6),
+data,p140,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p354,6,6,1,1,0,6,Wednesday&comma; 9 November 2022(p12),
+data,p516,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p162,9,9,1,1,1,9,Saturday&comma; 3 April 2021(p8),
+data,p32,1,1,1,1,1,1,Saturday&comma; 21 September 2019(p5),
+data,p510,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p603,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p38,3,3,1,1,1,3,Saturday&comma; 21 September 2019(p5),
+data,p595,7,7,1,1,0,7,Saturday&comma; 22 February 2025(p16),
+data,p394,1,1,1,1,1,1,Sunday&comma; 3 December 2023(p13),
+data,p126,5,5,1,1,1,5,Tuesday&comma; 15 December 2020(p7),
+data,p99,3,3,1,1,1,3,Tuesday&comma; 15 December 2020(p7),
+data,p111,6,6,1,1,1,6,Tuesday&comma; 15 December 2020(p7),
+data,p252,5,5,1,1,1,5,Sunday&comma; 28 November 2021(p9),
+data,p155,13,13,1,1,1,13,Saturday&comma; 3 April 2021(p8),
+data,p551,4,4,1,1,0,4,Saturday&comma; 28 September 2024(p15),
+data,p280,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p341,1,1,1,1,0,1,Wednesday&comma; 9 November 2022(p12),
+data,p78,4,4,1,1,1,4,Saturday&comma; 7 November 2020(p6),
+data,p582,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p274,1,1,0,1,1,91.5,,Test
+data,p346,5,5,1,1,0,5,Wednesday&comma; 9 November 2022(p12),
+data,p587,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p344,8,8,1,1,0,8,Wednesday&comma; 9 November 2022(p12),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28255,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p92,9,9,1,1,1,9,Tuesday&comma; 15 December 2020(p7),
+data,p72,2,2,1,1,1,2,Saturday&comma; 7 November 2020(p6),
+data,p35,5,5,1,1,1,5,Saturday&comma; 21 September 2019(p5),
+data,p580,10,10,1,1,0,10,Saturday&comma; 22 February 2025(p16),
+data,p23,2,2,1,1,1,2,Saturday&comma; 21 September 2019(p5),
+data,p339,2,2,1,1,0,2,Wednesday&comma; 9 November 2022(p12),
+data,p525,1,1,1,1,1,1,Saturday&comma; 28 September 2024(p15),
+data,p303,4,4,1,1,0,4,Wednesday&comma; 2 February 2022(p10),
+data,p284,6,6,1,1,1,6,Wednesday&comma; 2 February 2022(p10),
+data,p102,7,7,1,1,1,7,Tuesday&comma; 15 December 2020(p7),
+data,p492,3,3,1,1,0,3,Saturday&comma; 2 March 2024(p14),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28253,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p323,7,7,1,1,0,7,Saturday&comma; 9 April 2022(p11),
+data,p436,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p406,9,9,1,1,1,9,Sunday&comma; 3 December 2023(p13),
+data,p410,7,7,1,1,1,7,Sunday&comma; 3 December 2023(p13),
+data,p535,6,6,1,1,1,6,Saturday&comma; 28 September 2024(p15),
+data,p299,1,1,1,1,0,1,Wednesday&comma; 2 February 2022(p10),
+data,p122,4,4,1,1,1,4,Tuesday&comma; 15 December 2020(p7),
+data,p190,15,15,1,1,1,15,Saturday&comma; 3 April 2021(p8),
+data,p56,2,2,1,1,1,2,Saturday&comma; 7 November 2020(p6),
+data,p151,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p37,2,2,1,1,1,2,Saturday&comma; 21 September 2019(p5),
+data,p239,3,3,1,1,1,3,Sunday&comma; 28 November 2021(p9),
+data,p218,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28235,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28258,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p464,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p229,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p548,11,11,1,1,0,11,Saturday&comma; 28 September 2024(p15),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28234,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p597,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p363,1,1,1,1,1,1,Sunday&comma; 3 December 2023(p13),
+data,p579,6,6,1,1,0,6,Saturday&comma; 22 February 2025(p16),
+data,p478,5,5,1,1,0,5,Saturday&comma; 2 March 2024(p14),
+data,p281,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p165,7,7,1,1,1,7,Saturday&comma; 3 April 2021(p8),
+data,p31,2,2,1,1,1,2,Saturday&comma; 21 September 2019(p5),
+data,p400,6,6,1,1,1,6,Sunday&comma; 3 December 2023(p13),
+data,p350,4,4,1,1,0,4,Wednesday&comma; 9 November 2022(p12),
+data,p22,6,6,1,1,1,6,Saturday&comma; 21 September 2019(p5),
+data,p110,11,11,1,1,1,11,Tuesday&comma; 15 December 2020(p7),
+data,p426,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p425,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p306,12,12,1,1,0,12,Saturday&comma; 9 April 2022(p11),
+data,p473,10,10,1,1,0,10,Saturday&comma; 2 March 2024(p14),
+data,p90,11,11,1,1,1,11,Tuesday&comma; 15 December 2020(p7),
+data,p540,1,1,1,1,1,1,Saturday&comma; 28 September 2024(p15),
+data,p134,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p593,6,6,1,1,0,6,Saturday&comma; 22 February 2025(p16),
+data,p512,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p69,8,8,1,1,1,8,Saturday&comma; 7 November 2020(p6),
+data,p422,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p88,3,3,1,1,1,3,Tuesday&comma; 15 December 2020(p7),
+data,p559,4,4,1,1,0,4,Saturday&comma; 28 September 2024(p15),
+data,p532,3,3,1,1,1,3,Saturday&comma; 28 September 2024(p15),
+data,p248,3,3,1,1,1,3,Sunday&comma; 28 November 2021(p9),
+data,p41,4,4,1,1,1,4,Saturday&comma; 21 September 2019(p5),
+data,p403,8,8,1,1,1,8,Sunday&comma; 3 December 2023(p13),
+data,p176,17,17,1,1,1,17,Saturday&comma; 3 April 2021(p8),
+data,p325,19,19,1,1,0,19,Saturday&comma; 9 April 2022(p11),
+data,p76,7,7,1,1,1,7,Saturday&comma; 7 November 2020(p6),
+data,p216,4,4,1,1,1,4,Saturday&comma; 3 April 2021(p8),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28260,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p139,7,7,1,1,1,7,Tuesday&comma; 15 December 2020(p7),
+data,p571,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p455,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p369,3,3,1,1,1,3,Sunday&comma; 3 December 2023(p13),
+data,p502,2,2,1,1,0,2,Saturday&comma; 2 March 2024(p14),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28252,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p315,1,1,1,1,0,1,Saturday&comma; 9 April 2022(p11),
+data,p472,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p569,12,12,1,1,0,12,Saturday&comma; 22 February 2025(p16),
+data,p460,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p60,6,6,1,1,1,6,Saturday&comma; 7 November 2020(p6),
+data,p355,1,1,1,1,0,1,Wednesday&comma; 9 November 2022(p12),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28261,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28267,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p185,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p578,3,3,1,1,0,3,Saturday&comma; 22 February 2025(p16),
+data,p124,9,9,1,1,1,9,Tuesday&comma; 15 December 2020(p7),
+data,p490,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p127,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p608,2,2,1,1,0,2,Saturday&comma; 22 February 2025(p16),
+data,p560,8,8,1,1,0,8,Saturday&comma; 28 September 2024(p15),
+data,p607,4,4,1,1,0,4,Saturday&comma; 22 February 2025(p16),
+data,p100,9,9,1,1,1,9,Tuesday&comma; 15 December 2020(p7),
+data,p265,0,0,1,1,0,3.402823e+38,Saturday&comma; 21 September 2019(p5),
+data,p392,3,3,1,1,1,3,Sunday&comma; 3 December 2023(p13),
+data,p356,2,2,1,1,0,2,Wednesday&comma; 9 November 2022(p12),
+data,p335,19,19,1,1,0,19,Saturday&comma; 9 April 2022(p11),
+data,p523,6,6,1,1,1,6,Saturday&comma; 28 September 2024(p15),
+data,p237,4,4,1,1,1,4,Sunday&comma; 28 November 2021(p9),
+data,p435,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p77,8,8,1,1,1,8,Saturday&comma; 7 November 2020(p6),
+data,p367,5,5,1,1,1,5,Sunday&comma; 3 December 2023(p13),
+data,p371,10,10,1,1,1,10,Sunday&comma; 3 December 2023(p13),
+data,p209,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28249,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28236,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p129,2,2,1,1,1,2,Tuesday&comma; 15 December 2020(p7),
+data,p70,12,12,1,1,1,12,Saturday&comma; 7 November 2020(p6),
+data,p462,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28246,7,7,1,1,0,7,Saturday&comma; 22 February 2025(p16),
+data,p446,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p277,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p75,6,6,1,1,1,6,Saturday&comma; 7 November 2020(p6),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28239,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p141,2,2,1,1,1,2,Tuesday&comma; 15 December 2020(p7),
+data,p489,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p529,5,5,1,1,1,5,Saturday&comma; 28 September 2024(p15),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28254,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p121,3,3,1,1,1,3,Tuesday&comma; 15 December 2020(p7),
+data,p374,6,6,1,1,1,6,Sunday&comma; 3 December 2023(p13),
+data,p63,9,9,1,1,1,9,Saturday&comma; 7 November 2020(p6),
+data,p331,11,11,1,1,0,11,Saturday&comma; 9 April 2022(p11),
+data,p258,2,2,0,1,1,80,,Test
+data,p285,3,3,1,1,1,3,Wednesday&comma; 2 February 2022(p10),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28259,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p107,12,12,1,1,1,12,Tuesday&comma; 15 December 2020(p7),
+data,p404,11,11,1,1,1,11,Sunday&comma; 3 December 2023(p13),
+data,p104,8,8,1,1,1,8,Tuesday&comma; 15 December 2020(p7),
+data,p317,13,13,1,1,0,13,Saturday&comma; 9 April 2022(p11),
+data,p205,6,6,1,1,1,6,Saturday&comma; 3 April 2021(p8),
+data,p544,12,12,1,1,1,12,Saturday&comma; 28 September 2024(p15),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28265,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p174,3,3,1,1,1,3,Saturday&comma; 3 April 2021(p8),
+data,p148,2,2,1,1,1,2,Saturday&comma; 3 April 2021(p8),
+data,p470,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p440,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p169,5,5,1,1,1,5,Saturday&comma; 3 April 2021(p8),
+data,p264,8,8,1,1,1,8,Sunday&comma; 28 November 2021(p9),
+data,p282,2,2,0,1,1,80,,Test
+data,p55,12,12,1,1,1,12,Saturday&comma; 7 November 2020(p6),
+data,p201,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p245,7,7,1,1,1,7,Sunday&comma; 28 November 2021(p9),
+data,p85,12,12,1,1,1,12,Saturday&comma; 7 November 2020(p6),
+data,p349,6,6,1,1,0,6,Wednesday&comma; 9 November 2022(p12),
+data,p439,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p453,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p243,6,6,1,1,1,6,Sunday&comma; 28 November 2021(p9),
+data,p231,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p362,9,9,1,1,1,9,Sunday&comma; 3 December 2023(p13),
+data,p443,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p131,10,10,1,1,1,10,Tuesday&comma; 15 December 2020(p7),
+data,p3,3,3,1,1,1,3,Thursday&comma; 30 August 2018(p1),
+data,p307,8,8,1,1,0,8,Saturday&comma; 9 April 2022(p11),
+data,p486,5,5,1,1,0,5,Saturday&comma; 2 March 2024(p14),
+data,p508,5,5,1,1,0,5,Saturday&comma; 2 March 2024(p14),
+data,p228,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p279,3,3,0,1,1,68.5,,Test
+data,p398,7,7,1,1,1,7,Sunday&comma; 3 December 2023(p13),
+data,p147,8,8,1,1,1,8,Saturday&comma; 3 April 2021(p8),
+data,p149,11,11,1,1,1,11,Saturday&comma; 3 April 2021(p8),
+data,p197,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p474,4,4,1,1,0,4,Saturday&comma; 2 March 2024(p14),
+data,p24,4,4,1,1,1,4,Saturday&comma; 21 September 2019(p5),
+data,p314,9,9,1,1,0,9,Saturday&comma; 9 April 2022(p11),
+data,p145,1,1,1,1,1,1,Tuesday&comma; 15 December 2020(p7),
+data,p553,2,2,1,1,0,2,Saturday&comma; 28 September 2024(p15),
+data,p247,3,3,1,1,1,3,Sunday&comma; 28 November 2021(p9),
+data,p161,5,5,1,1,1,5.5,Saturday&comma; 3 April 2021(p8),
+data,p605,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p457,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p543,12,12,1,1,1,12,Saturday&comma; 28 September 2024(p15),
+data,p373,6,6,1,1,1,6,Sunday&comma; 3 December 2023(p13),
+data,p170,1,1,1,1,1,1,Saturday&comma; 3 April 2021(p8),
+data,p558,1,1,1,1,0,1,Saturday&comma; 28 September 2024(p15),
+data,p191,14,14,1,1,1,14,Saturday&comma; 3 April 2021(p8),
+data,p469,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p230,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p29,6,6,1,1,1,6,Saturday&comma; 21 September 2019(p5),
+data,p226,6,6,1,1,1,6,Saturday&comma; 3 April 2021(p8),
+data,p87,5,5,1,1,1,5,Tuesday&comma; 15 December 2020(p7),
+data,p418,11,11,1,1,1,11,Sunday&comma; 3 December 2023(p13),
+data,p343,4,4,1,1,0,4,Wednesday&comma; 9 November 2022(p12),
+data,p423,3,3,1,1,1,3,Sunday&comma; 3 December 2023(p13),
+data,p294,1,1,1,1,0,1,Wednesday&comma; 2 February 2022(p10),
+data,p133,3,3,1,1,1,3,Tuesday&comma; 15 December 2020(p7),
+data,p2,2,2,1,1,1,2,Thursday&comma; 30 August 2018(p1),
+data,p257,0,0,1,1,0,3.402823e+38,Saturday&comma; 21 September 2019(p5),
+data,p138,5,5,1,1,1,5,Tuesday&comma; 15 December 2020(p7),
+data,p442,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p507,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28269,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p196,8,8,1,1,1,8.5,Saturday&comma; 3 April 2021(p8),
+data,p300,3,3,1,1,0,3,Wednesday&comma; 2 February 2022(p10),
+data,p301,6,6,1,1,0,6,Wednesday&comma; 2 February 2022(p10),
+data,p321,9,9,1,1,0,9,Saturday&comma; 9 April 2022(p11),
+data,p93,8,8,1,1,1,8,Tuesday&comma; 15 December 2020(p7),
+data,p500,4,4,1,1,0,4,Saturday&comma; 2 March 2024(p14),
+data,p584,2,2,1,1,0,2,Saturday&comma; 22 February 2025(p16),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28247,8,8,1,1,0,8,Saturday&comma; 22 February 2025(p16),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28244,5,5,1,1,0,5,Saturday&comma; 22 February 2025(p16),
+data,p592,10,10,1,1,0,10,Saturday&comma; 22 February 2025(p16),
+data,p586,9,9,1,1,0,9,Saturday&comma; 22 February 2025(p16),
+data,p479,1,1,1,1,0,1,Saturday&comma; 2 March 2024(p14),
+data,p320,18,18,1,1,0,18,Saturday&comma; 9 April 2022(p11),
+data,p414,6,6,1,1,1,6,Sunday&comma; 3 December 2023(p13),
+data,p538,10,10,1,1,1,10,Saturday&comma; 28 September 2024(p15),
+data,p594,3,3,1,1,0,3,Saturday&comma; 22 February 2025(p16),
+data,p393,12,12,1,1,1,12,Sunday&comma; 3 December 2023(p13),
+data,p541,12,12,1,1,1,12,Saturday&comma; 28 September 2024(p15),
+data,p427,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p345,12,12,1,1,0,12,Wednesday&comma; 9 November 2022(p12),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28256,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p353,9,9,1,1,0,9,Wednesday&comma; 9 November 2022(p12),
+data,p515,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p255,3,3,1,1,1,3,Sunday&comma; 28 November 2021(p9),
+data,p395,13,13,1,1,1,13,Sunday&comma; 3 December 2023(p13),
+data,p402,5,5,1,1,1,5,Sunday&comma; 3 December 2023(p13),
+data,p295,3,3,1,1,0,3,Wednesday&comma; 2 February 2022(p10),
+data,p364,8,8,1,1,1,8,Sunday&comma; 3 December 2023(p13),
+data,p334,8,8,1,1,0,8,Saturday&comma; 9 April 2022(p11),
+data,p448,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p79,9,9,1,1,1,9,Saturday&comma; 7 November 2020(p6),
+data,p184,7,7,1,1,1,7,Saturday&comma; 3 April 2021(p8),
+data,p536,4,4,1,1,1,4,Saturday&comma; 28 September 2024(p15),
+data,p83,1,1,1,1,1,1,Saturday&comma; 7 November 2020(p6),
+data,p359,10,10,1,1,0,10,Wednesday&comma; 9 November 2022(p12),
+data,p352,11,11,1,1,0,11,Wednesday&comma; 9 November 2022(p12),
+data,p431,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p188,10,10,1,1,1,10,Saturday&comma; 3 April 2021(p8),
+data,p604,1,1,1,1,0,1,Saturday&comma; 22 February 2025(p16),
+data,p125,7,7,1,1,1,7,Tuesday&comma; 15 December 2020(p7),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28251,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p488,6,6,1,1,0,6,Saturday&comma; 2 March 2024(p14),
+data,p240,2,2,1,1,1,2,Sunday&comma; 28 November 2021(p9),
+data,p526,2,2,1,1,1,2,Saturday&comma; 28 September 2024(p15),
+data,p493,2,2,1,1,0,2,Saturday&comma; 2 March 2024(p14),
+data,p212,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p275,8,8,1,1,1,8,Sunday&comma; 28 November 2021(p9),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28238,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p386,2,2,1,1,1,2,Sunday&comma; 3 December 2023(p13),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28266,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p64,6,6,1,1,1,6,Saturday&comma; 7 November 2020(p6),
+data,p171,10,10,1,1,1,10,Saturday&comma; 3 April 2021(p8),
+data,p327,2,2,1,1,0,2,Saturday&comma; 9 April 2022(p11),
+data,p286,1,1,1,1,1,1,Wednesday&comma; 2 February 2022(p10),
+data,p177,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p483,4,4,1,1,0,4,Saturday&comma; 2 March 2024(p14),
+data,p211,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p385,11,11,1,1,1,11,Sunday&comma; 3 December 2023(p13),
+data,p118,1,1,1,1,1,1,Tuesday&comma; 15 December 2020(p7),
+data,p182,16,16,1,1,1,16,Saturday&comma; 3 April 2021(p8),
+data,p477,10,10,1,1,0,10,Saturday&comma; 2 March 2024(p14),
+data,p269,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p42,1,1,1,1,1,1,Saturday&comma; 21 September 2019(p5),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28243,4,4,1,1,0,4,Saturday&comma; 22 February 2025(p16),
+data,p518,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p178,15,15,1,1,1,15,Saturday&comma; 3 April 2021(p8),
+data,p297,5,5,1,1,0,5,Wednesday&comma; 2 February 2022(p10),
+data,p67,3,3,1,1,1,3,Saturday&comma; 7 November 2020(p6),
+data,p591,1,1,1,1,0,1,Saturday&comma; 22 February 2025(p16),
+data,p552,9,9,1,1,0,9,Saturday&comma; 28 September 2024(p15),
+data,p117,4,4,1,1,1,4,Tuesday&comma; 15 December 2020(p7),
+data,p577,8,8,1,1,0,8,Saturday&comma; 22 February 2025(p16),
+data,p401,2,2,1,1,1,2,Sunday&comma; 3 December 2023(p13),
+data,p568,9,9,1,1,0,9,Saturday&comma; 28 September 2024(p15),
+data,p81,12,12,1,1,1,12,Saturday&comma; 7 November 2020(p6),
+data,p288,8,8,1,1,1,8,Wednesday&comma; 2 February 2022(p10),
+data,p86,2,2,1,1,1,2,Tuesday&comma; 15 December 2020(p7),
+data,p565,6,6,1,1,0,6,Saturday&comma; 28 September 2024(p15),
+data,p97,1,1,1,1,1,1,Tuesday&comma; 15 December 2020(p7),
+data,p207,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p65,7,7,1,1,1,7,Saturday&comma; 7 November 2020(p6),
+data,p270,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p566,12,12,1,1,0,12,Saturday&comma; 28 September 2024(p15),
+data,p330,1,1,1,1,0,1,Saturday&comma; 9 April 2022(p11),
+data,p450,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p557,5,5,1,1,0,5,Saturday&comma; 28 September 2024(p15),
+data,p153,4,4,1,1,1,4,Saturday&comma; 3 April 2021(p8),
+data,p61,12,12,1,1,1,12,Saturday&comma; 7 November 2020(p6),
+data,p235,5,5,1,1,1,5,Saturday&comma; 3 April 2021(p8),
+data,p318,7,7,1,1,0,7,Saturday&comma; 9 April 2022(p11),
+data,p242,4,4,1,1,1,4,Sunday&comma; 28 November 2021(p9),
+data,p333,6,6,1,1,0,6,Saturday&comma; 9 April 2022(p11),
+data,p256,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p260,4,4,0,1,1,57,,Test
+data,p610,5,5,1,1,0,5,Saturday&comma; 22 February 2025(p16),
+data,p291,2,2,1,1,0,2,Wednesday&comma; 2 February 2022(p10),
+data,p251,1,1,1,1,1,1,Sunday&comma; 28 November 2021(p9),
+data,p562,7,7,1,1,0,7,Saturday&comma; 28 September 2024(p15),
+data,p530,5,5,1,1,1,5,Saturday&comma; 28 September 2024(p15),
+data,p159,12,12,1,1,1,12,Saturday&comma; 3 April 2021(p8),
+data,p150,17,17,1,1,1,17,Saturday&comma; 3 April 2021(p8),
+data,p413,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p25,3,3,1,1,1,3,Saturday&comma; 21 September 2019(p5),
+data,p175,11,11,1,1,1,11,Saturday&comma; 3 April 2021(p8),
+data,p84,5,5,1,1,1,5,Saturday&comma; 7 November 2020(p6),
+data,p200,5,5,1,1,1,5,Saturday&comma; 3 April 2021(p8),
+data,p499,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p459,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p217,12,12,1,1,1,12,Saturday&comma; 3 April 2021(p8),
+data,p199,8,9,1,1,1,8.5,Saturday&comma; 3 April 2021(p8),
+data,p441,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p391,10,10,1,1,1,10,Sunday&comma; 3 December 2023(p13),
+data,p420,8,8,1,1,1,8,Sunday&comma; 3 December 2023(p13),
+data,p268,8,8,1,1,1,8,Sunday&comma; 28 November 2021(p9),
+data,p588,4,4,1,1,0,4,Saturday&comma; 22 February 2025(p16),
+data,p234,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p186,6,6,1,1,1,6,Saturday&comma; 3 April 2021(p8),
+data,p433,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p537,2,2,1,1,1,2,Saturday&comma; 28 September 2024(p15),
+data,p74,3,3,1,1,1,3,Saturday&comma; 7 November 2020(p6),
+data,p366,2,2,1,1,1,2,Sunday&comma; 3 December 2023(p13),
+data,p415,1,1,1,1,1,1,Sunday&comma; 3 December 2023(p13),
+data,p429,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p358,5,5,1,1,0,5,Wednesday&comma; 9 November 2022(p12),
+data,p438,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p590,12,12,1,1,0,12,Saturday&comma; 22 February 2025(p16),
+data,p549,1,1,1,1,0,1,Saturday&comma; 28 September 2024(p15),
+data,p250,6,6,1,1,1,6,Sunday&comma; 28 November 2021(p9),
+data,p390,14,14,1,1,1,14,Sunday&comma; 3 December 2023(p13),
+data,p213,10,10,1,1,1,10,Saturday&comma; 3 April 2021(p8),
+data,p585,11,11,1,1,0,11,Saturday&comma; 22 February 2025(p16),
+data,p416,10,10,1,1,1,10,Sunday&comma; 3 December 2023(p13),
+data,p276,1,1,0,1,1,91.5,,Test
+data,p527,7,7,1,1,1,7,Saturday&comma; 28 September 2024(p15),
+data,p152,14,14,1,1,1,14,Saturday&comma; 3 April 2021(p8),
+data,p388,14,14,1,1,1,14,Sunday&comma; 3 December 2023(p13),
+data,p554,3,3,1,1,0,3,Saturday&comma; 28 September 2024(p15),
+data,p497,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p193,3,3,1,1,1,3,Saturday&comma; 3 April 2021(p8),
+data,p253,4,4,1,1,1,4,Sunday&comma; 28 November 2021(p9),
+data,p405,4,4,1,1,1,4,Sunday&comma; 3 December 2023(p13),
+data,p272,2,2,1,1,1,2,Sunday&comma; 28 November 2021(p9),
+data,p561,12,12,1,1,0,12,Saturday&comma; 28 September 2024(p15),
+data,p137,8,8,1,1,1,8,Tuesday&comma; 15 December 2020(p7),
+data,p338,5,5,1,1,0,5,Saturday&comma; 9 April 2022(p11),
+data,p232,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p105,4,4,1,1,1,4,Tuesday&comma; 15 December 2020(p7),
+data,p194,1,1,1,1,1,1,Saturday&comma; 3 April 2021(p8),
+data,p524,3,3,1,1,1,3,Saturday&comma; 28 September 2024(p15),
+data,p101,2,2,1,1,1,2,Tuesday&comma; 15 December 2020(p7),
+data,p609,6,6,1,1,0,6,Saturday&comma; 22 February 2025(p16),
+data,p599,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p109,10,10,1,1,1,10,Tuesday&comma; 15 December 2020(p7),
+data,p116,7,7,1,1,1,7,Tuesday&comma; 15 December 2020(p7),
+data,p238,1,1,1,1,1,1,Sunday&comma; 28 November 2021(p9),
+data,p589,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p89,4,4,1,1,1,4,Tuesday&comma; 15 December 2020(p7),
+data,p233,3,3,1,1,1,3,Saturday&comma; 3 April 2021(p8),
+data,p494,1,1,1,1,0,1,Saturday&comma; 2 March 2024(p14),
+data,p62,7,7,1,1,1,7,Saturday&comma; 7 November 2020(p6),
+data,p254,2,2,1,1,1,2,Sunday&comma; 28 November 2021(p9),
+data,p389,3,3,1,1,1,3,Sunday&comma; 3 December 2023(p13),
+data,p167,13,13,1,1,1,13,Saturday&comma; 3 April 2021(p8),
+data,p293,5,5,1,1,0,5,Wednesday&comma; 2 February 2022(p10),
+data,p411,5,5,1,1,1,5,Sunday&comma; 3 December 2023(p13),
+data,p224,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p98,1,1,1,1,1,1,Tuesday&comma; 15 December 2020(p7),
+data,p466,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p172,6,6,1,1,1,6,Saturday&comma; 3 April 2021(p8),
+data,p120,2,2,1,1,1,2,Tuesday&comma; 15 December 2020(p7),
+data,p342,10,10,1,1,0,10,Wednesday&comma; 9 November 2022(p12),
+data,p144,6,6,1,1,1,6,Tuesday&comma; 15 December 2020(p7),
+data,p34,4,4,1,1,1,4,Saturday&comma; 21 September 2019(p5),
+data,p545,12,12,1,1,1,12,Saturday&comma; 28 September 2024(p15),
+data,p428,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p278,8,8,1,1,1,8,Sunday&comma; 28 November 2021(p9),
+data,p187,11,11,1,1,1,11,Saturday&comma; 3 April 2021(p8),
+data,p241,2,2,1,1,1,2,Sunday&comma; 28 November 2021(p9),
+data,p468,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p135,3,3,1,1,1,3,Tuesday&comma; 15 December 2020(p7),
+data,p173,2,2,1,1,1,2,Saturday&comma; 3 April 2021(p8),
+data,p113,8,8,1,1,1,8,Tuesday&comma; 15 December 2020(p7),
+data,p564,5,5,1,1,0,5,Saturday&comma; 28 September 2024(p15),
+data,p326,3,3,1,1,0,3,Saturday&comma; 9 April 2022(p11),
+data,p128,1,1,1,1,1,1,Tuesday&comma; 15 December 2020(p7),
+data,p360,7,7,1,1,0,7,Wednesday&comma; 9 November 2022(p12),
+data,p475,2,2,1,1,0,2,Saturday&comma; 2 March 2024(p14),
+data,p68,10,10,1,1,1,10,Saturday&comma; 7 November 2020(p6),
+data,p80,12,12,1,1,1,12,Saturday&comma; 7 November 2020(p6),
+data,p53,5,5,1,1,1,5,Saturday&comma; 7 November 2020(p6),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28237,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28248,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p57,8,8,1,1,1,8,Saturday&comma; 7 November 2020(p6),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28263,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p511,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p520,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p322,12,12,1,1,0,12,Saturday&comma; 9 April 2022(p11),
+data,p114,9,9,1,1,1,9,Tuesday&comma; 15 December 2020(p7),
+data,p249,7,7,1,1,1,7,Sunday&comma; 28 November 2021(p9),
+data,p292,8,8,1,1,0,8,Wednesday&comma; 2 February 2022(p10),
+data,p263,1,1,1,1,1,1,Sunday&comma; 28 November 2021(p9),
+data,p347,3,3,1,1,0,3,Wednesday&comma; 9 November 2022(p12),
+data,p287,4,4,1,1,1,4,Wednesday&comma; 2 February 2022(p10),
+data,p370,4,4,1,1,1,4,Sunday&comma; 3 December 2023(p13),
+data,p244,1,1,1,1,1,1,Sunday&comma; 28 November 2021(p9),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28257,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p357,8,8,1,1,0,8,Wednesday&comma; 9 November 2022(p12),
+data,p181,8,8,1,1,1,8,Saturday&comma; 3 April 2021(p8),
+data,p432,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p108,11,11,1,1,1,11,Tuesday&comma; 15 December 2020(p7),
+data,p332,4,4,1,1,0,4,Saturday&comma; 9 April 2022(p11),
+data,p143,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p195,12,12,1,1,1,12,Saturday&comma; 3 April 2021(p8),
+data,p222,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p476,3,3,1,1,0,3,Saturday&comma; 2 March 2024(p14),
+data,p59,1,1,1,1,1,1,Saturday&comma; 7 November 2020(p6),
+data,p519,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p221,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p183,4,4,1,1,1,4,Saturday&comma; 3 April 2021(p8),
+data,p491,1,1,1,1,0,1,Saturday&comma; 2 March 2024(p14),
+data,p471,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p33,3,3,1,1,1,3,Saturday&comma; 21 September 2019(p5),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28262,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p136,4,4,1,1,1,4,Tuesday&comma; 15 December 2020(p7),
+data,p215,9,9,1,1,1,9,Saturday&comma; 3 April 2021(p8),
+data,p189,5,5,1,1,1,5,Saturday&comma; 3 April 2021(p8),
+data,p219,1,1,1,1,1,1,Saturday&comma; 3 April 2021(p8),
+data,p368,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p28,1,1,1,1,1,1,Saturday&comma; 21 September 2019(p5),
+data,p444,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p119,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p513,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p348,9,9,1,1,0,9,Wednesday&comma; 9 November 2022(p12),
+data,p312,4,4,1,1,0,4,Saturday&comma; 9 April 2022(p11),
+data,p302,2,2,1,1,0,2,Wednesday&comma; 2 February 2022(p10),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28241,2,2,1,1,0,2,Saturday&comma; 22 February 2025(p16),
+data,p555,6,6,1,1,0,6,Saturday&comma; 28 September 2024(p15),
+data,p180,9,9,1,1,1,9,Saturday&comma; 3 April 2021(p8),
+data,p214,11,11,1,1,1,11,Saturday&comma; 3 April 2021(p8),
+data,p454,0,0,1,1,0,3.402823e+38,Wednesday&comma; 2 February 2022(p10),
+data,p372,11,11,1,1,1,11,Sunday&comma; 3 December 2023(p13),
+data,p283,5,5,1,1,1,5,Wednesday&comma; 2 February 2022(p10),
+data,p156,3,3,1,1,1,3,Saturday&comma; 3 April 2021(p8),
+data,p567,2,2,1,1,0,2,Saturday&comma; 28 September 2024(p15),
+data,p259,8,8,1,1,1,8,Sunday&comma; 28 November 2021(p9),
+data,p572,1,1,1,1,0,1,Saturday&comma; 22 February 2025(p16),
+data,p449,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p40,5,5,1,1,1,5,Saturday&comma; 21 September 2019(p5),
+data,p575,9,9,1,1,0,9,Saturday&comma; 22 February 2025(p16),
+data,p503,3,3,1,1,0,3,Saturday&comma; 2 March 2024(p14),
+data,p606,9,9,1,1,0,9,Saturday&comma; 22 February 2025(p16),
+data,p574,7,7,1,1,0,7,Saturday&comma; 22 February 2025(p16),
+data,p417,13,13,1,1,1,13,Sunday&comma; 3 December 2023(p13),
+data,p106,5,5,1,1,1,5,Tuesday&comma; 15 December 2020(p7),
+data,p377,13,13,1,1,1,13,Sunday&comma; 3 December 2023(p13),
+data,p73,5,5,1,1,1,5,Saturday&comma; 7 November 2020(p6),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28264,0,0,1,1,0,3.402823e+38,Saturday&comma; 28 September 2024(p15),
+data,p375,1,1,1,1,1,1,Sunday&comma; 3 December 2023(p13),
+data,p576,5,5,1,1,0,5,Saturday&comma; 22 February 2025(p16),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28242,3,3,1,1,0,3,Saturday&comma; 22 February 2025(p16),
+data,p164,4,4,1,1,1,4,Saturday&comma; 3 April 2021(p8),
+data,p198,13,13,1,1,1,13,Saturday&comma; 3 April 2021(p8),
+data,p399,16,16,1,1,1,16,Sunday&comma; 3 December 2023(p13),
+data,p451,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28250,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p236,5,5,1,1,1,5,Sunday&comma; 28 November 2021(p9),
+data,p262,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p528,4,4,1,1,1,4,Saturday&comma; 28 September 2024(p15),
+data,p521,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p142,13,13,1,1,1,13,Tuesday&comma; 15 December 2020(p7),
+data,p95,6,6,1,1,1,6,Tuesday&comma; 15 December 2020(p7),
+data,p115,5,5,1,1,1,5,Tuesday&comma; 15 December 2020(p7),
+data,p547,10,10,1,1,0,10,Saturday&comma; 28 September 2024(p15),
+data,p91,12,12,1,1,1,12,Tuesday&comma; 15 December 2020(p7),
+data,p337,10,10,1,1,0,10,Saturday&comma; 9 April 2022(p11),
+data,p573,2,2,1,1,0,2,Saturday&comma; 22 February 2025(p16),
+data,p602,7,7,1,1,0,7,Saturday&comma; 22 February 2025(p16),
+data,p485,3,3,1,1,0,3,Saturday&comma; 2 March 2024(p14),
+data,p445,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p273,0,0,1,1,0,3.402823e+38,Saturday&comma; 21 September 2019(p5),
+data,p546,8,8,1,1,1,8,Saturday&comma; 28 September 2024(p15),
+data,p160,15,15,1,1,1,15,Saturday&comma; 3 April 2021(p8),
+data,p495,11,11,1,1,0,11,Saturday&comma; 2 March 2024(p14),
+data,p600,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p304,11,11,1,1,0,11,Saturday&comma; 9 April 2022(p11),
+data,p365,7,7,1,1,1,7,Sunday&comma; 3 December 2023(p13),
+data,p158,7,7,1,1,1,7,Saturday&comma; 3 April 2021(p8),
+data,p381,10,10,1,1,1,10,Sunday&comma; 3 December 2023(p13),
+data,p192,2,2,1,1,1,2,Saturday&comma; 3 April 2021(p8),
+data,p463,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p103,6,6,1,1,1,6,Tuesday&comma; 15 December 2020(p7),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28268,0,0,1,1,0,3.402823e+38,Saturday&comma; 2 March 2024(p14),
+data,p419,2,2,1,1,1,2,Sunday&comma; 3 December 2023(p13),
+data,p225,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p378,12,12,1,1,1,12,Sunday&comma; 3 December 2023(p13),
+data,p54,4,4,1,1,1,4,Saturday&comma; 7 November 2020(p6),
+data,p452,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p311,10,10,1,1,0,10,Saturday&comma; 9 April 2022(p11),
+data,p298,8,8,1,1,0,8,Wednesday&comma; 2 February 2022(p10),
+data,p132,8,8,1,1,1,8,Tuesday&comma; 15 December 2020(p7),
+data,p505,1,1,1,1,0,1,Saturday&comma; 2 March 2024(p14),
+data,p412,9,9,1,1,1,9,Sunday&comma; 3 December 2023(p13),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28245,6,6,1,1,0,6,Saturday&comma; 22 February 2025(p16),
+data,tCECF19EE-9DEC-4F46-9154-8B569B49AE28240,1,1,1,1,0,1,Saturday&comma; 22 February 2025(p16),
+data,p484,2,2,1,1,0,2,Saturday&comma; 2 March 2024(p14),
+data,p382,8,8,1,1,1,8,Sunday&comma; 3 December 2023(p13),
+data,p227,2,2,1,1,1,2,Saturday&comma; 3 April 2021(p8),
+data,p296,6,6,1,1,0,6,Wednesday&comma; 2 February 2022(p10),
+data,p204,8,8,1,1,1,8,Saturday&comma; 3 April 2021(p8),
+data,p424,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p1,1,1,1,1,1,1,Thursday&comma; 30 August 2018(p1),
+data,p289,2,2,1,1,1,2,Wednesday&comma; 2 February 2022(p10),
+data,p598,5,5,1,1,0,5,Saturday&comma; 22 February 2025(p16),
+data,p407,4,4,1,1,1,4,Sunday&comma; 3 December 2023(p13),
+data,p612,10,10,1,1,0,10,Saturday&comma; 22 February 2025(p16),
+data,p36,6,6,1,1,1,6,Saturday&comma; 21 September 2019(p5),
+data,p611,3,3,1,1,0,3,Saturday&comma; 22 February 2025(p16),
+data,p202,7,7,1,1,1,7,Saturday&comma; 3 April 2021(p8),
+data,p570,11,11,1,1,0,11,Saturday&comma; 22 February 2025(p16),
+data,p267,0,0,1,1,0,3.402823e+38,Friday&comma; 31 August 2018(p4),
+data,p319,3,3,1,1,0,3,Saturday&comma; 9 April 2022(p11),
+data,p309,6,6,1,1,0,6,Saturday&comma; 9 April 2022(p11),
+data,p154,10,10,1,1,1,10,Saturday&comma; 3 April 2021(p8),
+data,p596,8,8,1,1,0,8,Saturday&comma; 22 February 2025(p16),
+data,p271,4,4,0,1,1,57,,Test
+data,p456,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p112,10,10,1,1,1,10,Tuesday&comma; 15 December 2020(p7),
+data,p506,4,4,1,1,0,4,Saturday&comma; 2 March 2024(p14),
+data,p409,17,17,1,1,1,17,Sunday&comma; 3 December 2023(p13),
+data,p380,9,9,1,1,1,9,Sunday&comma; 3 December 2023(p13),
+data,p437,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p146,16,16,1,1,1,16,Saturday&comma; 3 April 2021(p8),
+data,p290,4,4,1,1,0,4,Wednesday&comma; 2 February 2022(p10),
+data,p261,8,8,1,1,1,8,Sunday&comma; 28 November 2021(p9),
+data,p379,4,4,1,1,1,4,Sunday&comma; 3 December 2023(p13),
+data,p563,3,3,1,1,0,3,Saturday&comma; 28 September 2024(p15),
+data,p465,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p206,2,2,1,1,1,2,Saturday&comma; 3 April 2021(p8),
+data,p458,0,0,1,1,0,3.402823e+38,Wednesday&comma; 9 November 2022(p12),
+data,p533,8,8,1,1,1,8,Saturday&comma; 28 September 2024(p15),
+data,p613,8,8,1,1,0,8,Saturday&comma; 22 February 2025(p16),
+data,p168,14,14,1,1,1,14,Saturday&comma; 3 April 2021(p8),
+data,p210,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p421,12,12,1,1,1,12,Sunday&comma; 3 December 2023(p13),
+data,p556,7,7,1,1,0,7,Saturday&comma; 28 September 2024(p15),
+data,p601,16,16,1,1,0,16,Saturday&comma; 22 February 2025(p16),
+data,p27,5,5,1,1,1,5,Saturday&comma; 21 September 2019(p5),
+data,p58,3,3,1,1,1,3,Saturday&comma; 7 November 2020(p6),
+data,p220,19,19,1,1,1,19,Saturday&comma; 3 April 2021(p8),
+data,p467,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p163,5,6,1,1,1,5.5,Saturday&comma; 3 April 2021(p8),
+data,p313,2,2,1,1,0,2,Saturday&comma; 9 April 2022(p11),
+data,p203,1,1,1,1,1,1,Saturday&comma; 3 April 2021(p8),
+data,p447,0,0,1,1,0,3.402823e+38,Saturday&comma; 9 April 2022(p11),
+data,p310,5,5,1,1,0,5,Saturday&comma; 9 April 2022(p11),
+data,p246,5,5,1,1,1,5,Sunday&comma; 28 November 2021(p9),
+data,p94,7,7,1,1,1,7,Tuesday&comma; 15 December 2020(p7),
+data,p383,5,5,1,1,1,5,Sunday&comma; 3 December 2023(p13),
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Unknown1,Unknown1,,,Sailing Club,Sailing Club
+data,Elise Bryant,Elise,Bryant,,Sailing Club,Sailing Club
+data,Gerard Brennan,Gerard,Brennan,,Sailing Club,Sailing Club
+data,Brian Dixon,Brian,Dixon,,Sailing Club,Sailing Club
+data,Rainer  Kuprecht,Rainer ,Kuprecht,,Sailing Club,Sailing Club
+data,John Robinson,John,Robinson,,MPYC,MPYC
+data,Brad Henderson,Brad,Henderson,,MPYC,MPYC
+data,Izzy Harding,Izzy,Harding,,Sailing Club,Sailing Club
+data,Jeanie Borsboom,Jeanie,Borsboom,,Sailing Club,Sailing Club
+data,Diana Weir,Diana,Weir,,Sailing Club,Sailing Club
+data,Annah Winheld,Annah,Winheld,,MPYC,MPYC
+data,Ben Scott,Ben,Scott,,MPYC,MPYC
+data,Tony Beasley,Tony,Beasley,,Sailing Club,Sailing Club
+data,Peter Galloway,Peter,Galloway,,Sailing Club,Sailing Club
+data,Gerard Brennan,Gerard,Brennan,,MPYC:Sailing Club,MPYC
+data,Rosa Borsboom,Rosa,Borsboom,,Sailing Club,Sailing Club
+data,Rick Sanders,Rick,Sanders,,Sailing Club,Sailing Club
+data,Martin Outram,Martin,Outram,,Sailing Club,Sailing Club
+data,Nick Sanders,Nick,Sanders,,Sailing Club,Sailing Club
+data,Shaun?,Shaun?,,,Sailing Club,Sailing Club
+data,Dom Sutton,Dom,Sutton,,MPYC,MPYC
+data,Sophie Borsboom,Sophie,Borsboom,,Sailing Club,Sailing Club
+data,Alex Drysdale,Alex,Drysdale,,Sailing Club,Sailing Club
+data,Laura Harding,Laura,Harding,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Ellen Palmer,Ellen,Palmer,,Sailing Club,Sailing Club
+data,Amber Judkins,Amber,Judkins,,Sailing Club,Sailing Club
+data,Richard Ineson,Richard,Ineson,,Sailing Club,Sailing Club
+data,Mark Thompson,Mark,Thompson,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Sean Dickey,Sean,Dickey,,Sailing Club,Sailing Club
+data,AB Drysdale,AB,Drysdale,,Sailing Club,Sailing Club
+data,Dave Mckie,Dave,Mckie,,MPYC,MPYC
+data,Duncan Cartwright,Duncan,Cartwright,,Sailing Club,Sailing Club
+data,Chris Maurice,Chris,Maurice,,Sailing Club,Sailing Club
+data,Kevin Li,Kevin,Li,,Sailing Club,Sailing Club
+data,Andrew Robinson,Andrew,Robinson,,Sailing Club,Sailing Club
+data,Tony Visker,Tony,Visker,,MPYC,MPYC
+data,Laura  Prickett,Laura ,Prickett,,Sailing Club,Sailing Club
+data,Nick Reid,Nick,Reid,,Sailing Club,Sailing Club
+data,Chris Green,Chris,Green,,Sailing Club,Sailing Club
+data,Tim Prickett,Tim,Prickett,,MPYC,MPYC
+data,Nikki Reid,Nikki,Reid,,Sailing Club,Sailing Club
+data,Graham Davies,Graham,Davies,,MPYC,MPYC
+data,Tom Berliner,Tom,Berliner,,Sailing Club,Sailing Club
+data,John Buckler,John,Buckler,,MPYC,MPYC
+data,Unknown4,Unknown4,,,Sailing Club,Sailing Club
+data,Dunno1,Dunno1,,,Sailing Club,Sailing Club
+data,Rene Borsboom,Rene,Borsboom,,Sailing Club,Sailing Club
+data,Glen Mckenzie,Glen,Mckenzie,,Sailing Club,Sailing Club
+data,Dunno2,Dunno2,,,Sailing Club,Sailing Club
+data,Jack Dudley,Jack,Dudley,,Sailing Club,Sailing Club
+data,Shaun Tocher,Shaun,Tocher,,MPYC:Sailing Club,MPYC
+data,Dunno3,Dunno3,,,Sailing Club,Sailing Club
+data,Matt Lang,Matt,Lang,,Sailing Club,Sailing Club
+data,Chris Green,Chris,Green,,Sailing Club,Sailing Club
+data,Richard Mansell,Richard,Mansell,,MPYC,MPYC
+data,George Wills,George,Wills,,Sailing Club,Sailing Club
+data,Hannah Reeves,Hannah,Reeves,,Sailing Club,Sailing Club
+data,Robin Smith,Robin,Smith,,MPYC,MPYC
+data,Julia Van Essen,Julia,Van Essen,,Sailing Club,Sailing Club
+data,Dunno5,Dunno5,,,Sailing Club,Sailing Club
+data,Russ Benge,Russ,Benge,,Sailing Club,Sailing Club
+data,Michael Norriss,Michael,Norriss,,Sailing Club,Sailing Club
+data,Nan Jiang,Nan,Jiang,,MPYC,MPYC
+BoatClass,boatClassID,boatType,name,napyCode,isSystem,portsmouthNumber,isWindAdjustFormula
+data,LAS4.7,Centerboard,Laser 4.7 (Int.),LAS4.7,0,95.4,
+data,LAS2000,Centerboard,Laser 2000,LAS2000,0,92.5,
+data,SBRD,Centerboard,Sunbird,SBRD,0,114,
+data,LASE,Centerboard,Laser (Int.),LASE,0,91.1,
+data,LASEM,Centerboard,Laser Radial/Laser M,LASEM,0,96.7,
+Handicap,handicapCode,canBeDeleted,handicapCode,denominatorConstant,isRounded,isSelected,isTimeOnTime,isWindAdjustFormula,name,numeratorConstant,windHandicap1,windHandicap3,windHandicap4,windHandicap9,windHandicapType,decimalPlaces
+data,PY,0,PY,0,1,0,1,0,Portsmouth Yardstick,1000,0,0,0,0,None,1
+data,NAPY,0,NAPY,0,0,0,1,0,North American Portsmouth Yardstick,100,0,0,0,0,Class,1
+HandicapValues,name,customValue,customWindHandicap1,customWindHandicap3,customWindHandicap4,customWindHandicap9,value,windHandicap1,windHandicap3,windHandicap4,windHandicap9,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode
+data,PY_Laser 4.7 (Int.),0,0,0,0,0,1208,0,0,0,0,LAS4.7,PY
+data,NAPY_Laser Radial/Laser M,0,0,0,0,0,96.7,99.4,97.3,93.6,0,LASEM,NAPY
+data,NAPY_Laser (Int.),0,0,0,0,0,91.1,93.7,92.3,91,88.2,LASE,NAPY
+data,PY_Laser Radial/Laser M,0,0,0,0,0,1147,0,0,0,0,LASEM,PY
+data,NAPY_Laser 4.7 (Int.),0,0,0,0,0,95.4,96.1,95.2,94.9,0,LAS4.7,NAPY
+data,NAPY_Sunbird,0,0,0,0,0,114,114.5,115,0,0,SBRD,NAPY
+data,PY_Laser (Int.),0,0,0,0,0,1100,0,0,0,0,LASE,PY
+data,NAPY_Laser 2000,0,0,91.1,0,0,92.5,91.1,0,0,0,LAS2000,NAPY
+Vessel,name,bowNumber,country,sailNumber,sortOrder,association:Association:name,primaryClub:Association:name,crew:Member:name,skipper:Member:name,boatClass:BoatClass:boatClassID,phrfRating
+data,181876,,,181876,    181876,Sailing Club,Sailing Club,,Annah Winheld,LAS4.7,0
+data,178802,,,178802,    178802,Sailing Club,Sailing Club,Rick Sanders,Rick Sanders,LASE,0
+data,159764,,,159764,    159764,Sailing Club,Sailing Club,,Rosa Borsboom,LASEM,0
+data,10,,,10,        10,Sailing Club,Sailing Club,,Nick Sanders,LASEM,0
+data,178659,,,178659,    178659,Sailing Club,Sailing Club,,Laura Harding,LAS4.7,0
+data,512,,,512,       512,Sailing Club,Sailing Club,,Rainer  Kuprecht,LAS2000,0
+data,10,,,10,        10,Sailing Club,Sailing Club,,Nick Sanders,LASEM,0
+data,167148,,,167148,    167148,Sailing Club,Sailing Club,,Gerard Brennan,LAS4.7,0
+data,123381,,,123381,    123381,Sailing Club,Sailing Club,,Martin Outram,LASEM,0
+data,44272,,,44272,     44272,Sailing Club,Sailing Club,,Matt Lang,LAS4.7,0
+data,1759,,,1759,      1759,Sailing Club,Sailing Club,,Alex Drysdale,SBRD,0
+data,167112,,,167112,    167112,Sailing Club,Sailing Club,,Izzy Harding,LASEM,0
+data,44272,,,44272,     44272,Sailing Club,Sailing Club,,Dunno2,LASE,0
+data,198112,,,198112,    198112,Sailing Club,Sailing Club,,Jack Dudley,LASE,0
+data,44272,,,44272,     44272,Sailing Club,Sailing Club,,Jeanie Borsboom,LAS4.7,0
+data,116033,,,116033,    116033,Sailing Club,Sailing Club,,Peter Galloway,LASE,0
+data,131870,,,131870,    131870,Sailing Club,Sailing Club,,Gerard Brennan,LASEM,0
+data,150073,,,150073,    150073,Sailing Club,Sailing Club,,Chris Green,LASE,0
+data,7,,,7,         7,Sailing Club,Sailing Club,,Sophie Borsboom,LASEM,0
+data,159764,,,159764,    159764,Sailing Club,Sailing Club,,Sophie Borsboom,LASEM,0
+data,512,,,512,       512,Sailing Club,Sailing Club,,Rainer  Kuprecht,LAS4.7,0
+data,36758,,,36758,     36758,MPYC,MPYC,,Tony Visker,LASE,0
+data,428,,,428,       428,Sailing Club,Sailing Club,,Tim Prickett,LASE,0
+data,157145,,,157145,    157145,Sailing Club,Sailing Club,,Nikki Reid,LAS4.7,0
+data,429,,,429,       429,Sailing Club,Sailing Club,,Dunno3,LAS4.7,0
+data,41985,,,41985,     41985,Sailing Club,Sailing Club,,Phil Galloway,LASE,0
+data,136740,,,136740,    136740,Sailing Club,Sailing Club,,Dunno1,LASE,0
+data,11,,,11,        11,Sailing Club,Sailing Club,,Rene Borsboom,LASEM,0
+data,14945,,,14945,     14945,Sailing Club,Sailing Club,,Unknown4,LASE,0
+data,145572,,,145572,    145572,Sailing Club,Sailing Club,,Mark Thompson,LASEM,0
+data,195538,,,195538,    195538,Sailing Club,Sailing Club,,Russ Benge,LASE,0
+data,116119,,,116119,    116119,Sailing Club,Sailing Club,,Elise Bryant,LASEM,0
+data,157003,,,157003,    157003,Sailing Club,Sailing Club,,Chris Green,LASE,0
+data,136697,,,136697,    136697,Sailing Club,Sailing Club,,Chris Maurice,LASE,0
+data,512,,,512,       512,Sailing Club,Sailing Club,,Rainer  Kuprecht,LASE,0
+data,179385,,,179385,    179385,Sailing Club,Sailing Club,,William Buick,LASEM,0
+data,1073,,,1073,      1073,Sailing Club,Sailing Club,,Jeanie Borsboom,SBRD,0
+data,157143,,,157143,    157143,Sailing Club,Sailing Club,,Ellen Palmer,LASEM,0
+data,123384,,,123384,    123384,Sailing Club,Sailing Club,,William Buick,LASE,0
+data,176916,,,176916,    176916,Sailing Club,Sailing Club,,Julia Van Essen,LAS4.7,0
+data,44444,,,44444,     44444,Sailing Club,Sailing Club,,Dom Sutton,LAS4.7,0
+data,100550,,,100550,    100550,Sailing Club,Sailing Club,,Shaun Tocher,LASEM,0
+data,41985,,,41985,     41985,MPYC,MPYC,,Phil Galloway,LASE,0
+data,44284,,,44284,     44284,Sailing Club,Sailing Club,Richard Mansell,Richard Mansell,LASEM,0
+data,136697,,,136697,    136697,Sailing Club,Sailing Club,,Chris Maurice,LAS4.7,0
+data,196411,,,196411,    196411,MPYC,MPYC,,Dave Mckie,LASE,0
+data,36758,,,36758,     36758,Sailing Club,Sailing Club,,Tony Visker,LASE,0
+data,124050,,,124050,    124050,MPYC,MPYC,,Nan Jiang,LASE,0
+data,136740,,,136740,    136740,Sailing Club,Sailing Club,,Kevin Li,LASE,0
+data,93247,,,93247,     93247,Sailing Club,Sailing Club,,Brian Dixon,LASE,0
+data,11,,,11,        11,Sailing Club,Sailing Club,,Rene Borsboom,LASEM,0
+data,176916,,,176916,    176916,Sailing Club,Sailing Club,,Dunno5,LASE,0
+data,44284,,,44284,     44284,MPYC,MPYC,,Richard Mansell,LASE,0
+data,1595,,,1595,      1595,Sailing Club,Sailing Club,,Tony Beasley,LASE,0
+data,188804,,,188804,    188804,Sailing Club,Sailing Club,,Sean Dickey,LASE,0
+data,667,,,667,       667,Sailing Club,Sailing Club,,George Wills,LASE,0
+data,1073,,,1073,      1073,Sailing Club,Sailing Club,,Jeanie Borsboom,SBRD,0
+data,162134,,,162134,    162134,Sailing Club,Sailing Club,,John Robinson,LASEM,0
+data,131808,,,131808,    131808,Sailing Club,Sailing Club,,Duncan Cartwright,LASE,0
+data,159762,,,159762,    159762,Sailing Club,Sailing Club,,John Buckler,LASE,0
+data,181992,,,181992,    181992,Sailing Club,Sailing Club,,Glen Mckenzie,LASE,0
+data,44444,,,44444,     44444,Sailing Club,Sailing Club,,Shaun?,LASEM,0
+data,178659,,,178659,    178659,Sailing Club,Sailing Club,,Laura Harding,LAS4.7,0
+data,178659,,,178659,    178659,Sailing Club,Sailing Club,,Laura Harding,LASEM,0
+data,49609,,,49609,     49609,Sailing Club,Sailing Club,,Dunno1,LASE,0
+data,86,,,86,        86,Sailing Club,Sailing Club,,Tim Prickett,LASEM,0
+data,797,,,797,       797,Sailing Club,Sailing Club,,Tom Berliner,LASE,0
+data,NZL100550,,NZL,100550,    100550,Sailing Club,Sailing Club,,Brad Henderson,LASE,0
+data,44293,,,44293,     44293,Sailing Club,Sailing Club,,Michael Norriss,LASE,0
+data,797,,,797,       797,Sailing Club,Sailing Club,,Tom Berliner,LAS4.7,0
+data,168688,,,168688,    168688,Sailing Club,Sailing Club,,Dom Sutton,LASEM,0
+data,136656,,,136656,    136656,Sailing Club,Sailing Club,,Andrew Robinson,LASEM,0
+data,159768,,,159768,    159768,Sailing Club,Sailing Club,,Phil Galloway,LASEM,0
+data,217315,,,217315,    217315,Sailing Club,Sailing Club,,Sophie Borsboom,LASEM,0
+data,168688,,,168688,    168688,Sailing Club,Sailing Club,,Dom Sutton,LASE,0
+data,145572,,,145572,    145572,Sailing Club,Sailing Club,,Hannah Reeves,LASE,0
+data,31357,,,31357,     31357,Sailing Club,Sailing Club,,Nick Reid,LASE,0
+data,150010,,,150010,    150010,Sailing Club,Sailing Club,,Richard Ineson,LASE,0
+data,86,,,86,        86,Sailing Club,Sailing Club,,Laura  Prickett,LASE,0
+data,175282,,,175282,    175282,Sailing Club,Sailing Club,,Hannah Reeves,LAS4.7,0
+data,72966,,,72966,     72966,MPYC,MPYC,,Robin Smith,LASE,0
+data,131108,,,131108,    131108,Sailing Club,Sailing Club,,Duncan Cartwright,LAS4.7,0
+data,36758,,,36758,     36758,Sailing Club,Sailing Club,,Tony Visker,LAS4.7,0
+data,123381,,,123381,    123381,Sailing Club,Sailing Club,,Martin Outram,LASEM,0
+data,123381,,,123381,    123381,Sailing Club,Sailing Club,,Martin Outram,LASE,0
+data,6030,,,6030,      6030,Sailing Club,Sailing Club,,Brian Dixon,LASEM,0
+data,1073,,,1073,      1073,Sailing Club,Sailing Club,,Jeanie Borsboom,LAS4.7,0
+data,1053,,,10529,     10529,Sailing Club,Sailing Club,,Diana Weir,LAS4.7,0
+data,157145,,,157145,    157145,Sailing Club,Sailing Club,,Nikki Reid,LASEM,0
+data,116033,,,116033,    116033,Sailing Club,Sailing Club,Unknown1,,LASE,0
+data,1759,,,1759,      1759,Sailing Club,Sailing Club,,AB Drysdale,SBRD,0
+data,1000,,,1000,      1000,Sailing Club,Sailing Club,,Ben Scott,LASEM,0
+data,159764,,,159764,    159764,Sailing Club,Sailing Club,,Rene Borsboom,LASEM,0
+data,181969,,,181969,    181969,MPYC,MPYC,,Graham Davies,LASE,0
+data,175282,,,175282,    175282,Sailing Club,Sailing Club,,Amber Judkins,LAS4.7,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Nan Jiang,Nan,Jiang,,MPYC,MPYC
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Elise Bryant,Elise,Bryant,,Sailing Club,Sailing Club
+data,Gerard Brennan,Gerard,Brennan,,Sailing Club,Sailing Club
+data,Brian Dixon,Brian,Dixon,,Sailing Club,Sailing Club
+data,Rainer  Kuprecht,Rainer ,Kuprecht,,Sailing Club,Sailing Club
+data,John Robinson,John,Robinson,,MPYC,MPYC
+data,Diana Weir,Diana,Weir,,Sailing Club,Sailing Club
+data,Izzy Harding,Izzy,Harding,,Sailing Club,Sailing Club
+data,Brad Henderson,Brad,Henderson,,MPYC,MPYC
+data,Jeanie Borsboom,Jeanie,Borsboom,,Sailing Club,Sailing Club
+data,Dunno4,Dunno4,,,Sailing Club,Sailing Club
+data,Ben Scott,Ben,Scott,,MPYC,MPYC
+data,Annah Winheld,Annah,Winheld,,MPYC,MPYC
+data,Tony Beasley,Tony,Beasley,,Sailing Club,Sailing Club
+data,Peter Galloway,Peter,Galloway,,Sailing Club,Sailing Club
+data,Gerard Brennan,Gerard,Brennan,,MPYC:Sailing Club,MPYC
+data,Rosa Borsboom,Rosa,Borsboom,,Sailing Club,Sailing Club
+data,Rick Sanders,Rick,Sanders,,Sailing Club,Sailing Club
+data,Martin Outram,Martin,Outram,,Sailing Club,Sailing Club
+data,Nick Sanders,Nick,Sanders,,Sailing Club,Sailing Club
+data,Shaun?,Shaun?,,,Sailing Club,Sailing Club
+data,Dom Sutton,Dom,Sutton,,MPYC,MPYC
+data,Sophie Borsboom,Sophie,Borsboom,,Sailing Club,Sailing Club
+data,Alex Drysdale,Alex,Drysdale,,Sailing Club,Sailing Club
+data,Laura Harding,Laura,Harding,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Ellen Palmer,Ellen,Palmer,,Sailing Club,Sailing Club
+data,Amber Judkins,Amber,Judkins,,Sailing Club,Sailing Club
+data,Richard Ineson,Richard,Ineson,,Sailing Club,Sailing Club
+data,Mark Thompson,Mark,Thompson,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Sean Dickey,Sean,Dickey,,Sailing Club,Sailing Club
+data,Dave Mckie,Dave,Mckie,,MPYC,MPYC
+data,Duncan Cartwright,Duncan,Cartwright,,Sailing Club,Sailing Club
+data,Chris Maurice,Chris,Maurice,,Sailing Club,Sailing Club
+data,Kevin Li,Kevin,Li,,Sailing Club,Sailing Club
+data,Andrew Robinson,Andrew,Robinson,,Sailing Club,Sailing Club
+data,Tony Visker,Tony,Visker,,MPYC,MPYC
+data,Laura  Prickett,Laura ,Prickett,,Sailing Club,Sailing Club
+data,Nick Reid,Nick,Reid,,Sailing Club,Sailing Club
+data,Chris Green,Chris,Green,,Sailing Club,Sailing Club
+data,Tim Prickett,Tim,Prickett,,MPYC,MPYC
+data,Nikki Reid,Nikki,Reid,,Sailing Club,Sailing Club
+data,Graham Davies,Graham,Davies,,MPYC,MPYC
+data,Tom Berliner,Tom,Berliner,,Sailing Club,Sailing Club
+data,John Buckler,John,Buckler,,MPYC,MPYC
+data,Ynknon5,Ynknon5,,,Sailing Club,Sailing Club
+data,Unknown4,Unknown4,,,Sailing Club,Sailing Club
+data,Dunno1,Dunno1,,,Sailing Club,Sailing Club
+data,Rene Borsboom,Rene,Borsboom,,Sailing Club,Sailing Club
+data,Glen Mckenzie,Glen,Mckenzie,,Sailing Club,Sailing Club
+data,Unknown3,Unknown3,,,Sailing Club,Sailing Club
+data,Dunno3,Dunno3,,,Sailing Club,Sailing Club
+data,Jack Dudley,Jack,Dudley,,Sailing Club,Sailing Club
+data,Shaun Tocher,Shaun,Tocher,,MPYC:Sailing Club,MPYC
+data,Dunno2,Dunno2,,,Sailing Club,Sailing Club
+data,Matt Lang,Matt,Lang,,Sailing Club,Sailing Club
+data,Chris Green,Chris,Green,,Sailing Club,Sailing Club
+data,Richard Mansell,Richard,Mansell,,MPYC,MPYC
+data,George Wills,George,Wills,,Sailing Club,Sailing Club
+data,Hannah Reeves,Hannah,Reeves,,Sailing Club,Sailing Club
+data,Robin Smith,Robin,Smith,,MPYC,MPYC
+data,Julia Van Essen,Julia,Van Essen,,Sailing Club,Sailing Club
+data,Unknown2,Unknown2,,,Sailing Club,Sailing Club
+data,Dunno5,Dunno5,,,Sailing Club,Sailing Club
+data,Unknown1,Unknown1,,,Sailing Club,Sailing Club
+data,Russ Benge,Russ,Benge,,Sailing Club,Sailing Club
+data,Michael Norriss,Michael,Norriss,,Sailing Club,Sailing Club
+TeamRaceTime,teamRaceTimeId,bce,bcr,expectedFinishTime,hasBeenMovedInTable,rowNumberInTable,rawElapsedTimeForSorting,correctedElapsedTime,elapsedTime,endTime,isJustForSeries,lastUpdateTime,handicapUsed,boatClass:BoatClass:boatClassID,crew:Member:name,finishCode:FinishCode:finishCode,nextRaceTime:TeamRaceTime:teamRaceTimeId,penalties:PenaltiesForTeam:penaltiesForTeamId,previousRaceTime:TeamRaceTime:teamRaceTimeId,scoringPoints:TeamRaceTimeScoring:teamRaceTimeScoringId,skipper:Member:name,boat:Vessel:name,race:Race:raceId
+data,p67,673,119.6934,2020_11_07 11_47_13 GMT+13:00,1,9,3099.276982903481,3307,3099,2020_11_07 12_03_27 GMT+13:00,0,,93.7,LASE,,,p79,,p56,p63,John Buckler,159762,R2(p15)
+data,p43,90,100.4735,2019_09_21 11_56_00 GMT+12:00,1,3,1335.065924048424,1425,1335,2019_09_21 11_56_15 GMT+12:00,0,,93.7,LASE,,,p29,,p36,p41,Richard Mansell,44284,R3(p13)
+data,p253,0,0,2021_11_28 14_11_52 GMT+13:00,1,0,0,0,0,,0,,0,LASE,,DNC,,,p246,p268,Duncan Cartwright,131808,R4(p30)
+data,p449,0,0,,1,3,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LAS4.7,,DNC,p459,,,p477,Amber Judkins,175282,R1(p45)
+data,p577,0,0,,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,SBRD,,DNC,p592,,p562,p589,Jeanie Borsboom,1073,R2(p56)
+data,p286,0,0,2022_02_02 19_42_25 GMT+13:00,1,3,0,0,0,,0,,0,LASEM,,DNF,,,p279,p460,Hannah Reeves,145572,R4(p34)
+data,p586,0,0,2025_02_22 14_54_32 GMT+13:00,1,6,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,SBRD,,DNC,p601,,p571,p603,Alex Drysdale,1759,R3(p57)
+data,p585,0,0,2025_02_22 14_51_05 GMT+13:00,1,5,1433.28324508667,0,1433.28324508667,2025_02_22 14_49_34 GMT+13:00,0,,0,LASEM,,,p600,,p570,p610,Tim Prickett,86,R3(p57)
+data,p469,0,0,,1,8,0,0,0,,0,,0,LAS4.7,,DNF,p479,,p459,p495,Amber Judkins,175282,R3(p47)
+data,p4,0,0,,1,0,14.37736999988556,0,14,2018_08_30 20_08_08 GMT+12:00,0,,0,LASE,,,,,,p1,Brad Henderson,NZL100550,Race #1(p1)
+data,p197,-1,-1,2021_04_03 13_13_22 GMT+13:00,1,12,0,0,0,,0,,93.7,LASE,,DNC,p215,,p179,p212,Richard Mansell,44284,R4(p25)
+data,p501,-1,-1,,1,7,7020.70431303978,inf,7020.70431303978,2024_09_28 14_02_00 GMT+12:00,0,,0,LAS2000,,,,,,p546,Rainer  Kuprecht,512,R1(p50)
+data,p118,50,98.45634,2020_12_15 18_54_52 GMT+13:00,1,4,1035.443822026253,1105,1035,2020_12_15 18_53_28 GMT+13:00,0,,93.7,LASE,,,p130,,p106,p115,Duncan Cartwright,131808,R3(p19)
+data,p129,68,100.2149,2020_12_15 19_16_25 GMT+13:00,1,1,1045.955358028412,1116,1046,2020_12_15 19_17_14 GMT+13:00,0,,93.7,LASE,,,p141,,p117,p129,Russ Benge,195538,R4(p20)
+data,p393,369.2429318308605,127.6603,,1,14,1493.573021054268,1554,1493.573021054268,2023_12_03 11_09_25 GMT+13:00,0,,96.1,LAS4.7,,,p409,,p378,p388,Annah Winheld,181876,R2(p42)
+data,p402,0,99.4,2023_12_03 11_00_10 GMT+13:00,1,3,1162.9387550354,1169,1162.9387550354,2023_12_03 11_03_55 GMT+13:00,0,,99.4,LASEM,,,p421,,p381,p375,Andrew Robinson,136656,R2(p42)
+data,p268,0,0,,1,1,526.354632973671,0,526.354632973671,2022_02_02 18_40_48 GMT+13:00,0,,0,LASE,,,p273,,,p286,Dunno4,131108,R1(p31)
+data,p537,-1,-1,,1,0,0,0,0,,0,,0,LAS2000,,DNC,,,,p561,Rainer  Kuprecht,512,R4(p53)
+data,p17,4.304882465611172,94.13399,,1,0,933.7465159893036,996,933.7465159893036,2018_08_31 15_33_29 GMT+12:00,0,,93.7,LASE,,,,,,p262:p258,Tim Prickett,428,Race #1(p9)
+data,p265,0,0,,1,4,561.1198499202728,0,561.1198499202728,2022_02_02 18_41_23 GMT+13:00,0,,0,LASE,,,p272,,,p287,Dunno3,145572,R1(p31)
+data,p446,0,0,,1,1,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LAS2000,,DNC,p456,,,p473,Rainer  Kuprecht,512,R1(p45)
+data,p165,242,110.7661,2021_04_03 12_22_27 GMT+13:00,1,13,1569.252779960632,1674,1569,2021_04_03 12_16_04 GMT+13:00,0,,93.7,LASE,,,p183,,p155,p168,Unknown4,14945,R2(p23)
+data,p3,0,0,,1,1,18.96356892585754,0,19,2018_08_30 20_08_12 GMT+12:00,0,,0,LASE,,,,,,p2,Phil Galloway,41985,Race #1(p1)
+data,p242,0,0,2021_11_28 13_10_36 GMT+13:00,1,6,1763.16269505024,0,1763.16269505024,2021_11_28 13_11_13 GMT+13:00,0,,0,LAS4.7,,,p252,,p236,p245,Gerard Brennan,167148,R2(p28)
+data,p70,290,112.2727,2020_11_07 12_56_36 GMT+13:00,1,10,2013.406337022781,2095,2013,2020_11_07 12_42_10 GMT+13:00,0,,96.1,LAS4.7,,,,,p59,p77,Hannah Reeves,175282,R3(p16)
+data,p245,0,0,,1,4,1669.417050004005,0,1669.417050004005,2021_11_28 13_09_39 GMT+13:00,0,,0,LASEM,,,p250,,,p246,Shaun Tocher,100550,R2(p28)
+data,p283,0,0,2022_02_02 19_42_37 GMT+13:00,1,4,981.7097079753876,0,981.7097079753876,2022_02_02 19_45_31 GMT+13:00,0,,0,LASEM,,,,,p276,p442,Rene Borsboom,159764,R4(p34)
+data,p570,0,0,2025_02_22 14_18_02 GMT+13:00,1,7,1523.850818037987,0,1523.850818037987,2025_02_22 14_14_03 GMT+13:00,0,,0,LASEM,,,p585,,p555,p595,Tim Prickett,86,R2(p56)
+data,p344,0,0,,1,6,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNC,p355,,,p345,Phil Galloway,41985,R1(p38)
+data,p334,0,0,2022_04_09 14_03_44 GMT+12:00,1,11,0,0,0,,0,,0,LASE,,DNC,,,p316,p456,Martin Outram,123381,R3(p37)
+data,p464,0,0,,1,8,1219.075409054756,0,1219.075409054756,2024_03_02 11_15_40 GMT+13:00,0,,0,SBRD,,,p474,,,p486,Jeanie Borsboom,1073,R2(p46)
+data,p401,285.3861218571437,120.4928,2023_12_03 11_03_18 GMT+13:00,1,13,1409.716211080551,1466,1409.716211080551,2023_12_03 11_08_01 GMT+13:00,0,,96.1,LAS4.7,,,p419,,p380,p378,Nikki Reid,157145,R2(p42)
+data,p560,0,0,,1,0,1644.330330967903,0,1644.330330967903,2025_02_22 13_36_56 GMT+13:00,0,,0,LASE,,,p575,,,p572,Richard Ineson,150010,R1(p55)
+data,p558,0,0,,1,8,1822.318801999092,0,1822.318801999092,2025_02_22 13_39_54 GMT+13:00,0,,0,LASEM,,,p573,,,p575,Mark Thompson,145572,R1(p55)
+data,p552,0,0,,1,4,1735.637531995773,0,1735.637531995773,2025_02_22 13_38_27 GMT+13:00,0,,0,LASE,,,p567,,,p576,Chris Maurice,136697,R1(p55)
+data,p546,0,0,2024_09_28 15_40_35 GMT+12:00,1,3,1278.174485087395,0,1278.174485087395,2024_09_28 15_37_04 GMT+12:00,0,,1100,LASE,,,,,p521,tCECF19EE-9DEC-4F46-9154-8B569B49AE28248,William Buick,123384,R5(p54)
+data,p591,0,0,2025_02_22 14_50_13 GMT+13:00,1,9,1525.406628012657,0,1525.406628012657,2025_02_22 14_51_06 GMT+13:00,0,,0,LASE,,,p606,,p576,p602,William Buick,123384,R3(p57)
+data,p364,0,0,2022_11_09 19_15_08 GMT+13:00,1,7,1874.271540045738,0,1874.271540045738,2022_11_09 19_15_28 GMT+13:00,0,,0,LASEM,,,p374,,p352,p357,Izzy Harding,167112,R2(p39)
+data,p370,0,0,2022_11_09 19_50_02 GMT+13:00,1,0,0,0,0,,0,,0,LASE,,DNC,,,p359,p433,Glen Mckenzie,181992,R3(p40)
+data,p548,0,0,2024_09_28 15_42_04 GMT+12:00,1,0,0,0,0,,0,,0,LAS2000,,DNC,,,p523,tCECF19EE-9DEC-4F46-9154-8B569B49AE28249,Rainer  Kuprecht,512,R5(p54)
+data,p474,0,0,2024_03_02 11_39_33 GMT+13:00,1,7,1196.56032705307,0,1196.56032705307,2024_03_02 11_39_11 GMT+13:00,0,,0,SBRD,,,p484,,p464,p500,Jeanie Borsboom,1073,R3(p47)
+data,p175,0,99.4,2021_04_03 12_18_05 GMT+13:00,1,4,1408.429432034492,1416,1408,2021_04_03 12_13_24 GMT+13:00,0,,99.4,LASEM,,,p193,,p153,p170,Nick Sanders,10,R2(p23)
+data,p491,0,0,2024_03_02 12_24_42 GMT+13:00,1,7,986.4843550920486,0,986.4843550920486,2024_03_02 12_25_42 GMT+13:00,0,,0,LASEM,,,,,p481,p515,Phil Galloway,159768,R5(p49)
+data,p215,-1,-1,,1,7,0,0,0,,0,,93.7,LASE,,DNC,,,p197,p224,Richard Mansell,44284,R5(p26)
+data,p311,0,0,2022_04_09 13_37_45 GMT+12:00,1,13,2113.528964042664,0,2113.528964042664,2022_04_09 13_12_34 GMT+12:00,0,,0,LASE,,,p329,,p293,p334,Sean Dickey,188804,R2(p36)
+data,p58,451,122.235,,1,7,2415.987895011902,2431,2416,2020_11_07 11_06_58 GMT+13:00,0,,99.4,LASEM,,,p68,,,p62,Elise Bryant,116119,R1(p14)
+data,p55,86,98.05108,,1,2,1937.628067016602,2068,1938,2020_11_07 10_59_00 GMT+13:00,0,,93.7,LASE,,,p65,,,p58,Tony Visker,36758,R1(p14)
+data,p355,0,0,,1,4,1799.083281040192,0,1799.083281040192,2022_11_09 19_14_13 GMT+13:00,0,,0,LASE,,,p372,,p344,p358,Phil Galloway,41985,R2(p39)
+data,p277,0,0,2022_02_02 19_23_59 GMT+13:00,1,6,936.1507189273834,0,936.1507189273834,2022_02_02 19_25_34 GMT+13:00,0,,0,LAS4.7,,,p284,,p270,p301,Chris Maurice,136697,R3(p33)
+data,p483,0,0,,1,2,0,0,0,,0,,0,LASE,,DNC,p493,,p473,p510,Chris Green,157003,R4(p48)
+data,p207,-1,-1,,1,16,0,0,0,,0,,114.5,SBRD,,DNC,p225,,p189,p209,Ynknon5,1759,R4(p25)
+data,p388,139.4046498977754,108.4591,,1,3,1024.435307025909,1093,1024.435307025909,2023_12_03 10_35_35 GMT+13:00,0,,93.7,LASE,,,p398,,,p365,Chris Green,150073,R1(p41)
+data,p539,63.98780519315847,1155.145,2024_09_28 15_11_58 GMT+12:00,1,5,1340.383574008942,1219,1340.383574008942,2024_09_28 15_11_03 GMT+12:00,0,,1100,LASE,,,,,,p564,Phil Galloway,41985,R4(p53)
+data,p490,0,0,,1,2,0,0,0,,0,,0,LASEM,,DNC,,,p480,tCECF19EE-9DEC-4F46-9154-8B569B49AE28250,Sophie Borsboom,7,R5(p49)
+data,p431,197.2105456628092,112.6297,2023_12_03 12_05_09 GMT+13:00,1,12,1343.748417973518,1398,1343.748417973518,2023_12_03 12_06_44 GMT+13:00,0,,96.1,LAS4.7,,,p443,,p414,p412,Laura Harding,178659,R4(p44)
+data,p91,0,93.7,,1,0,963.3689739704132,1028,963,2020_12_15 18_01_03 GMT+13:00,0,,93.7,LASE,,,p103,,,p97,George Wills,667,R1(p17)
+data,p523,-1,-1,2024_09_28 15_26_41 GMT+12:00,1,21,1578,inf,1578,2024_09_28 15_26_44 GMT+12:00,0,,0,LAS2000,,,p548,,p509,p548,Rainer  Kuprecht,512,R3(p52)
+data,p427,-1,-1,2023_12_03 12_07_30 GMT+13:00,1,14,0,0,0,,0,,96.1,LAS4.7,,DNC,,,p410,p413,Tony Visker,36758,R4(p44)
+data,p354,0,0,,1,10,2096.956490039825,0,2096.956490039825,2022_11_09 18_40_54 GMT+13:00,0,,0,LASE,,,p362,,,p342,Dunno1,136740,R1(p38)
+data,p567,0,0,2025_02_22 14_17_35 GMT+13:00,1,10,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNF,p582,,p552,p587,Chris Maurice,136697,R2(p56)
+data,p256,0,0,2021_11_28 14_12_25 GMT+13:00,1,1,0,0,0,,0,,0,LASEM,,DNC,,,p249,p264,Martin Outram,123381,R4(p30)
+data,p93,228,115.8844,,1,9,1191,1271,1191,2020_12_15 18_04_51 GMT+13:00,0,,93.7,LASE,,,p105,,,p92,Russ Benge,195538,R1(p17)
+data,p376,0,0,2022_11_09 19_51_10 GMT+13:00,1,7,2708.657775044441,0,2708.657775044441,2022_11_09 20_06_36 GMT+13:00,0,,0,LASEM,,,,,p365,p424,Laura Harding,178659,R3(p40)
+data,p472,0,0,2024_03_02 11_39_34 GMT+13:00,1,3,892.0044910907745,0,892.0044910907745,2024_03_02 11_34_06 GMT+13:00,0,,0,LASE,,,p482,,p462,p492,William Buick,123384,R3(p47)
+data,p381,0,99.4,,1,1,938.8692799806595,944,938.8692799806595,2023_12_03 10_34_10 GMT+13:00,0,,99.4,LASEM,,,p402,,,p363,Andrew Robinson,136656,R1(p41)
+data,p251,0,0,2021_11_28 13_38_20 GMT+13:00,1,2,1469.827777981758,0,1469.827777981758,2021_11_28 13_39_14 GMT+13:00,0,,0,LASEM,,,p258,,p241,p248,Dom Sutton,168688,R3(p29)
+data,p366,0,0,2022_11_09 19_51_17 GMT+13:00,1,3,2444.298022031784,0,2444.298022031784,2022_11_09 20_02_12 GMT+13:00,0,,0,LASE,,,,,p358,p458,Martin Outram,123381,R3(p40)
+data,p590,0,0,2025_02_22 14_49_29 GMT+13:00,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNC,p605,,p575,p601,Richard Ineson,150010,R3(p57)
+data,p140,204,114.4922,2020_12_15 19_46_20 GMT+13:00,1,11,1272.253334999084,1324,1272,2020_12_15 19_47_38 GMT+13:00,0,,96.1,LAS4.7,,,,,p128,p137,Matt Lang,44272,R5(p21)
+data,p368,0,0,2022_11_09 19_51_47 GMT+13:00,1,2,2434.290632009506,0,2434.290632009506,2022_11_09 20_02_02 GMT+13:00,0,,0,LASE,,,,,p361,p464,William Buick,123384,R3(p40)
+data,p90,94,108.5869,,1,4,1115.960876941681,1123,1116,2020_12_15 18_03_36 GMT+13:00,0,,99.4,LASEM,,,p102,,,p88,Martin Outram,123381,R1(p17)
+data,p418,155.8572167700802,109.095,2023_12_03 11_36_04 GMT+13:00,1,10,1308.440822005272,1361,1308.440822005272,2023_12_03 11_35_13 GMT+13:00,0,,96.1,LAS4.7,,,p435,,p405,p404,Julia Van Essen,176916,R3(p43)
+data,p520,90,1170.968,2024_09_28 15_23_19 GMT+12:00,1,14,1485,1350,1485,2024_09_28 15_25_11 GMT+12:00,0,,1100,LASE,,,p545,,p506,p555,Chris Maurice,136697,R3(p52)
+data,p502,116,1184.447,,1,2,1627,1479,1627,2024_09_28 12_32_07 GMT+12:00,0,,1100,LASE,,,,,,p524,Martin Outram,123381,R1(p50)
+data,p544,0,0,2024_09_28 15_43_04 GMT+12:00,1,1,0,0,0,,0,,1147,LASEM,,DNC,,,p519,tCECF19EE-9DEC-4F46-9154-8B569B49AE28251,Mark Thompson,145572,R5(p54)
+data,p392,360.526556968689,130.2153,2023_12_03 11_02_58 GMT+13:00,1,15,1523.465312004089,1532,1523.465312004089,2023_12_03 11_09_55 GMT+13:00,0,,99.4,LASEM,,,p408,,p377,p377,Gerard Brennan,131870,R2(p42)
+data,p133,127,110.8018,2020_12_15 19_46_57 GMT+13:00,1,10,1230.649042963982,1238,1231,2020_12_15 19_46_56 GMT+13:00,0,,99.4,LASEM,,,,,p121,p144,Brian Dixon,6030,R5(p21)
+data,p22,37.12644541521945,95.91598,,1,0,1606.971699953079,1715,1606.971699953079,2018_09_04 20_33_32 GMT+12:00,0,,93.7,LASE,,,,,,p280:p282,Tim Prickett,428,Race #2(p10)
+data,p507,128.3263324985528,1206.675,2024_09_28 13_48_57 GMT+12:00,1,16,1451.588147044182,1320,1451.588147044182,2024_09_28 14_12_56 GMT+12:00,0,,1100,LASE,,,p521,,,p535,William Buick,123384,R2(p51)
+data,p269,0,0,2022_02_02 18_59_38 GMT+13:00,1,3,753.7048889398575,0,753.7048889398575,2022_02_02 19_00_18 GMT+13:00,0,,0,LASE,,,p276,,p262,p290,Dunno1,159764,R2(p32)
+data,p246,0,0,2021_11_28 13_39_24 GMT+13:00,1,0,1419.546729922295,0,1419.546729922295,2021_11_28 13_38_24 GMT+13:00,0,,0,LASE,,,p253,,p239,p251,Duncan Cartwright,131808,R3(p29)
+data,p63,353,113.0502,2020_11_07 11_46_30 GMT+13:00,1,7,2926.584199905396,2945,2927,2020_11_07 12_00_35 GMT+13:00,0,,99.4,LASEM,,,p75,,p53,p64,Nikki Reid,157145,R2(p15)
+data,p489,0,0,,1,1,0,0,0,,0,,0,LAS4.7,,DNC,,,p479,p519,Amber Judkins,175282,R5(p49)
+data,p77,24,95.03857,2020_11_07 12_50_57 GMT+13:00,1,4,1703.664077043533,1819,1704,2020_11_07 12_37_00 GMT+13:00,0,,93.7,LASE,,,,,p65,p74,Tony Visker,36758,R3(p16)
+data,p505,173.0325865039849,1243.838,2024_09_28 13_49_13 GMT+12:00,1,17,1496.294401049614,1360,1496.294401049614,2024_09_28 14_13_41 GMT+12:00,0,,1100,LASE,,,p518,,,p539,Nan Jiang,124050,R2(p51)
+data,p255,0,0,2021_11_28 14_17_29 GMT+13:00,1,4,0,0,0,,0,,0,LASEM,,DNC,,,,p278,Ben Scott,1000,R4(p30)
+data,p152,0,93.7,,1,0,1546.800958991051,1651,1547,2021_04_03 11_37_42 GMT+13:00,0,,93.7,LASE,,,p170,,,p157,Phil Galloway,41985,R1(p22)
+data,p378,-1,-1,,1,12,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,96.1,LAS4.7,,DNS,p393,,,p368,Annah Winheld,181876,R1(p41)
+data,p190,228,111.5315,2021_04_03 12_47_22 GMT+13:00,1,13,1424.66316306591,1521,1425,2021_04_03 12_46_00 GMT+13:00,0,,93.7,LASE,Unknown1,,p208,,p172,p198,,116033,R3(p24)
+data,p380,219.0319738423813,119.2894,,1,10,1126.731521010399,1172,1126.731521010399,2023_12_03 10_37_18 GMT+13:00,0,,96.1,LAS4.7,,,p401,,,p372,Nikki Reid,157145,R1(p41)
+data,p243,0,0,2021_11_28 13_06_39 GMT+13:00,1,2,1509.141542077065,0,1509.141542077065,2021_11_28 13_06_59 GMT+13:00,0,,0,LASEM,,,p249,,p237,p247,Martin Outram,123381,R2(p28)
+data,p221,-1,-1,,1,5,0,0,0,,0,,93.7,LASE,,DNC,,,p203,p230,Tony Beasley,1595,R5(p26)
+data,p296,0,0,,1,12,3693.664718985558,0,3693.664718985558,2022_04_09 12_28_51 GMT+12:00,0,,0,LASEM,,,p323,,,p314,Nick Sanders,10,R1(p35)
+data,p524,35,1127.599,2024_09_28 15_24_26 GMT+12:00,1,8,1430,1300,1430,2024_09_28 15_24_16 GMT+12:00,0,,1100,LASE,,,p549,,p510,p551,Martin Outram,123381,R3(p52)
+data,p335,0,0,,1,2,0,0,0,,0,,0,LAS4.7,,DNC,,,p317,p437,Jeanie Borsboom,1073,R3(p37)
+data,p272,0,0,2022_02_02 18_57_05 GMT+13:00,1,1,726.1062899827957,0,726.1062899827957,2022_02_02 18_59_50 GMT+13:00,0,,0,LASE,,,p279,,p265,p291,Dunno3,145572,R2(p32)
+data,p357,0,0,2022_11_09 19_13_41 GMT+13:00,1,6,1820.665650963783,0,1820.665650963783,2022_11_09 19_14_35 GMT+13:00,0,,0,LASEM,,,p371,,p346,p360,Rene Borsboom,11,R2(p39)
+data,p314,0,0,2022_04_09 13_39_18 GMT+12:00,1,17,2754.624185085297,0,2754.624185085297,2022_04_09 13_23_15 GMT+12:00,0,,0,LAS4.7,,,p332,,p302,p322,Diana Weir,1053,R2(p36)
+data,p223,-1,-1,2021_04_03 13_42_29 GMT+13:00,1,1,0,0,0,,0,,93.7,LASE,,DNC,,,p205,p220,Martin Outram,123381,R5(p26)
+data,p606,0,0,2025_02_22 15_23_05 GMT+13:00,1,7,1381.33257496357,0,1381.33257496357,2025_02_22 15_20_40 GMT+13:00,0,,0,LASE,,,,,p591,tCECF19EE-9DEC-4F46-9154-8B569B49AE28241,William Buick,123384,R4(p58)
+data,p60,0,93.7,2020_11_07 11_42_40 GMT+13:00,1,0,2425.518769979477,2589,2426,2020_11_07 11_52_14 GMT+13:00,0,,93.7,LASE,,,p71,,p49,p66,Peter Galloway,116033,R2(p15)
+data,p260,0,0,2021_11_28 12_39_27 GMT+13:00,,-1,0,0,0,,0,,0,LASEM,,DNC,,,p250,p259,Shaun Tocher,100550,R1(p27)
+data,p384,91.348188996315,109.0712,,1,4,1030.217468976974,1036,1030.217468976974,2023_12_03 10_35_41 GMT+13:00,0,,99.4,LASEM,,,p400,,,p369,William Buick,179385,R1(p41)
+data,p104,178,112.0265,2020_12_15 18_31_34 GMT+13:00,1,10,1251.079937934875,1302,1251,2020_12_15 18_32_34 GMT+13:00,0,,96.1,LAS4.7,,,p116,,p92,p108,Matt Lang,44272,R2(p18)
+data,p21,38.60918939371982,96.00448,,1,1,1608.45444393158,1716,1608.45444393158,2018_09_04 20_33_34 GMT+12:00,0,,93.7,LASE,,,,,,p256:p266,Phil Galloway,41985,Race #2(p10)
+data,p37,84,100.0067,2019_09_21 11_28_55 GMT+12:00,1,4,1332.296831965446,1422,1332,2019_09_21 11_28_12 GMT+12:00,0,,93.7,LASE,,,p44,,p30,p34,Dave Mckie,196411,R2(p12)
+data,p536,21.4963291341985,1118.526,2024_09_28 15_12_12 GMT+12:00,1,2,1297.892097949982,1180,1297.892097949982,2024_09_28 15_10_21 GMT+12:00,0,,1100,LASE,,,,,,p567,Dom Sutton,168688,R4(p53)
+data,p556,0,0,,1,13,0,0,0,,0,,0,SBRD,,DNC,p571,,,p571,Alex Drysdale,1759,R1(p55)
+data,p531,51.80905210971832,1191.649,,1,8,1382.74173104763,1206,1382.74173104763,2024_09_28 15_11_46 GMT+12:00,0,,1147,LASEM,,,,,,p559,Rosa Borsboom,159764,R4(p53)
+data,p596,0,0,,1,4,0,0,0,,0,,0,LASE,,DNC,,,p581,tCECF19EE-9DEC-4F46-9154-8B569B49AE28233,Kevin Li,136740,R4(p58)
+data,p435,234.9320607222803,115.7914,2023_12_03 12_06_09 GMT+13:00,1,13,1381.46993303299,1437,1381.46993303299,2023_12_03 12_07_22 GMT+13:00,0,,96.1,LAS4.7,,,p440,,p418,p416,Julia Van Essen,176916,R4(p44)
+data,p588,0,0,2025_02_22 14_51_55 GMT+13:00,1,13,1582.938808083534,0,1582.938808083534,2025_02_22 14_52_04 GMT+13:00,0,,0,LASEM,,,p603,,p573,p606,Mark Thompson,145572,R3(p57)
+data,p264,0,0,,1,2,527.3881019353867,0,527.3881019353867,2022_02_02 18_40_49 GMT+13:00,0,,0,LASEM,,,p275,,,p289,Dom Sutton,168688,R1(p31)
+data,p54,23,94.86366,,1,1,1875.142727017403,2001,1875,2020_11_07 10_57_58 GMT+13:00,0,,93.7,LASE,,,p64,,,p56,Michael Norriss,44293,R1(p14)
+data,p179,173,107.2268,2021_04_03 12_46_46 GMT+13:00,1,9,1370.40783905983,1462,1370,2021_04_03 12_45_06 GMT+13:00,0,,93.7,LASE,,,p197,,p161,p196,Richard Mansell,44284,R3(p24)
+data,p599,0,0,2025_02_22 15_22_29 GMT+13:00,1,11,1511.430269956589,0,1511.430269956589,2025_02_22 15_22_51 GMT+13:00,0,,0,LASEM,,,,,p584,tCECF19EE-9DEC-4F46-9154-8B569B49AE28245,Gerard Brennan,131870,R4(p58)
+data,p527,-1,-1,2024_09_28 12_30_33 GMT+12:00,,-1,0,0,0,,0,,1147,LASEM,,DNC,,,,p543,Gerard Brennan,131870,R1(p50)
+data,p47,-1,-1,,1,5,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,93.7,LASE,,DNC,p33,,p40,p273,Graham Davies,181969,R3(p13)
+data,p522,14,1111.039,2024_09_28 15_23_40 GMT+12:00,1,5,1409,1281,1409,2024_09_28 15_23_55 GMT+12:00,0,,1100,LASE,,,p547,,p508,p554,Dom Sutton,168688,R3(p52)
+data,p428,140.2829879522326,111.1582,2023_12_03 12_06_24 GMT+13:00,1,10,1326.192124962807,1334,1326.192124962807,2023_12_03 12_06_27 GMT+13:00,0,,99.4,LASEM,,,,,p411,p410,Ellen Palmer,157143,R4(p44)
+data,p467,0,0,2024_03_02 11_35_22 GMT+13:00,1,2,889.9525830745697,0,889.9525830745697,2024_03_02 11_34_04 GMT+13:00,0,,0,LASEM,,,p477,,p457,p493,Martin Outram,123381,R3(p47)
+data,p188,116,102.7655,2021_04_03 12_45_32 GMT+13:00,1,5,1312.717203974724,1401,1313,2021_04_03 12_44_08 GMT+13:00,0,,93.7,LASE,,,p206,,p170,p183,Phil Galloway,41985,R3(p24)
+data,p487,0,0,2024_03_02 12_25_16 GMT+13:00,1,6,984.9518730640411,0,984.9518730640411,2024_03_02 12_25_40 GMT+13:00,0,,0,LASEM,,,,,p477,p513,Martin Outram,123381,R5(p49)
+data,p342,0,0,2022_04_09 13_58_43 GMT+12:00,1,9,1703.159072995186,0,1703.159072995186,2022_04_09 13_54_56 GMT+12:00,0,,0,LASEM,,,,,p323,p434,Nick Sanders,10,R3(p37)
+data,p213,38,96.61092,2021_04_03 13_11_16 GMT+13:00,1,2,1246.677218079567,1331,1247,2021_04_03 13_11_19 GMT+13:00,0,,93.7,LASE,,,p231,,p195,p208,Richard Ineson,150010,R4(p25)
+data,p412,41.23776805400826,102.8383,2023_12_03 11_33_32 GMT+13:00,1,5,1233.400243997574,1240,1233.400243997574,2023_12_03 11_33_58 GMT+13:00,0,,99.4,LASEM,,,p429,,p396,p402,Martin Outram,123381,R3(p43)
+data,p274,0,0,,1,4,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNC,p281,,p263,p292,Russ Benge,195538,R2(p32)
+data,p549,0,0,2024_09_28 15_39_36 GMT+12:00,1,6,1365.951525092125,0,1365.951525092125,2024_09_28 15_38_32 GMT+12:00,0,,1100,LASE,,,,,p524,tCECF19EE-9DEC-4F46-9154-8B569B49AE28252,Martin Outram,123381,R5(p54)
+data,p543,0,0,2024_09_28 15_41_01 GMT+12:00,1,8,1416.725270032883,0,1416.725270032883,2024_09_28 15_39_23 GMT+12:00,0,,1100,LASE,,,,,p518,tCECF19EE-9DEC-4F46-9154-8B569B49AE28253,Nan Jiang,124050,R5(p54)
+data,p19,12.92228847623892,95.00273,,1,1,942.3639219999313,1005,942.3639219999313,2018_08_31 15_33_37 GMT+12:00,0,,93.7,LASE,,,,,,p267:p279,Brad Henderson,NZL100550,Race #1(p9)
+data,p597,0,0,2025_02_22 15_24_41 GMT+13:00,1,12,1517.367263913155,0,1517.367263913155,2025_02_22 15_22_56 GMT+13:00,0,,0,LASE,,,,,p582,tCECF19EE-9DEC-4F46-9154-8B569B49AE28246,Chris Maurice,136697,R4(p58)
+data,p575,0,0,2025_02_22 14_16_04 GMT+13:00,1,3,1428.34138906002,0,1428.34138906002,2025_02_22 14_12_28 GMT+13:00,0,,0,LASE,,,p590,,p560,p594,Richard Ineson,150010,R2(p56)
+data,p525,0,1100,2024_09_28 15_22_51 GMT+12:00,1,2,1395,1268,1395,2024_09_28 15_23_41 GMT+12:00,0,,1100,LASE,,,p550,,p511,p549,Phil Galloway,41985,R3(p52)
+data,p279,0,0,2022_02_02 19_22_04 GMT+13:00,1,1,795.2573750019073,0,795.2573750019073,2022_02_02 19_23_13 GMT+13:00,0,,0,LASEM,,,p286,,p272,p302,Hannah Reeves,145572,R3(p33)
+data,p356,0,0,2022_11_09 19_15_13 GMT+13:00,1,8,1927.628095984459,0,1927.628095984459,2022_11_09 19_16_22 GMT+13:00,0,,0,LASEM,,,p373,,p345,p353,Gerard Brennan,131870,R2(p39)
+data,p184,-1,-1,2021_04_03 12_50_58 GMT+13:00,1,0,0,0,0,,0,,93.7,LASE,,DNC,p202,,p166,p197,Rainer  Kuprecht,512,R3(p24)
+data,p518,120,1194.624,2024_09_28 15_25_22 GMT+12:00,1,17,1515,1377,1515,2024_09_28 15_25_41 GMT+12:00,0,,1100,LASE,,,p543,,p505,p552,Nan Jiang,124050,R3(p52)
+data,p156,220,107.0251,,1,8,1767.178015947342,1886,1767,2021_04_03 11_41_23 GMT+13:00,0,,93.7,LASE,,,p167,,,p154,Tony Beasley,1595,R1(p22)
+data,p224,58,98.05271,2021_04_03 13_43_08 GMT+13:00,1,12,1310.401039004326,1398,1310,2021_04_03 13_43_08 GMT+13:00,0,,93.7,LASE,,,,,p206,p227,Phil Galloway,41985,R5(p26)
+data,p516,79.39545454545464,1209.606,2024_09_28 15_25_59 GMT+12:00,1,18,1534,1337,1534,2024_09_28 15_26_00 GMT+12:00,0,,1147,LASEM,,,p541,,p512,p557,Gerard Brennan,131870,R3(p52)
+data,p258,0,0,2021_11_28 14_12_42 GMT+13:00,1,3,1446.243880987167,0,1446.243880987167,2021_11_28 14_12_19 GMT+13:00,0,,0,LASEM,,,,,p251,p263,Dom Sutton,168688,R4(p30)
+data,p439,0,99.4,2023_12_03 12_04_37 GMT+13:00,1,3,1185.909137010574,1193,1185.909137010574,2023_12_03 12_04_06 GMT+13:00,0,,99.4,LASEM,,,,,p421,p415,Andrew Robinson,136656,R4(p44)
+data,p496,101.4390909090907,1220.847,,1,3,1677,1462,1677,2024_09_28 12_32_57 GMT+12:00,0,,1147,LASEM,,,,,,p526,Sophie Borsboom,217315,R1(p50)
+data,p297,0,0,,1,9,3628.342914938927,0,3628.342914938927,2022_04_09 12_27_46 GMT+12:00,0,,0,LASE,,,p307,,,p309,Phil Galloway,41985,R1(p35)
+data,p52,202,103.92,,1,3,2054.037425041199,2192,2054,2020_11_07 11_00_57 GMT+13:00,0,,93.7,LASE,,,p62,,,p53,Nan Jiang,124050,R1(p14)
+data,p267,0,0,,1,3,542.8125729560852,0,542.8125729560852,2022_02_02 18_41_04 GMT+13:00,0,,0,LASE,,,p271,,,p285,Dunno5,44444,R1(p31)
+data,p429,131.4311499595644,110.4162,2023_12_03 12_04_54 GMT+13:00,1,9,1317.340286970139,1325,1317.340286970139,2023_12_03 12_06_18 GMT+13:00,0,,99.4,LASEM,,,,,p412,p414,Martin Outram,123381,R4(p44)
+data,p359,0,0,2022_11_09 19_12_13 GMT+13:00,1,0,1714.495771050453,0,1714.495771050453,2022_11_09 19_12_49 GMT+13:00,0,,0,LASE,,,p370,,p348,p355,Glen Mckenzie,181992,R2(p39)
+data,p323,0,0,2022_04_09 13_38_54 GMT+12:00,1,8,1930.837506055832,0,1930.837506055832,2022_04_09 13_09_31 GMT+12:00,0,,0,LASEM,,,p342,,p296,p326,Nick Sanders,10,R2(p36)
+data,p220,-1,-1,,1,3,0,0,0,,0,,93.7,LASE,,DNC,,,p202,p231,Rainer  Kuprecht,512,R5(p26)
+data,p517,103.3954545454546,1228.531,2024_09_28 15_25_49 GMT+12:00,1,19,1558,1358,1558,2024_09_28 15_26_24 GMT+12:00,0,,1147,LASEM,,,p542,,p513,p550,Rosa Borsboom,159764,R3(p52)
+data,p216,-1,-1,2021_04_03 13_45_44 GMT+13:00,1,2,0,0,0,,0,,99.4,LASEM,,DNC,,,p198,p218,William Buick,179385,R5(p26)
+data,p410,197.6177990436552,115.877,2023_12_03 11_36_52 GMT+13:00,1,12,1389.780274987221,1398,1389.780274987221,2023_12_03 11_36_34 GMT+13:00,0,,99.4,LASEM,,,p427,,p394,p395,Tony Visker,36758,R3(p43)
+data,p513,143.7341240644455,1266.483,2024_09_28 14_14_08 GMT+12:00,1,18,1523.535307049751,1328,1523.535307049751,2024_09_28 14_14_08 GMT+12:00,0,,1147,LASEM,,,,,,p531,Rosa Borsboom,159764,R2(p51)
+data,p110,181,110.918,2020_12_15 18_57_08 GMT+13:00,1,10,1165.865227937698,1244,1166,2020_12_15 18_55_39 GMT+13:00,0,,93.7,LASE,,,p122,,p98,p110,Nan Jiang,124050,R3(p19)
+data,p602,0,0,2025_02_22 15_21_18 GMT+13:00,1,8,1436.397873997688,0,1436.397873997688,2025_02_22 15_21_35 GMT+13:00,0,,0,LASE,,,,,p587,tCECF19EE-9DEC-4F46-9154-8B569B49AE28242,Jack Dudley,198112,R4(p58)
+data,p495,0,0,,,-1,0,0,0,,0,,0,SBRD,,DNC,,,p494,tCECF19EE-9DEC-4F46-9154-8B569B49AE28254,Jeanie Borsboom,1073,R1(p45)
+data,p423,88.59805393219017,106.8261,2023_12_03 12_04_18 GMT+13:00,1,6,1274.507190942764,1282,1274.507190942764,2023_12_03 12_05_35 GMT+13:00,0,,99.4,LASEM,,,,,p406,p407,John Robinson,162134,R4(p44)
+data,p45,96,100.9251,2019_09_21 11_56_16 GMT+12:00,1,4,1340.564581990242,1431,1341,2019_09_21 11_56_20 GMT+12:00,0,,93.7,LASE,,,p31,,p38,p40,Tony Visker,36758,R3(p13)
+data,p120,115,104.7179,2020_12_15 19_16_58 GMT+13:00,1,4,1092.975644946098,1166,1093,2020_12_15 19_18_01 GMT+13:00,0,,93.7,LASE,,,p132,,p108,p122,Dom Sutton,168688,R4(p20)
+data,p486,0,0,,1,9,1224.348589062691,0,1224.348589062691,2024_03_02 12_29_39 GMT+13:00,0,,0,LAS2000,,,,,p476,p521,Rainer  Kuprecht,512,R5(p49)
+data,p219,-1,-1,2021_04_03 13_48_35 GMT+13:00,1,10,0,0,0,,0,,93.7,LASE,,DNC,,,p201,p229,Unknown4,14945,R5(p26)
+data,p194,220,110.9054,2021_04_03 12_48_00 GMT+13:00,1,11,1417.430912017822,1512,1417,2021_04_03 12_45_53 GMT+13:00,0,,93.7,LASE,,,p212,,p176,p187,Nan Jiang,124050,R3(p24)
+data,p573,0,0,2025_02_22 14_19_02 GMT+13:00,1,9,1574.557559967041,0,1574.557559967041,2025_02_22 14_14_54 GMT+13:00,0,,0,LASEM,,,p588,,p558,p586,Mark Thompson,145572,R2(p56)
+data,p79,74,97.82726,2020_11_07 13_00_16 GMT+13:00,1,5,1753.965654015541,1872,1754,2020_11_07 12_37_51 GMT+13:00,0,,93.7,LASE,,,,,p67,p84,John Buckler,159762,R3(p16)
+data,p375,0,0,2022_11_09 19_50_42 GMT+13:00,1,4,2481.477292060852,0,2481.477292060852,2022_11_09 20_02_49 GMT+13:00,0,,0,LASE,,,,,p363,p445,Dom Sutton,168688,R3(p40)
+data,p497,261,1290.007,,1,6,1772,1611,1772,2024_09_28 12_34_32 GMT+12:00,0,,1100,LASE,,,,,,p527,Nan Jiang,124050,R1(p50)
+data,p88,148,113.8411,,1,5,1169.796806931496,1177,1170,2020_12_15 18_04_30 GMT+13:00,0,,99.4,LASEM,,,p100,,,p95,Nikki Reid,157145,R1(p17)
+data,p96,38,97.07172,2020_12_15 18_29_09 GMT+13:00,1,1,1083.705095052719,1157,1084,2020_12_15 18_29_46 GMT+13:00,0,,93.7,LASE,,,p108,,p82,p99,Dom Sutton,168688,R2(p18)
+data,p162,197,113.3075,2021_04_03 12_22_02 GMT+13:00,1,15,1605.068207025528,1615,1605,2021_04_03 12_16_40 GMT+13:00,0,,99.4,LASEM,,,p180,,p150,p171,William Buick,179385,R2(p23)
+data,p78,-1,-1,,1,9,0,0,0,,0,,99.4,LASEM,Richard Mansell,DNC,,,p66,p85,Richard Mansell,44284,R3(p16)
+data,p605,0,0,,1,5,0,0,0,,0,,0,LASE,,DNC,,,p590,tCECF19EE-9DEC-4F46-9154-8B569B49AE28238,Richard Ineson,150010,R4(p58)
+data,p122,-1,-1,2020_12_15 19_19_14 GMT+13:00,1,2,0,0,0,,0,,93.7,LASE,,DNC,p134,,p110,p127,Nan Jiang,124050,R4(p20)
+data,p313,0,0,,1,4,0,0,0,,0,,0,LASE,,DNC,p331,,p301,p449,Dunno2,44272,R2(p36)
+data,p594,0,0,2025_02_22 14_49_18 GMT+13:00,1,4,1428.726662993431,0,1428.726662993431,2025_02_22 14_49_30 GMT+13:00,0,,0,LASE,,,p609,,p579,p607,Nick Reid,31357,R3(p57)
+data,p287,0,0,2022_02_02 19_42_26 GMT+13:00,1,2,848.2165290117264,0,848.2165290117264,2022_02_02 19_43_18 GMT+13:00,0,,0,LAS4.7,,,,,p280,p446,Duncan Cartwright,131108,R4(p34)
+data,p547,0,0,2024_09_28 15_39_15 GMT+12:00,1,2,1231.207401037216,0,1231.207401037216,2024_09_28 15_36_17 GMT+12:00,0,,1100,LASE,,,,,p522,tCECF19EE-9DEC-4F46-9154-8B569B49AE28255,Dom Sutton,168688,R5(p54)
+data,p38,88,100.307,2019_09_21 11_28_30 GMT+12:00,1,5,1336.013669013977,1426,1336,2019_09_21 11_28_16 GMT+12:00,0,,93.7,LASE,,,p45,,p31,p35,Tony Visker,36758,R2(p12)
+data,p89,205,119.3872,,1,8,1227.451466917992,1234,1227,2020_12_15 18_05_28 GMT+13:00,0,,99.4,LASEM,,,p101,,,p94,Rene Borsboom,11,R1(p17)
+data,p339,0,0,,1,17,1951.804845929146,0,1951.804845929146,2022_04_09 13_59_04 GMT+12:00,0,,0,LASE,,,,,p320,p436,Dunno1,49609,R3(p37)
+data,p492,0,0,2024_03_02 12_24_53 GMT+13:00,1,8,992.9365830421448,0,992.9365830421448,2024_03_02 12_25_48 GMT+13:00,0,,0,LASE,,,,,p482,p512,William Buick,123384,R5(p49)
+data,p508,70.47437350845576,1158.584,2024_09_28 13_48_54 GMT+12:00,1,14,1393.736188054085,1267,1393.736188054085,2024_09_28 14_11_58 GMT+12:00,0,,1100,LASE,,,p522,,,p536,Dom Sutton,168688,R2(p51)
+data,p443,-1,-1,2023_12_03 10_40_55 GMT+13:00,,-1,0,0,0,,0,,96.1,LAS4.7,,DNC,,,p431,p471,Laura Harding,178659,R1(p41)
+data,p519,183.3954545454546,1291.613,,1,20,1638,1428,1638,2024_09_28 15_27_44 GMT+12:00,0,,1147,LASEM,,,p544,,p514,p547,Mark Thompson,145572,R3(p52)
+data,p168,33,96.01137,,1,1,1360.040405988693,1451,1360,2021_04_03 12_12_35 GMT+13:00,0,,93.7,LASE,Rick Sanders,,p186,,p151,p173,Rick Sanders,178802,R2(p23)
+data,p565,0,0,,1,9,1873.323388934135,0,1873.323388934135,2025_02_22 13_40_45 GMT+13:00,0,,0,LASE,,,p580,,,p580,Tom Berliner,797,R1(p55)
+data,p276,0,0,2022_02_02 19_22_31 GMT+13:00,1,3,807.4400119781494,0,807.4400119781494,2022_02_02 19_23_25 GMT+13:00,0,,0,LASEM,,,p283,,p269,p303,Rene Borsboom,159764,R3(p33)
+data,p569,0,0,2025_02_22 14_20_31 GMT+13:00,1,8,1527.322761058807,0,1527.322761058807,2025_02_22 14_14_07 GMT+13:00,0,,0,LASEM,,,p584,,p554,p596,Gerard Brennan,131870,R2(p56)
+data,p316,0,0,2022_04_09 13_38_25 GMT+12:00,1,14,2231.21492600441,0,2231.21492600441,2022_04_09 13_14_31 GMT+12:00,0,,0,LASE,,,p334,,p306,p321,Martin Outram,123381,R2(p36)
+data,p315,0,0,,1,3,0,0,0,,0,,0,LAS4.7,,DNC,p333,,p303,p466,Dunno3,429,R2(p36)
+data,p579,0,0,2025_02_22 14_16_29 GMT+13:00,1,1,1416.688933968544,0,1416.688933968544,2025_02_22 14_12_16 GMT+13:00,0,,0,LASE,,,p594,,p564,p591,Nick Reid,31357,R2(p56)
+data,p171,-1,-1,2021_04_03 12_23_52 GMT+13:00,1,0,0,0,0,,0,,114.5,SBRD,,DNF,p189,,p160,p177,Ynknon5,1759,R2(p23)
+data,p178,173,105.8949,2021_04_03 12_17_38 GMT+13:00,1,8,1500.431697964668,1601,1500,2021_04_03 12_14_56 GMT+13:00,0,,93.7,LASE,,,p196,,p147,p181,Dom Sutton,168688,R2(p23)
+data,p252,0,0,2021_11_28 13_44_07 GMT+13:00,1,5,1795.5202729702,0,1795.5202729702,2021_11_28 13_44_40 GMT+13:00,0,,0,LAS4.7,,,p259,,p242,p250,Gerard Brennan,167148,R3(p29)
+data,p141,111,103.6911,2020_12_15 19_43_51 GMT+13:00,1,6,1151.59434902668,1229,1152,2020_12_15 19_45_37 GMT+13:00,0,,93.7,LASE,,,,,p129,p138,Russ Benge,195538,R5(p21)
+data,p609,0,0,2025_02_22 15_21_28 GMT+13:00,1,9,1471.381321907043,0,1471.381321907043,2025_02_22 15_22_10 GMT+13:00,0,,0,LASE,,,,,p594,tCECF19EE-9DEC-4F46-9154-8B569B49AE28243,Nick Reid,31357,R4(p58)
+data,p528,-1,-1,,,-1,0,0,0,,0,,1147,LASEM,,DNC,,,,p545,Mark Thompson,145572,R1(p50)
+data,p399,-1,-1,2023_12_03 11_06_39 GMT+13:00,1,0,0,0,0,,0,,114.5,SBRD,,DNC,p416,,p389,p376,Jeanie Borsboom,1073,R2(p42)
+data,p247,0,0,2021_11_28 13_43_24 GMT+13:00,1,3,1523.583343982697,0,1523.583343982697,2021_11_28 13_40_08 GMT+13:00,0,,0,LASEM,,,p254,,p240,p253,William Buick,179385,R3(p29)
+data,p456,0,0,,1,7,1200.779854059219,0,1200.779854059219,2024_03_02 11_15_21 GMT+13:00,0,,0,LAS2000,,,p466,,p446,p483,Rainer  Kuprecht,512,R2(p46)
+data,p42,117,102.5055,2019_09_21 11_57_39 GMT+12:00,1,6,1362.232660055161,1454,1362,2019_09_21 11_56_42 GMT+12:00,0,,93.7,LASE,,,p28,,p35,p36,Nan Jiang,124050,R3(p13)
+data,p340,0,0,2022_04_09 13_56_26 GMT+12:00,1,4,1591.13095998764,0,1591.13095998764,2022_04_09 13_53_04 GMT+12:00,0,,0,LASE,,,,,p321,p448,Richard Ineson,150010,R3(p37)
+data,p170,70,98.62344,2021_04_03 12_15_42 GMT+13:00,1,3,1396.637987017632,1491,1397,2021_04_03 12_13_12 GMT+13:00,0,,93.7,LASE,,,p188,,p152,p164,Phil Galloway,41985,R2(p23)
+data,p144,158,103.2699,,1,7,1705.205014944077,1820,1705,2021_04_03 11_40_21 GMT+13:00,0,,93.7,LASE,,,p169,,,p162,Martin Outram,123381,R1(p22)
+data,p263,0,0,,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNF,p274,,,p288,Russ Benge,195538,R1(p31)
+data,p205,62,98.47031,2021_04_03 13_13_48 GMT+13:00,1,3,1271.43475997448,1356,1271,2021_04_03 13_11_44 GMT+13:00,0,,93.7,LASE,,,p223,,p187,p216,Martin Outram,123381,R4(p25)
+data,p540,0,0,2024_09_28 15_40_07 GMT+12:00,1,5,1336.065877079964,0,1336.065877079964,2024_09_28 15_38_02 GMT+12:00,0,,1147,LASEM,,,,,p515,tCECF19EE-9DEC-4F46-9154-8B569B49AE28256,Sophie Borsboom,217315,R5(p54)
+data,p39,0,93.7,2019_09_21 11_28_02 GMT+12:00,1,1,1248.391031980515,1332,1248,2019_09_21 11_26_48 GMT+12:00,0,,93.7,LASE,,,p46,,p32,p32,Phil Galloway,41985,R2(p12)
+data,p85,224,121.2359,,1,11,1245.817573904991,1254,1246,2020_12_15 18_05_46 GMT+13:00,0,,99.4,LASEM,,,p97,,,p93,Brian Dixon,6030,R1(p17)
+data,p580,0,0,2025_02_22 14_19_53 GMT+13:00,1,13,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNF,p595,,p565,p597,Tom Berliner,797,R2(p56)
+data,p562,0,0,,1,14,0,0,0,,0,,0,SBRD,,DNC,p577,,,p582,Jeanie Borsboom,1073,R1(p55)
+data,p385,39.49289703369141,103.5812,,1,2,978.3621770143509,984,978.3621770143509,2023_12_03 10_34_49 GMT+13:00,0,,99.4,LASEM,,,p397,,,p366,Dom Sutton,168688,R1(p41)
+data,p610,0,0,2025_02_22 15_23_09 GMT+13:00,1,0,0,0,0,,0,,0,LASE,,DNC,,,p595,tCECF19EE-9DEC-4F46-9154-8B569B49AE28234,Tom Berliner,797,R4(p58)
+data,p551,0,0,,1,10,1881.169709920883,0,1881.169709920883,2025_02_22 13_40_53 GMT+13:00,0,,0,LASE,,,p566,,,p570,Kevin Li,136740,R1(p55)
+data,p40,-1,-1,,1,0,0,0,0,,0,,93.7,LASE,,DNC,p47,,p33,p257,Graham Davies,181969,R2(p12)
+data,p475,0,0,,1,1,0,0,0,,0,,0,LASEM,,DNC,p485,,p465,tCECF19EE-9DEC-4F46-9154-8B569B49AE28257,Mark Thompson,145572,R4(p48)
+data,p236,0,0,,1,4,1726.332507967949,0,1726.332507967949,2021_11_28 12_38_13 GMT+13:00,0,,0,LAS4.7,,,p242,,,p236,Gerard Brennan,167148,R1(p27)
+data,p291,0,0,,1,3,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p319,,,p443,Sophie Borsboom,159764,R1(p35)
+data,p403,55.78614401817322,104.1682,,1,8,1218.724899053574,1226,1218.724899053574,2023_12_03 11_04_50 GMT+13:00,0,,99.4,LASEM,,,p420,,,p374,Sophie Borsboom,217315,R2(p42)
+data,p595,0,0,,1,10,1529.512289047241,0,1529.512289047241,2025_02_22 14_51_10 GMT+13:00,0,,0,LASE,,,p610,,p580,p613,Tom Berliner,797,R3(p57)
+data,p332,0,0,2022_04_09 14_12_27 GMT+12:00,1,16,1924.598842978477,0,1924.598842978477,2022_04_09 13_58_37 GMT+12:00,0,,0,LAS4.7,,,,,p314,p452,Diana Weir,1053,R3(p37)
+data,p462,0,0,2024_03_02 11_10_45 GMT+13:00,1,9,1219.876342058182,0,1219.876342058182,2024_03_02 11_15_40 GMT+13:00,0,,0,LASE,,,p472,,p452,p488,William Buick,123384,R2(p46)
+data,p294,0,0,,1,10,3641.13406598568,0,3641.13406598568,2022_04_09 12_27_59 GMT+12:00,0,,0,LASEM,Richard Mansell,,p308,,,p318,Richard Mansell,44284,R1(p35)
+data,p444,-1,-1,2023_12_03 11_08_32 GMT+13:00,,-1,0,0,0,,0,,96.1,LAS4.7,,DNC,,,p436,p472,Tom Berliner,797,R2(p42)
+data,p298,0,0,,1,14,3705.180238962173,0,3705.180238962173,2022_04_09 12_29_03 GMT+12:00,0,,0,LASE,,,p318,,,p304,Brian Dixon,93247,R1(p35)
+data,p459,0,0,,1,2,0,0,0,,0,,0,LAS4.7,,DNC,p469,,p449,p489,Amber Judkins,175282,R2(p46)
+data,p192,277,115.3666,2021_04_03 12_50_44 GMT+13:00,1,16,1473.753654003143,1573,1474,2021_04_03 12_46_49 GMT+13:00,0,,93.7,LASE,,,p210,,p174,p190,Unknown3,44272,R3(p24)
+data,p320,0,0,2022_04_09 13_38_56 GMT+12:00,1,1,0,0,0,,0,,0,LASE,,DNC,p339,,p304,p335,Dunno1,49609,R2(p36)
+data,p529,0,1147,2024_09_28 14_48_43 GMT+12:00,1,4,1330.932678937912,1160,1330.932678937912,2024_09_28 15_10_54 GMT+12:00,0,,1147,LASEM,,,,,,p558,Sophie Borsboom,217315,R4(p53)
+data,p27,47,97.06689,2019_09_21 10_56_17 GMT+12:00,1,3,1354.80684196949,1446,1355,2019_09_21 10_57_34 GMT+12:00,0,,93.7,LASE,,,p34,,p41,p24,Robin Smith,72966,R1(p11)
+data,p280,0,0,2022_02_02 19_21_47 GMT+13:00,1,2,796.2321079969406,0,796.2321079969406,2022_02_02 19_23_14 GMT+13:00,0,,0,LAS4.7,,,p287,,p273,p300,Duncan Cartwright,131108,R3(p33)
+data,p398,65.02105138868592,99.25755,2023_12_03 11_01_36 GMT+13:00,1,2,1161.272119045258,1239,1161.272119045258,2023_12_03 11_03_53 GMT+13:00,0,,93.7,LASE,,,p415,,p388,p382,Chris Green,150073,R2(p42)
+data,p561,0,0,,1,6,1764.266696929932,0,1764.266696929932,2025_02_22 13_38_56 GMT+13:00,0,,0,LASE,,,p576,,,p574,William Buick,123384,R1(p55)
+data,p62,165,100.0728,2020_11_07 11_46_02 GMT+13:00,1,5,2590.980762004852,2765,2591,2020_11_07 11_54_59 GMT+13:00,0,,93.7,LASE,,,p74,,p52,p73,Nan Jiang,124050,R2(p15)
+data,p214,-1,-1,2021_04_03 13_13_03 GMT+13:00,1,8,0,0,0,,0,,93.7,LASE,,DNC,p232,,p196,p210,Dom Sutton,168688,R4(p25)
+data,p582,0,0,,1,14,1622.241071105003,0,1622.241071105003,2025_02_22 14_52_43 GMT+13:00,0,,0,LASE,,,p597,,p567,p612,Chris Maurice,136697,R3(p57)
+data,p161,144,103.8476,2021_04_03 12_18_08 GMT+13:00,1,5,1471.492719054222,1570,1471,2021_04_03 12_14_27 GMT+13:00,0,,93.7,LASE,,,p179,,p148,p169,Richard Mansell,44284,R2(p23)
+data,p200,95,101.027,2021_04_03 13_13_18 GMT+13:00,1,6,1303.55705499649,1392,1304,2021_04_03 13_12_16 GMT+13:00,0,,93.7,LASE,,,p218,,p182,p205,Tim Prickett,428,R4(p25)
+data,p157,349,114.8385,,1,10,1895.850579977036,2023,1896,2021_04_03 11_43_31 GMT+13:00,0,,93.7,LASE,Unknown1,,p172,,,p155,,116033,R1(p22)
+data,p413,0,99.4,2023_12_03 11_33_20 GMT+13:00,1,1,1192.162475943565,1199,1192.162475943565,2023_12_03 11_33_16 GMT+13:00,0,,99.4,LASEM,,,p430,,p397,p394,Dom Sutton,168688,R3(p43)
+data,p164,170,105.6831,2021_04_03 12_17_42 GMT+13:00,1,7,1497.273424983025,1598,1497,2021_04_03 12_14_52 GMT+13:00,0,,93.7,LASE,,,p182,,p149,p165,Tim Prickett,428,R2(p23)
+data,p557,0,0,,1,7,1816.82727599144,0,1816.82727599144,2025_02_22 13_39_48 GMT+13:00,0,,0,LASE,,,p572,,,p577,Jack Dudley,198112,R1(p55)
+data,p261,0,0,2021_11_28 12_38_43 GMT+13:00,,-1,0,0,0,,0,,0,LASEM,,DNC,,,p248,p261,Ben Scott,1000,R1(p27)
+data,p468,0,0,2024_03_02 11_33_38 GMT+13:00,1,1,840.8546630144119,0,840.8546630144119,2024_03_02 11_33_15 GMT+13:00,0,,0,LASEM,,,p478,,p458,p494,Andrew Robinson,136656,R3(p47)
+data,p571,0,0,,1,14,1731.1520819664,0,1731.1520819664,2025_02_22 14_17_30 GMT+13:00,0,,0,SBRD,,,p586,,p556,p590,Alex Drysdale,1759,R2(p56)
+data,p514,-1,-1,,1,20,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,1147,LASEM,,DNC,,,,p544,Mark Thompson,145572,R2(p51)
+data,p361,0,0,2022_11_09 19_14_01 GMT+13:00,1,5,1819.541270971298,0,1819.541270971298,2022_11_09 19_14_34 GMT+13:00,0,,0,LASE,,,p368,,p350,p354,William Buick,123384,R2(p39)
+data,p117,12,94.84152,2020_12_15 18_54_16 GMT+13:00,1,2,996.5404260158539,1064,997,2020_12_15 18_52_49 GMT+13:00,0,,93.7,LASE,,,p129,,p105,p120,Russ Benge,195538,R3(p19)
+data,p248,0,0,2021_11_28 13_42_22 GMT+13:00,1,4,1756.247349977493,0,1756.247349977493,2021_11_28 13_44_00 GMT+13:00,0,,0,LASEM,,,p261,,p244,p252,Ben Scott,1000,R3(p29)
+data,p131,157,107.8315,2020_12_15 19_45_15 GMT+13:00,1,8,1198.397228002548,1279,1198,2020_12_15 19_46_24 GMT+13:00,0,,93.7,LASE,,,,,p119,p139,Tony Visker,36758,R5(p21)
+data,p24,39.42379141112247,96.0531,,1,2,1609.269045948982,1717,1609.269045948982,2018_09_04 20_33_34 GMT+12:00,0,,93.7,LASE,,,,,,p260:p277,Brad Henderson,NZL100550,Race #2(p10)
+data,p142,69,99.91066,2020_12_15 19_44_55 GMT+13:00,1,5,1109.993481993675,1185,1110,2020_12_15 19_44_55 GMT+13:00,0,,93.7,LASE,,,,,p130,p135,Duncan Cartwright,131808,R5(p21)
+data,p237,0,0,,1,1,1488.619320988655,0,1488.619320988655,2021_11_28 12_34_16 GMT+13:00,0,,0,LASEM,,,p243,,,p240,Martin Outram,123381,R1(p27)
+data,p447,0,0,,1,5,873.4725040197372,0,873.4725040197372,2024_03_02 10_49_52 GMT+13:00,0,,0,LASEM,,,p457,,,p475,Martin Outram,123381,R1(p45)
+data,p476,0,0,,1,8,0,0,0,,0,,0,LAS2000,,DNF,p486,,p466,p511,Rainer  Kuprecht,512,R4(p48)
+data,p232,-1,-1,,1,8,0,0,0,,0,,93.7,LASE,,DNC,,,p214,p225,Dom Sutton,168688,R5(p26)
+data,p485,0,0,,1,3,0,0,0,,0,,0,LASEM,,DNC,,,p475,tCECF19EE-9DEC-4F46-9154-8B569B49AE28258,Mark Thompson,145572,R5(p49)
+data,p346,0,0,,1,3,1767.047886013985,0,1767.047886013985,2022_11_09 18_35_25 GMT+13:00,0,,0,LASEM,,,p357,,,p343,Rene Borsboom,11,R1(p38)
+data,p132,4,94.06004,2020_12_15 19_44_38 GMT+13:00,1,4,1045.037869930267,1115,1045,2020_12_15 19_43_50 GMT+13:00,0,,93.7,LASE,,,,,p120,p141,Dom Sutton,168688,R5(p21)
+data,p193,0,99.4,2021_04_03 12_45_43 GMT+13:00,1,4,1269.718667030334,1278,1270,2021_04_03 12_43_25 GMT+13:00,0,,99.4,LASEM,,,p211,,p175,p194,Nick Sanders,10,R3(p24)
+data,p349,0,0,,1,9,2019.310794949532,0,2019.310794949532,2022_11_09 18_39_37 GMT+13:00,0,,0,LASE,,,p360,,,p348,Chris Maurice,136697,R1(p38)
+data,p414,96.4010227269207,104.1377,2023_12_03 11_33_45 GMT+13:00,1,6,1248.984627962112,1299,1248.984627962112,2023_12_03 11_34_13 GMT+13:00,0,,96.1,LAS4.7,,,p431,,p404,p406,Laura Harding,178659,R3(p43)
+data,p498,213,1255.063,,1,4,1724,1567,1724,2024_09_28 12_33_44 GMT+12:00,0,,1100,LASE,,,,,,p529,Chris Maurice,136697,R1(p50)
+data,p271,0,0,2022_02_02 18_56_47 GMT+13:00,1,6,1123.038916945457,0,1123.038916945457,2022_02_02 19_06_27 GMT+13:00,0,,0,LASE,,,p278,,p267,p296,Dunno5,44444,R2(p32)
+data,p262,0,0,,1,6,713.9789129495621,0,713.9789129495621,2022_02_02 18_43_55 GMT+13:00,0,,0,LASE,,,p269,,,p284,Dunno1,159764,R1(p31)
+data,p270,0,0,2022_02_02 18_57_39 GMT+13:00,1,5,841.7763650417328,0,841.7763650417328,2022_02_02 19_01_46 GMT+13:00,0,,0,LASE,,,p277,,p266,p293,Dunno2,136697,R2(p32)
+data,p234,0,0,,1,2,1530.358600020409,0,1530.358600020409,2021_11_28 12_34_57 GMT+13:00,0,,0,LASE,,,p239,,,p239,Duncan Cartwright,131808,R1(p27)
+data,p278,0,0,2022_02_02 19_28_41 GMT+13:00,1,5,888.1779209375381,0,888.1779209375381,2022_02_02 19_24_46 GMT+13:00,0,,0,LASEM,,,p285,,p271,p297,Shaun?,44444,R3(p33)
+data,p166,396,121.6379,2021_04_03 12_20_47 GMT+13:00,1,17,1723.103193044662,1839,1723,2021_04_03 12_18_38 GMT+13:00,0,,93.7,LASE,,,p184,,p143,p176,Rainer  Kuprecht,512,R2(p23)
+data,p59,391,111.1963,2020_11_07 11_52_48 GMT+13:00,1,6,2878.581165909767,2996,2879,2020_11_07 11_59_47 GMT+13:00,0,,96.1,LAS4.7,,,p70,,p57,p65,Hannah Reeves,175282,R2(p15)
+data,p408,82.00433897972084,106.2374,2023_12_03 11_38_48 GMT+13:00,1,9,1274.166814923286,1281,1274.166814923286,2023_12_03 11_34_38 GMT+13:00,0,,99.4,LASEM,,,p425,,p392,p403,Gerard Brennan,131870,R3(p43)
+data,p198,183,113.5779,2021_04_03 13_14_22 GMT+13:00,1,13,1465.743074059486,1475,1466,2021_04_03 13_14_58 GMT+13:00,0,,99.4,LASEM,,,p216,,p180,p204,William Buick,179385,R4(p25)
+data,p369,0,0,2022_11_09 19_53_51 GMT+13:00,1,8,2752.747143030167,0,2752.747143030167,2022_11_09 20_07_20 GMT+13:00,0,,0,LASE,,,,,p362,p425,Dunno1,136740,R3(p40)
+data,p154,444,120.5926,,1,15,1991.232603907585,2125,1991,2021_04_03 11_45_07 GMT+13:00,0,,93.7,LASE,,,p176,,,p146,Nan Jiang,124050,R1(p22)
+data,p28,263,112.5403,2019_09_21 10_57_42 GMT+12:00,1,6,1571.203979969025,1677,1571,2019_09_21 11_01_11 GMT+12:00,0,,93.7,LASE,,,p35,,p42,p22,Nan Jiang,124050,R1(p11)
+data,p436,293.7277386225946,120.7195,2023_12_03 12_08_02 GMT+13:00,1,15,1440.265610933304,1498,1440.265610933304,2023_12_03 12_08_21 GMT+13:00,0,,96.1,LAS4.7,,,p444,,p422,p421,Tom Berliner,797,R4(p44)
+data,p149,120,100.9683,,1,3,1666.631012916565,1779,1667,2021_04_03 11_39_42 GMT+13:00,0,,93.7,LASE,,,p164,,,p161,Tim Prickett,428,R1(p22)
+data,p56,273,107.5121,,1,5,2124.739107966423,2268,2125,2020_11_07 11_02_07 GMT+13:00,0,,93.7,LASE,,,p67,,,p60,John Buckler,159762,R1(p14)
+data,p82,83,101.7759,,1,1,1045.523890972137,1116,1046,2020_12_15 18_02_26 GMT+13:00,0,,93.7,LASE,,,p96,,,p86,Dom Sutton,168688,R1(p17)
+data,p463,0,0,2024_03_02 11_11_26 GMT+13:00,1,6,0,0,0,,0,,0,LASE,,DNF,p473,,p454,p490,Chris Green,157003,R2(p46)
+data,p101,94,107.8177,2020_12_15 18_32_10 GMT+13:00,1,8,1203.776098966599,1211,1204,2020_12_15 18_31_46 GMT+13:00,0,,99.4,LASEM,,,p113,,p89,p100,Rene Borsboom,11,R2(p18)
+data,p526,-1,-1,2024_09_28 12_30_23 GMT+12:00,,-1,0,0,0,,0,,1147,LASEM,,DNC,,,,p541,Rosa Borsboom,159764,R1(p50)
+data,p307,0,0,2022_04_09 13_37_49 GMT+12:00,1,12,2056.539762020111,0,2056.539762020111,2022_04_09 13_11_37 GMT+12:00,0,,0,LASE,,,p325,,p297,p323,Phil Galloway,41985,R2(p36)
+data,p180,160,111.9228,2021_04_03 12_49_00 GMT+13:00,1,14,1430.212862968445,1439,1430,2021_04_03 12_46_05 GMT+13:00,0,,99.4,LASEM,,,p198,,p162,p189,William Buick,179385,R3(p24)
+data,p479,0,0,,1,3,0,0,0,,0,,0,LAS4.7,,DNC,p489,,p469,p507,Amber Judkins,175282,R4(p48)
+data,p97,67,105.3998,2020_12_15 18_32_29 GMT+13:00,1,7,1176.624701023102,1184,1177,2020_12_15 18_31_19 GMT+13:00,0,,99.4,LASEM,,,p109,,p85,p106,Brian Dixon,6030,R2(p18)
+data,p555,0,0,,1,5,1762.362676978111,0,1762.362676978111,2025_02_22 13_38_54 GMT+13:00,0,,0,LASEM,,,p570,,,p579,Tim Prickett,86,R1(p55)
+data,p358,0,0,2022_11_09 19_13_31 GMT+13:00,1,3,1789.409500956535,0,1789.409500956535,2022_11_09 19_14_04 GMT+13:00,0,,0,LASE,,,p366,,p347,p350,Martin Outram,123381,R2(p39)
+data,p348,0,0,,1,0,1678.968516945839,0,1678.968516945839,2022_11_09 18_33_56 GMT+13:00,0,,0,LASE,,,p359,,,p341,Glen Mckenzie,181992,R1(p38)
+data,p92,248,120.2629,,1,6,1236,1286,1236,2020_12_15 18_05_36 GMT+13:00,0,,96.1,LAS4.7,,,p104,,,p96,Matt Lang,44272,R1(p17)
+data,p494,0,0,2024_03_02 12_31_32 GMT+13:00,1,0,0,0,0,,0,,0,SBRD,,DNC,p495,,p484,p520,Jeanie Borsboom,1073,R5(p49)
+data,p72,0,93.7,2020_11_07 12_51_26 GMT+13:00,1,2,1680.129227042198,1793,1680,2020_11_07 12_36_37 GMT+13:00,0,,93.7,LASE,,,,,p61,p83,Graham Davies,181969,R3(p16)
+data,p81,-1,-1,2020_11_07 11_07_47 GMT+13:00,,-1,0,0,0,,0,,0,BOAT CLASS,Rick Sanders,DNC,,,p69,p80,Rick Sanders,178802,R1(p14)
+data,p362,0,0,2022_11_09 19_19_11 GMT+13:00,1,9,1943.893790960312,0,1943.893790960312,2022_11_09 19_16_38 GMT+13:00,0,,0,LASE,,,p369,,p354,p359,Dunno1,136740,R2(p39)
+data,p153,49,102.3613,,1,5,1689.655743002892,1700,1690,2021_04_03 11_40_05 GMT+13:00,0,,99.4,LASEM,,,p175,,,p156,Nick Sanders,10,R1(p22)
+data,p574,0,0,,1,11,1640.931259036064,0,1640.931259036064,2025_02_22 14_16_00 GMT+13:00,0,,0,LASEM,,,p589,,p559,p592,Sophie Borsboom,159764,R2(p56)
+data,p394,283.1035587668193,120.2977,2023_12_03 11_03_12 GMT+13:00,1,12,1407.433647990227,1464,1407.433647990227,2023_12_03 11_07_59 GMT+13:00,0,,96.1,LAS4.7,,,p410,,p382,p385,Tony Visker,36758,R2(p42)
+data,p176,218,109.0717,2021_04_03 12_23_06 GMT+13:00,1,12,1544.721358060837,1649,1545,2021_04_03 12_15_40 GMT+13:00,0,,93.7,LASE,,,p194,,p154,p167,Nan Jiang,124050,R2(p23)
+data,p533,-1,-1,,1,1,0,0,0,,0,,1147,LASEM,,DNC,,,,p566,Mark Thompson,145572,R4(p53)
+data,p306,0,0,,1,11,3664.632915019989,0,3664.632915019989,2022_04_09 12_28_22 GMT+12:00,0,,0,LASE,,,p316,,,p307,Martin Outram,123381,R1(p35)
+data,p34,44,97.00352,2019_09_21 11_28_35 GMT+12:00,1,2,1291.843930959702,1379,1292,2019_09_21 11_27_31 GMT+12:00,0,,93.7,LASE,,,p41,,p27,p31,Robin Smith,72966,R2(p12)
+data,p457,0,0,2024_03_02 11_09_54 GMT+13:00,1,5,968.0379010438919,0,968.0379010438919,2024_03_02 11_11_29 GMT+13:00,0,,0,LASEM,,,p467,,p447,p485,Martin Outram,123381,R2(p46)
+data,p421,23.9703480005262,101.3986,2023_12_03 11_32_47 GMT+13:00,1,3,1216.132823944092,1223,1216.132823944092,2023_12_03 11_33_40 GMT+13:00,0,,99.4,LASEM,,,p439,,p402,p405,Andrew Robinson,136656,R3(p43)
+data,p113,70,106.0665,2020_12_15 18_56_17 GMT+13:00,1,8,1115.362928032875,1122,1115,2020_12_15 18_54_48 GMT+13:00,0,,99.4,LASEM,,,p125,,p101,p116,Rene Borsboom,11,R3(p19)
+data,p203,-1,-1,2021_04_03 13_14_12 GMT+13:00,1,15,0,0,0,,0,,93.7,LASE,,DNC,p221,,p185,p207,Tony Beasley,1595,R4(p25)
+data,p426,267.4621276892908,118.518,2023_12_03 12_04_44 GMT+13:00,1,7,1414,1471,1414,2023_12_03 12_07_54 GMT+13:00,0,,96.1,LAS4.7,,,,,p409,p418,Annah Winheld,181876,R4(p44)
+data,p32,14,94.7029,2019_09_21 10_55_45 GMT+12:00,1,1,1321.971495985985,1411,1322,2019_09_21 10_57_01 GMT+12:00,0,,93.7,LASE,,,p39,,p46,p23,Phil Galloway,41985,R1(p11)
+data,p284,0,0,2022_02_02 19_44_46 GMT+13:00,1,6,1204.082762002945,0,1204.082762002945,2022_02_02 19_49_13 GMT+13:00,0,,0,LAS4.7,,,,,p277,p454,Chris Maurice,136697,R4(p34)
+data,p568,0,0,2025_02_22 14_17_07 GMT+13:00,1,6,1476.66488802433,0,1476.66488802433,2025_02_22 14_13_16 GMT+13:00,0,,0,LASE,,,p583,,p553,p593,Martin Outram,123381,R2(p56)
+data,p345,0,0,,1,8,1858.476603984833,0,1858.476603984833,2022_11_09 18_36_56 GMT+13:00,0,,0,LASEM,,,p356,,,p344,Gerard Brennan,131870,R1(p38)
+data,p292,0,0,,1,5,3558.54647898674,0,3558.54647898674,2022_04_09 12_26_36 GMT+12:00,0,,0,LASE,,,p322,,,p313,Dom Sutton,168688,R1(p35)
+data,p288,0,0,,1,0,0,0,0,,0,,0,LASE,,DNC,,,p281,p444,Russ Benge,195538,R4(p34)
+data,p374,0,0,2022_11_09 19_52_42 GMT+13:00,1,10,3107.913135051727,0,3107.913135051727,2022_11_09 20_13_15 GMT+13:00,0,,0,LASEM,,,,,p364,p426,Izzy Harding,167112,R3(p40)
+data,p135,-1,-1,,1,2,0,0,0,,0,,96.1,LAS4.7,,DNC,,,p123,p142,Laura Harding,178659,R5(p21)
+data,p30,67,98.49961,2019_09_21 10_56_48 GMT+12:00,1,4,1374.791530966759,1467,1375,2019_09_21 10_57_54 GMT+12:00,0,,93.7,LASE,,,p37,,p44,p27,Dave Mckie,196411,R1(p11)
+data,p75,123,106.2491,2020_11_07 12_57_24 GMT+13:00,1,8,1904.507240056992,1916,1905,2020_11_07 12_40_21 GMT+13:00,0,,99.4,LASEM,,,,,p63,p75,Nikki Reid,157145,R3(p16)
+data,p182,169,106.9137,2021_04_03 12_47_12 GMT+13:00,1,7,1365.790089964867,1458,1366,2021_04_03 12_45_01 GMT+13:00,0,,93.7,LASE,,,p200,,p164,p184,Tim Prickett,428,R3(p24)
+data,p395,28.02601099014282,101.7955,2023_12_03 11_02_22 GMT+13:00,1,4,1190.964766025543,1198,1190.964766025543,2023_12_03 11_04_23 GMT+13:00,0,,99.4,LASEM,,,p411,,p383,p386,Ellen Palmer,157143,R2(p42)
+data,p405,235.7514327645076,116.2504,,1,11,1360.081521987915,1415,1360.081521987915,2023_12_03 11_07_12 GMT+13:00,0,,96.1,LAS4.7,,,p418,,,p381,Julia Van Essen,176916,R2(p42)
+data,p442,-1,-1,2023_12_03 10_42_31 GMT+13:00,,-1,0,0,0,,0,,96.1,LAS4.7,,DNC,,,,p469,Tom Berliner,797,R1(p41)
+data,p318,0,0,2022_04_09 13_39_05 GMT+12:00,1,15,2288.85312306881,0,2288.85312306881,2022_04_09 13_15_29 GMT+12:00,0,,0,LASE,,,p336,,p298,p337,Brian Dixon,93247,R2(p36)
+data,p480,0,0,,1,0,0,0,0,,0,,0,LASEM,,DNC,p490,,p470,tCECF19EE-9DEC-4F46-9154-8B569B49AE28259,Sophie Borsboom,7,R4(p48)
+data,p302,0,0,,1,15,3717.763535022736,0,3717.763535022736,2022_04_09 12_29_15 GMT+12:00,0,,0,LASEM,,,p314,,,p306,Diana Weir,1053,R1(p35)
+data,p285,0,0,2022_02_02 19_43_58 GMT+13:00,1,5,1082.188629031181,0,1082.188629031181,2022_02_02 19_47_12 GMT+13:00,0,,0,LASEM,,,,,p278,p441,Shaun?,44444,R4(p34)
+data,p266,0,0,,1,5,595.4682149887085,0,595.4682149887085,2022_02_02 18_41_57 GMT+13:00,0,,0,LASE,,,p270,,,p283,Dunno2,136697,R1(p31)
+data,p437,-1,-1,2023_12_03 12_08_01 GMT+13:00,1,2,0,0,0,,0,,96.1,LAS4.7,,DNC,,,p419,p409,Nikki Reid,157145,R4(p44)
+data,p244,0,0,,1,3,1658.15962100029,0,1658.15962100029,2021_11_28 13_09_28 GMT+13:00,0,,0,LASEM,,,p248,,,p242,Ben Scott,1000,R2(p28)
+data,p158,375,116.4133,,1,11,1922.333565950394,2051,1922,2021_04_03 11_43_58 GMT+13:00,0,,93.7,LASE,Unknown2,,p173,,,p152,,797,R1(p22)
+data,p250,0,0,2021_11_28 13_42_34 GMT+13:00,1,6,1800.061962962151,0,1800.061962962151,2021_11_28 13_44_44 GMT+13:00,0,,0,LASEM,,,p260,,p245,p249,Shaun Tocher,100550,R3(p29)
+data,p371,0,0,2022_11_09 19_51_48 GMT+13:00,1,5,2484.760874986649,0,2484.760874986649,2022_11_09 20_02_52 GMT+13:00,0,,0,LASEM,,,,,p357,p455,Rene Borsboom,11,R3(p40)
+data,p145,44,96.36503,,1,1,1590.541840910912,1698,1591,2021_04_03 11_38_26 GMT+13:00,0,,93.7,LASE,,,p177,,,p148,Richard Ineson,150010,R1(p22)
+data,p343,0,0,,,-1,0,0,0,,0,,0,LASE,,DNC,,,p324,p428,Dunno5,176916,R1(p35)
+data,p379,117.0848970413208,111.796,,1,6,1055.95417702198,1062,1055.95417702198,2023_12_03 10_36_07 GMT+13:00,0,,99.4,LASEM,,,p396,,,p367,Martin Outram,123381,R1(p41)
+data,p196,154,105.7397,2021_04_03 12_47_15 GMT+13:00,1,6,1351.366384029388,1442,1351,2021_04_03 12_44_47 GMT+13:00,0,,93.7,LASE,,,p214,,p178,p186,Dom Sutton,168688,R3(p24)
+data,p185,223,111.1402,2021_04_03 12_47_55 GMT+13:00,1,12,1419.572386026382,1515,1420,2021_04_03 12_45_55 GMT+13:00,0,,93.7,LASE,,,p203,,p167,p195,Tony Beasley,1595,R3(p24)
+data,p499,119,1186.631,,1,1,1630,1482,1630,2024_09_28 12_32_10 GMT+12:00,0,,1100,LASE,,,,,,p528,William Buick,123384,R1(p50)
+data,p134,-1,-1,,1,1,0,0,0,,0,,93.7,LASE,,DNC,,,p122,p143,Nan Jiang,124050,R5(p21)
+data,p589,0,0,2025_02_22 14_53_02 GMT+13:00,1,11,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p604,,p574,p600,Sophie Borsboom,159764,R3(p57)
+data,p576,0,0,2025_02_22 14_18_04 GMT+13:00,1,5,1471.656722068787,0,1471.656722068787,2025_02_22 14_13_11 GMT+13:00,0,,0,LASE,,,p591,,p561,p598,William Buick,123384,R2(p56)
+data,p438,116.4984949827196,109.1646,2023_12_03 12_05_10 GMT+13:00,1,8,1302.407631993294,1310,1302.407631993294,2023_12_03 12_06_03 GMT+13:00,0,,99.4,LASEM,,,p441,,p420,p411,Sophie Borsboom,217315,R4(p44)
+data,p470,0,0,,1,4,0,0,0,,0,,0,LASEM,,DNC,p480,,p460,tCECF19EE-9DEC-4F46-9154-8B569B49AE28260,Sophie Borsboom,7,R3(p47)
+data,p564,0,0,,1,2,1670.173916935921,0,1670.173916935921,2025_02_22 13_37_22 GMT+13:00,0,,0,LASE,,,p579,,,p578,Nick Reid,31357,R1(p55)
+data,p282,0,0,2022_02_02 19_22_05 GMT+13:00,1,0,766.5583959817886,0,766.5583959817886,2022_02_02 19_22_44 GMT+13:00,0,,0,LASEM,,,p289,,p275,p299,Dom Sutton,168688,R3(p33)
+data,p217,150,104.9389,2021_04_03 13_44_53 GMT+13:00,1,14,1402.162815093994,1496,1402,2021_04_03 13_44_40 GMT+13:00,0,,93.7,LASE,,,,,p199,p233,Laura  Prickett,86,R5(p26)
+data,p336,0,0,2022_04_09 14_04_41 GMT+12:00,1,13,0,0,0,,0,,0,LASE,,DNC,,,p318,p435,Brian Dixon,93247,R3(p37)
+data,p121,195,118.0352,2020_12_15 19_18_20 GMT+13:00,1,10,1232.06308400631,1239,1232,2020_12_15 19_20_20 GMT+13:00,0,,99.4,LASEM,,,p133,,p109,p132,Brian Dixon,6030,R4(p20)
+data,p23,0,96.1,,1,3,1610.054764986038,1675,1610.054764986038,2018_09_04 20_33_35 GMT+12:00,0,,96.1,LAS4.7,,,,,,p269:p276,Dom Sutton,44444,Race #2(p10)
+data,p554,0,0,,1,11,1911.317730903625,0,1911.317730903625,2025_02_22 13_41_23 GMT+13:00,0,,0,LASEM,,,p569,,,p569,Gerard Brennan,131870,R1(p55)
+data,p95,84,101.191,2020_12_15 18_32_22 GMT+13:00,1,5,1130.390673995018,1206,1130,2020_12_15 18_30_33 GMT+13:00,0,,93.7,LASE,,,p107,,p84,p104,Tony Visker,36758,R2(p18)
+data,p303,0,0,,1,0,0,0,0,,0,,0,LAS4.7,,DNC,p315,,,p447,Dunno3,429,R1(p35)
+data,p69,-1,-1,,1,1,2464.788178920746,3.402823466385289e+38,2465,2020_11_07 11_52_53 GMT+13:00,0,,0,BOAT CLASS,Rick Sanders,,p81,,,p68,Rick Sanders,178802,R2(p15)
+data,p322,0,0,2022_04_09 13_36_39 GMT+12:00,1,11,2026.632964015007,0,2026.632964015007,2022_04_09 13_11_07 GMT+12:00,0,,0,LASE,,,p341,,p292,p333,Dom Sutton,168688,R2(p36)
+data,p310,0,0,,1,16,2399.990319013596,0,2399.990319013596,2022_04_09 13_17_20 GMT+12:00,0,,0,LAS4.7,,,p328,,p299,p331,Rainer  Kuprecht,512,R2(p36)
+data,p173,269,112.6722,2021_04_03 12_21_57 GMT+13:00,1,14,1596.268852949142,1703,1596,2021_04_03 12_16_31 GMT+13:00,0,,93.7,LASE,Unknown2,,p191,,p158,p178,,797,R2(p23)
+data,p257,0,0,2021_11_28 14_18_12 GMT+13:00,1,6,1623.602319955826,0,1623.602319955826,2021_11_28 14_15_16 GMT+13:00,0,,0,LASEM,,,,,,p255,Shaun Tocher,100550,R4(p30)
+data,p389,246.0334853049335,140.5481,,1,11,1327.527760028839,1159,1327.527760028839,2023_12_03 10_40_39 GMT+13:00,0,,114.5,SBRD,,,p399,,,p362,Jeanie Borsboom,1073,R1(p41)
+data,p325,0,0,2022_04_09 14_00_49 GMT+12:00,1,5,1646.203339934349,0,1646.203339934349,2022_04_09 13_53_59 GMT+12:00,0,,0,LASE,,,,,p307,p453,Phil Galloway,41985,R3(p37)
+data,p87,108,106.6409,,1,3,1095.843207001686,1140,1096,2020_12_15 18_03_16 GMT+13:00,0,,96.1,LAS4.7,,,p99,,,p89,Laura Harding,178659,R1(p17)
+data,p445,0,0,,1,2,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p455,,,tCECF19EE-9DEC-4F46-9154-8B569B49AE28261,Mark Thompson,145572,R1(p45)
+data,p440,-1,-1,2023_12_03 10_41_32 GMT+13:00,,-1,0,0,0,,0,,96.1,LAS4.7,,DNC,,,p435,p468,Julia Van Essen,176916,R1(p41)
+data,p300,0,0,,1,8,3625.983943939209,0,3625.983943939209,2022_04_09 12_27_44 GMT+12:00,0,,0,LASE,,,p312,,,p310,Hannah Reeves,145572,R1(p35)
+data,p273,0,0,2022_02_02 18_56_30 GMT+13:00,1,0,708.9905459880829,0,708.9905459880829,2022_02_02 18_59_33 GMT+13:00,0,,0,LASE,,,p280,,p268,p294,Dunno4,131108,R2(p32)
+data,p115,0,93.7,2020_12_15 18_54_25 GMT+13:00,1,1,984.5233800411224,1051,985,2020_12_15 18_52_37 GMT+13:00,0,,93.7,LASE,,,p127,,p103,p118,George Wills,667,R3(p19)
+data,p33,-1,-1,,1,5,0,0,0,,0,,93.7,LASE,,DNC,p40,,p47,p265,Graham Davies,181969,R1(p11)
+data,p74,159,102.568,2020_11_07 12_51_48 GMT+13:00,1,6,1838.52063202858,1963,1839,2020_11_07 12_39_15 GMT+13:00,0,,93.7,LASE,,,,,p62,p76,Nan Jiang,124050,R3(p16)
+data,p460,0,0,,1,0,0,0,0,,0,,0,LASEM,,DNC,p470,,p450,tCECF19EE-9DEC-4F46-9154-8B569B49AE28262,Sophie Borsboom,7,R2(p46)
+data,p503,250,1281.999,,1,5,1761,1601,1761,2024_09_28 12_34_21 GMT+12:00,0,,1100,LASE,,,,,,p523,Phil Galloway,41985,R1(p50)
+data,p433,360.2655250484049,144.6966,2023_12_03 12_12_00 GMT+13:00,1,16,1726.327839970589,1507,1726.327839970589,2023_12_03 12_13_07 GMT+13:00,0,,114.5,SBRD,,,,,p416,p417,Jeanie Borsboom,1073,R4(p44)
+data,p98,209,112.3847,2020_12_15 18_31_58 GMT+13:00,1,11,1254.761948943138,1339,1255,2020_12_15 18_32_37 GMT+13:00,0,,93.7,LASE,,,p110,,p86,p107,Nan Jiang,124050,R2(p18)
+data,p172,180,106.3891,2021_04_03 12_21_31 GMT+13:00,1,9,1506.648859977722,1608,1507,2021_04_03 12_15_02 GMT+13:00,0,,93.7,LASE,Unknown1,,p190,,p157,p180,,116033,R2(p23)
+data,p102,0,99.4,2020_12_15 18_30_19 GMT+13:00,1,3,1110.039731025696,1117,1110,2020_12_15 18_30_13 GMT+13:00,0,,99.4,LASEM,,,p114,,p90,p98,Martin Outram,123381,R2(p18)
+data,p209,-1,-1,2021_04_03 13_14_37 GMT+13:00,1,0,0,0,0,,0,,93.7,LASE,Unknown2,DNC,p227,,p191,p201,,797,R4(p25)
+data,p542,0,0,2024_09_28 15_41_44 GMT+12:00,1,7,1412.971505045891,0,1412.971505045891,2024_09_28 15_39_19 GMT+12:00,0,,1147,LASEM,,,,,p517,tCECF19EE-9DEC-4F46-9154-8B569B49AE28263,Rosa Borsboom,159764,R5(p54)
+data,p441,-1,-1,2023_12_03 10_40_13 GMT+13:00,,-1,0,0,0,,0,,99.4,LASEM,,DNC,,,p438,p470,Sophie Borsboom,217315,R1(p41)
+data,p304,0,0,,1,13,3695.631552934647,0,3695.631552934647,2022_04_09 12_28_53 GMT+12:00,0,,0,LASE,,,p320,,,p311,Dunno1,49609,R1(p35)
+data,p448,0,0,,1,4,840.8888399600983,0,840.8888399600983,2024_03_02 10_49_19 GMT+13:00,0,,0,LASEM,,,p458,,,p479,Andrew Robinson,136656,R1(p45)
+data,p240,0,0,2021_11_28 13_08_18 GMT+13:00,1,5,1719.414500117302,0,1719.414500117302,2021_11_28 13_10_29 GMT+13:00,0,,0,LASEM,,,p247,,p238,p243,William Buick,179385,R2(p28)
+data,p99,80,103.2506,2020_12_15 18_29_59 GMT+13:00,1,6,1152.99007499218,1200,1153,2020_12_15 18_30_56 GMT+13:00,0,,96.1,LAS4.7,,,p111,,p87,p102,Laura Harding,178659,R2(p18)
+data,p550,0,0,2024_09_28 15_39_01 GMT+12:00,1,4,1301.656103014946,0,1301.656103014946,2024_09_28 15_37_28 GMT+12:00,0,,1100,LASE,,,,,p525,tCECF19EE-9DEC-4F46-9154-8B569B49AE28264,Phil Galloway,41985,R5(p54)
+data,p147,116,100.726,,1,2,1662.963866949081,1775,1663,2021_04_03 11_39_38 GMT+13:00,0,,93.7,LASE,,,p178,,,p153,Dom Sutton,168688,R1(p22)
+data,p521,94,1174.122,2024_09_28 15_24_38 GMT+12:00,1,16,1489,1354,1489,2024_09_28 15_25_15 GMT+12:00,0,,1100,LASE,,,p546,,p507,p556,William Buick,123384,R3(p52)
+data,p578,0,0,2025_02_22 14_16_05 GMT+13:00,1,2,1426.572144031525,0,1426.572144031525,2025_02_22 14_12_26 GMT+13:00,0,,0,LASEM,,,p593,,p563,p584,Andrew Robinson,136656,R2(p56)
+data,p434,53.71496999263786,103.9023,2023_12_03 12_05_21 GMT+13:00,1,4,1239.624107003212,1247,1239.624107003212,2023_12_03 12_05_00 GMT+13:00,0,,99.4,LASEM,,,,,p417,p419,William Buick,179385,R4(p44)
+data,p138,-1,-1,2020_12_15 19_45_30 GMT+13:00,1,9,0,0,0,,0,,99.4,LASEM,,DNC,,,p126,p134,Martin Outram,123381,R5(p21)
+data,p390,61.55139398574829,104.661,2023_12_03 11_01_53 GMT+13:00,1,10,1224.490149021149,1231,1224.490149021149,2023_12_03 11_04_56 GMT+13:00,0,,99.4,LASEM,,,p406,,p386,p384,John Robinson,162134,R2(p42)
+data,p66,-1,-1,,1,8,0,0,0,,0,,99.4,LASEM,Richard Mansell,DNC,p78,,p48,p70,Richard Mansell,44284,R2(p15)
+data,p231,-1,-1,2021_04_03 13_42_05 GMT+13:00,1,0,0,0,0,,0,,93.7,LASE,,DNC,,,p213,p222,Richard Ineson,150010,R5(p26)
+data,p396,44.95405495166779,103.2424,2023_12_03 11_02_08 GMT+13:00,1,7,1207.892809987068,1215,1207.892809987068,2023_12_03 11_04_40 GMT+13:00,0,,99.4,LASEM,,,p412,,p379,p383,Martin Outram,123381,R2(p42)
+data,p125,360,133.8434,2020_12_15 19_18_23 GMT+13:00,1,11,1396.671182990074,1405,1397,2020_12_15 19_23_04 GMT+13:00,0,,99.4,LASEM,,,p137,,p113,p131,Rene Borsboom,11,R4(p20)
+data,p181,173,107.2268,2021_04_03 12_47_31 GMT+13:00,1,8,1369.923264026642,1462,1370,2021_04_03 12_45_05 GMT+13:00,0,,93.7,LASE,,,p199,,p163,p199,Laura  Prickett,86,R3(p24)
+data,p450,0,0,,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p460,,,tCECF19EE-9DEC-4F46-9154-8B569B49AE28265,Sophie Borsboom,7,R1(p45)
+data,p146,142,102.3008,,1,4,1689.137825965881,1803,1689,2021_04_03 11_40_05 GMT+13:00,0,,93.7,LASE,,,p163,,,p158,Laura  Prickett,86,R1(p22)
+data,p425,142.3526209592821,111.3316,2023_12_03 12_05_35 GMT+13:00,1,11,1328.261757969856,1336,1328.261757969856,2023_12_03 12_06_29 GMT+13:00,0,,99.4,LASEM,,,,,p408,p420,Gerard Brennan,131870,R4(p44)
+data,p210,94,100.9495,2021_04_03 13_15_06 GMT+13:00,1,5,1302.766149997711,1391,1303,2021_04_03 13_12_15 GMT+13:00,0,,93.7,LASE,,,p228,,p192,p200,Unknown3,44272,R4(p25)
+data,p337,0,0,,1,15,0,0,0,,0,,0,LASEM,,DNC,,,p319,p462,Sophie Borsboom,159764,R3(p37)
+data,p299,0,0,,1,2,0,0,0,,0,,0,LAS4.7,,DNC,p310,,,p320,Rainer  Kuprecht,512,R1(p35)
+data,p411,131.4477500915525,110.3598,2023_12_03 11_33_15 GMT+13:00,1,11,1323.610226035118,1331,1323.610226035118,2023_12_03 11_35_28 GMT+13:00,0,,99.4,LASEM,,,p428,,p395,p391,Ellen Palmer,157143,R3(p43)
+data,p84,276,120.5548,,1,10,1238.885400891304,1322,1239,2020_12_15 18_05_39 GMT+13:00,0,,93.7,LASE,,,p95,,,p91,Tony Visker,36758,R1(p17)
+data,p163,189,107.0244,2021_04_03 12_18_04 GMT+13:00,1,10,1516.423104047775,1618,1516,2021_04_03 12_15_12 GMT+13:00,0,,93.7,LASE,,,p181,,p146,p175,Laura  Prickett,86,R2(p23)
+data,p116,170,112.2497,2020_12_15 18_57_04 GMT+13:00,1,11,1180.434101939201,1228,1180,2020_12_15 18_55_53 GMT+13:00,0,,96.1,LAS4.7,,,p128,,p104,p112,Matt Lang,44272,R3(p19)
+data,p202,-1,-1,,1,14,0,0,0,,0,,93.7,LASE,,DNC,p220,,p184,p211,Rainer  Kuprecht,512,R4(p25)
+data,p400,41.73823797702789,102.9675,2023_12_03 11_01_42 GMT+13:00,1,6,1204.676993012428,1211,1204.676993012428,2023_12_03 11_04_36 GMT+13:00,0,,99.4,LASEM,,,p417,,p384,p379,William Buick,179385,R2(p42)
+data,p541,0,0,2024_09_28 15_41_20 GMT+12:00,1,10,1425.200800061226,0,1425.200800061226,2024_09_28 15_39_31 GMT+12:00,0,,1147,LASEM,,,,,p516,tCECF19EE-9DEC-4F46-9154-8B569B49AE28266,Gerard Brennan,131870,R5(p54)
+data,p458,0,0,2024_03_02 11_09_21 GMT+13:00,1,3,863.7114640474319,0,863.7114640474319,2024_03_02 11_09_44 GMT+13:00,0,,0,LASEM,,,p468,,p448,p491,Andrew Robinson,136656,R2(p46)
+data,p333,0,0,,1,1,0,0,0,,0,,0,LAS4.7,,DNC,,,p315,p451,Dunno3,429,R3(p37)
+data,p484,0,0,2024_03_02 12_03_36 GMT+13:00,1,9,1337.216807961464,0,1337.216807961464,2024_03_02 12_05_57 GMT+13:00,0,,0,SBRD,,,p494,,p474,p508,Jeanie Borsboom,1073,R4(p48)
+data,p31,42,96.70871,2019_09_21 10_57_21 GMT+12:00,1,2,1350.090047955513,1441,1350,2019_09_21 10_57_30 GMT+12:00,0,,93.7,LASE,,,p38,,p45,p25,Tony Visker,36758,R1(p11)
+data,p382,212.875662807225,118.6376,,1,9,1120.575209975243,1166,1120.575209975243,2023_12_03 10_37_12 GMT+13:00,0,,96.1,LAS4.7,,,p394,,,p371,Tony Visker,36758,R1(p41)
+data,p415,3.422658606657706,93.98537,2023_12_03 11_32_45 GMT+13:00,1,0,1127.221638917923,1203,1127.221638917923,2023_12_03 11_32_11 GMT+13:00,0,,93.7,LASE,,,p432,,p398,p401,Chris Green,150073,R3(p43)
+data,p473,0,0,,1,5,0,0,0,,0,,0,LASE,,DNC,p483,,p463,p497,Chris Green,157003,R3(p47)
+data,p86,252,118.2196,,1,7,1214.866299986839,1297,1215,2020_12_15 18_05_15 GMT+13:00,0,,93.7,LASE,,,p98,,,p90,Nan Jiang,124050,R1(p17)
+data,p535,34.18252319643148,1129.458,,1,3,1310.578292012215,1191,1310.578292012215,2024_09_28 15_10_34 GMT+12:00,0,,1100,LASE,,,,,,p563,William Buick,123384,R4(p53)
+data,p352,0,0,,1,7,1853.359889030457,0,1853.359889030457,2022_11_09 18_36_51 GMT+13:00,0,,0,LASEM,,,p364,,,p340,Izzy Harding,167112,R1(p38)
+data,p106,73,100.2059,2020_12_15 18_29_49 GMT+13:00,1,4,1119.190310001373,1194,1119,2020_12_15 18_30_22 GMT+13:00,0,,93.7,LASE,,,p118,,p94,p103,Duncan Cartwright,131808,R2(p18)
+data,p229,0,99.4,2021_04_03 13_42_41 GMT+13:00,1,13,1327.733486056328,1336,1328,2021_04_03 13_43_26 GMT+13:00,0,,99.4,LASEM,,,,,p211,p219,Nick Sanders,10,R5(p26)
+data,p500,0,1100,,1,0,1511,1374,1511,2024_09_28 12_30_11 GMT+12:00,0,,1100,LASE,,,,,,p525,Dom Sutton,168688,R1(p50)
+data,p406,5.038084983825456,99.82007,2023_12_03 11_33_49 GMT+13:00,1,2,1197.200560927391,1204,1197.200560927391,2023_12_03 11_33_21 GMT+13:00,0,,99.4,LASEM,,,p423,,p390,p392,John Robinson,162134,R3(p43)
+data,p155,405,118.2304,,1,13,1951.908378958702,2083,1952,2021_04_03 11_44_27 GMT+13:00,0,,93.7,LASE,,,p165,,,p160,Unknown4,14945,R1(p22)
+data,p416,286.8380313597213,138.416,,1,16,1660.103639006615,1449,1660.103639006615,2023_12_03 11_41_04 GMT+13:00,0,,114.5,SBRD,,,p433,,p399,p390,Jeanie Borsboom,1073,R3(p43)
+data,p598,0,0,2025_02_22 15_21_25 GMT+13:00,1,14,0,0,0,,0,,0,LASE,,DNC,,,p583,tCECF19EE-9DEC-4F46-9154-8B569B49AE28236,Martin Outram,123381,R4(p58)
+data,p53,117,105.3366,,1,4,2081.503921031952,2095,2082,2020_11_07 11_01_24 GMT+13:00,0,,99.4,LASEM,,,p63,,,p54,Nikki Reid,157145,R1(p14)
+data,p309,0,0,2022_04_09 13_37_00 GMT+12:00,1,9,1954.67694401741,0,1954.67694401741,2022_04_09 13_09_55 GMT+12:00,0,,0,LASEM,,,p327,,p290,p332,Andrew Robinson,136656,R2(p36)
+data,p604,0,0,,1,13,1521.099698901176,0,1521.099698901176,2025_02_22 15_23_00 GMT+13:00,0,,0,LASEM,,,,,p589,tCECF19EE-9DEC-4F46-9154-8B569B49AE28247,Sophie Borsboom,159764,R4(p58)
+data,p466,0,0,2024_03_02 11_39_15 GMT+13:00,1,9,0,0,0,,0,,0,LAS2000,,DNF,p476,,p456,p499,Rainer  Kuprecht,512,R3(p47)
+data,p538,84.54094619104512,1172.858,2024_09_28 15_12_33 GMT+12:00,1,6,1360.936715006828,1237,1360.936715006828,2024_09_28 15_11_24 GMT+12:00,0,,1100,LASE,,,,,,p562,Martin Outram,123381,R4(p53)
+data,p510,117.0087965021157,1197.267,2024_09_28 13_49_00 GMT+12:00,1,15,1440.270611047745,1309,1440.270611047745,2024_09_28 14_12_45 GMT+12:00,0,,1100,LASE,,,p524,,,p530,Martin Outram,123381,R2(p51)
+data,p199,206,109.6267,2021_04_03 13_13_22 GMT+13:00,1,11,1414.663619041443,1510,1415,2021_04_03 13_14_07 GMT+13:00,0,,93.7,LASE,,,p217,,p181,p214,Laura  Prickett,86,R4(p25)
+data,p572,0,0,2025_02_22 14_18_56 GMT+13:00,1,4,1442.261361002922,0,1442.261361002922,2025_02_22 14_12_42 GMT+13:00,0,,0,LASE,,,p587,,p557,p588,Jack Dudley,198112,R2(p56)
+data,p103,46,97.78811,2020_12_15 18_27_46 GMT+13:00,1,2,1092.103860020638,1165,1092,2020_12_15 18_29_55 GMT+13:00,0,,93.7,LASE,,,p115,,p91,p105,George Wills,667,R2(p18)
+data,p94,123,105.6679,,1,2,1086.042585968971,1159,1086,2020_12_15 18_03_06 GMT+13:00,0,,93.7,LASE,,,p106,,,p87,Duncan Cartwright,131808,R1(p17)
+data,p417,67.96445000171639,105.0667,2023_12_03 11_33_29 GMT+13:00,1,8,1260.126925945282,1267,1260.126925945282,2023_12_03 11_34_24 GMT+13:00,0,,99.4,LASEM,,,p434,,p400,p398,William Buick,179385,R3(p43)
+data,p377,167.2429620027542,117.1064,,1,8,1106.112241983414,1112,1106.112241983414,2023_12_03 10_36_57 GMT+13:00,0,,99.4,LASEM,,,p392,,,p364,Gerard Brennan,131870,R1(p41)
+data,p404,96.87744485137591,104.3804,,1,9,1221.207534074783,1270,1221.207534074783,2023_12_03 11_04_53 GMT+13:00,0,,96.1,LAS4.7,,,p414,,,p380,Laura Harding,178659,R2(p42)
+data,p46,0,93.7,2019_09_21 11_54_48 GMT+12:00,1,0,1245.374976992607,1329,1245,2019_09_21 11_54_45 GMT+12:00,0,,93.7,LASE,,,p32,,p39,p42,Phil Galloway,41985,R3(p13)
+data,p360,0,0,2022_11_09 19_17_53 GMT+13:00,1,10,2026.514994978905,0,2026.514994978905,2022_11_09 19_18_01 GMT+13:00,0,,0,LASE,,,p367,,p349,p352,Chris Maurice,136697,R2(p39)
+data,p430,74.73077893257164,105.6637,2023_12_03 12_04_13 GMT+13:00,1,5,1260.639915943146,1268,1260.639915943146,2023_12_03 12_05_21 GMT+13:00,0,,99.4,LASEM,,,,,p413,p423,Dom Sutton,168688,R4(p44)
+data,p281,0,0,,1,4,0,0,0,,0,,0,LASE,,DNC,p288,,p274,p298,Russ Benge,195538,R3(p33)
+data,p506,49.54506950474024,1141.186,2024_09_28 13_49_08 GMT+12:00,1,12,1372.806884050369,1248,1372.806884050369,2024_09_28 14_11_37 GMT+12:00,0,,1100,LASE,,,p520,,,p532,Chris Maurice,136697,R2(p51)
+data,p50,-1,-1,,1,6,0,0,0,,0,,93.7,LASE,,DNC,p61,,,p55,Graham Davies,181969,R1(p14)
+data,p238,0,0,,1,3,1588.430778980255,0,1588.430778980255,2021_11_28 12_35_56 GMT+13:00,0,,0,LASEM,,,p240,,,p237,William Buick,179385,R1(p27)
+data,p174,382,120.6496,2021_04_03 12_24_28 GMT+13:00,1,16,1709.462370991707,1824,1709,2021_04_03 12_18_25 GMT+13:00,0,,93.7,LASE,,,p192,,p159,p166,Unknown3,44272,R2(p23)
+data,p584,0,0,2025_02_22 14_51_08 GMT+13:00,1,8,1490.311201095581,0,1490.311201095581,2025_02_22 14_50_31 GMT+13:00,0,,0,LASEM,,,p599,,p569,p609,Gerard Brennan,131870,R3(p57)
+data,p329,0,0,2022_04_09 14_01_46 GMT+12:00,1,7,1677.71873998642,0,1677.71873998642,2022_04_09 13_54_30 GMT+12:00,0,,0,LASE,,,,,p311,p463,Sean Dickey,188804,R3(p37)
+data,p563,0,0,,1,1,1645.198166012764,0,1645.198166012764,2025_02_22 13_36_57 GMT+13:00,0,,0,LASEM,,,p578,,,p573,Andrew Robinson,136656,R1(p55)
+data,p331,0,0,,1,3,0,0,0,,0,,0,LASE,,DNC,,,p313,p438,Dunno2,44272,R3(p37)
+data,p601,0,0,,1,3,0,0,0,,0,,0,SBRD,,DNC,,,p586,tCECF19EE-9DEC-4F46-9154-8B569B49AE28235,Alex Drysdale,1759,R4(p58)
+data,p48,-1,-1,,1,8,0,0,0,,0,,99.4,LASEM,Richard Mansell,DNF,p66,,,p61,Richard Mansell,44284,R1(p14)
+data,p35,171,106.5387,2019_09_21 11_32_11 GMT+12:00,1,6,1419.338459014893,1514,1419,2019_09_21 11_29_39 GMT+12:00,0,,93.7,LASE,,,p42,,p28,p29,Nan Jiang,124050,R2(p12)
+data,p373,0,0,2022_11_09 19_53_35 GMT+13:00,1,9,2846.301118969917,0,2846.301118969917,2022_11_09 20_08_54 GMT+13:00,0,,0,LASEM,,,,,p356,p459,Gerard Brennan,131870,R3(p40)
+data,p127,0,93.7,2020_12_15 19_16_13 GMT+13:00,1,0,977.9888149499893,1044,978,2020_12_15 19_16_06 GMT+13:00,0,,93.7,LASE,,,p139,,p115,p128,George Wills,667,R4(p20)
+data,p317,0,0,2022_04_09 13_40_33 GMT+12:00,1,2,0,0,0,,0,,0,LAS4.7,,DNC,p335,,p305,p325,Jeanie Borsboom,1073,R2(p36)
+data,p308,0,0,2022_04_09 13_38_01 GMT+12:00,1,10,2017.125064015388,0,2017.125064015388,2022_04_09 13_10_57 GMT+12:00,0,,0,LASEM,Richard Mansell,,p326,,p294,p338,Richard Mansell,44284,R2(p36)
+data,p319,0,0,,1,5,0,0,0,,0,,0,LASEM,,DNC,p337,,p291,p430,Sophie Borsboom,159764,R2(p36)
+data,p275,0,0,2022_02_02 18_56_31 GMT+13:00,1,2,726.9388309717178,0,726.9388309717178,2022_02_02 18_59_51 GMT+13:00,0,,0,LASEM,,,p282,,p264,p295,Dom Sutton,168688,R2(p32)
+data,p593,0,0,2025_02_22 14_49_27 GMT+13:00,1,1,1415.608195066452,0,1415.608195066452,2025_02_22 14_49_17 GMT+13:00,0,,0,LASEM,,,p608,,p578,p604,Andrew Robinson,136656,R3(p57)
+data,p454,0,0,,1,8,965.4649019241333,0,965.4649019241333,2024_03_02 10_51_24 GMT+13:00,0,,0,LASE,,,p463,,,p478,Chris Green,157003,R1(p45)
+data,p239,0,0,2021_11_28 13_07_20 GMT+13:00,1,1,1480.142863035202,0,1480.142863035202,2021_11_28 13_06_30 GMT+13:00,0,,0,LASE,,,p246,,p234,p241,Duncan Cartwright,131808,R2(p28)
+data,p150,286,116.7162,,1,12,1926.808702945709,1939,1927,2021_04_03 11_44_02 GMT+13:00,0,,99.4,LASEM,,,p162,,,p149,William Buick,179385,R1(p22)
+data,p290,0,0,,1,6,3579.919678926468,0,3579.919678926468,2022_04_09 12_26_58 GMT+12:00,0,,0,LASEM,,,p309,,,p319,Andrew Robinson,136656,R1(p35)
+data,p383,131.6292790174484,113.3359,,1,7,1070.498558998108,1076,1070.498558998108,2023_12_03 10_36_22 GMT+13:00,0,,99.4,LASEM,,,p395,,,p373,Ellen Palmer,157143,R1(p41)
+data,p372,0,0,2022_11_09 19_51_27 GMT+13:00,1,1,2426.2503490448,0,2426.2503490448,2022_11_09 20_01_54 GMT+13:00,0,,0,LASE,,,,,p355,p465,Phil Galloway,41985,R3(p40)
+data,p201,428,126.826,2021_04_03 13_15_18 GMT+13:00,1,17,1636.707216978073,1747,1637,2021_04_03 13_17_49 GMT+13:00,0,,93.7,LASE,,,p219,,p183,p217,Unknown4,14945,R4(p25)
+data,p18,0,96.1,,1,3,953.2480520009995,991,953.2480520009995,2018_08_31 15_33_48 GMT+12:00,0,,96.1,LAS4.7,,,,,,p274:p281,Dom Sutton,44444,Race #1(p9)
+data,p211,0,99.4,2021_04_03 13_11_42 GMT+13:00,1,4,1282.533509016037,1291,1283,2021_04_03 13_11_55 GMT+13:00,0,,99.4,LASEM,,,p229,,p193,p203,Nick Sanders,10,R4(p25)
+data,p607,0,0,,1,2,0,0,0,,0,,0,SBRD,,DNC,,,p592,tCECF19EE-9DEC-4F46-9154-8B569B49AE28239,Jeanie Borsboom,1073,R4(p58)
+data,p167,213,108.7188,2021_04_03 12_19_22 GMT+13:00,1,11,1539.571984052658,1644,1540,2021_04_03 12_15_35 GMT+13:00,0,,93.7,LASE,,,p185,,p156,p179,Tony Beasley,1595,R2(p23)
+data,p71,5,93.97887,2020_11_07 12_49_03 GMT+13:00,1,3,1684.611327052116,1798,1685,2020_11_07 12_36_41 GMT+13:00,0,,93.7,LASE,,,,,p60,p82,Peter Galloway,116033,R3(p16)
+data,p218,-1,-1,2021_04_03 13_43_02 GMT+13:00,1,9,0,0,0,,0,,93.7,LASE,,DNC,,,p200,p234,Tim Prickett,428,R5(p26)
+data,p592,0,0,,1,7,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,SBRD,,DNC,p607,,p577,p599,Jeanie Borsboom,1073,R3(p57)
+data,p482,0,0,2024_03_02 11_58_32 GMT+13:00,1,6,937.524915933609,0,937.524915933609,2024_03_02 11_59_17 GMT+13:00,0,,0,LASE,,,p492,,p472,p503,William Buick,123384,R4(p48)
+data,p351,0,0,,1,1,1710.774597048759,0,1710.774597048759,2022_11_09 18_34_28 GMT+13:00,0,,0,LASE,,,p363,,,p339,Dom Sutton,168688,R1(p38)
+data,p397,32.4577180147171,102.1743,2023_12_03 11_00_50 GMT+13:00,1,5,1195.396473050117,1202,1195.396473050117,2023_12_03 11_04_27 GMT+13:00,0,,99.4,LASEM,,,p413,,p385,p389,Dom Sutton,168688,R2(p42)
+data,p64,52,95.7084,2020_11_07 11_43_03 GMT+13:00,1,2,2478.323859930038,2645,2478,2020_11_07 11_53_07 GMT+13:00,0,,93.7,LASE,,,p76,,p54,p72,Michael Norriss,44293,R2(p15)
+data,p108,45,97.98071,2020_12_15 18_54_17 GMT+13:00,1,3,1029.675387024879,1099,1030,2020_12_15 18_53_23 GMT+13:00,0,,93.7,LASE,,,p120,,p96,p117,Dom Sutton,168688,R3(p19)
+data,p177,55,97.56449,2021_04_03 12_16_26 GMT+13:00,1,2,1381.914147019386,1475,1382,2021_04_03 12_12_57 GMT+13:00,0,,93.7,LASE,,,p195,,p145,p174,Richard Ineson,150010,R2(p23)
+data,p338,0,0,,1,0,0,0,0,,0,,0,LASE,,DNC,,,,p432,Dunno5,176916,R3(p37)
+data,p583,0,0,2025_02_22 14_50_18 GMT+13:00,1,3,1425.655815005302,0,1425.655815005302,2025_02_22 14_49_27 GMT+13:00,0,,0,LASE,,,p598,,p568,p611,Martin Outram,123381,R3(p57)
+data,p452,0,0,,1,6,924.8662970066071,0,924.8662970066071,2024_03_02 10_50_43 GMT+13:00,0,,0,LASE,,,p462,,,p476,William Buick,123384,R1(p45)
+data,p545,0,0,2024_09_28 15_40_31 GMT+12:00,1,9,1419.99495100975,0,1419.99495100975,2024_09_28 15_39_26 GMT+12:00,0,,1100,LASE,,,,,p520,tCECF19EE-9DEC-4F46-9154-8B569B49AE28267,Chris Maurice,136697,R5(p54)
+data,p44,63,98.44144,2019_09_21 11_56_12 GMT+12:00,1,2,1307.829131007195,1396,1308,2019_09_21 11_55_47 GMT+12:00,0,,93.7,LASE,,,p30,,p37,p38,Dave Mckie,196411,R3(p13)
+data,p249,0,0,2021_11_28 13_39_53 GMT+13:00,1,1,1453.053420901299,0,1453.053420901299,2021_11_28 13_38_57 GMT+13:00,0,,0,LASEM,,,p256,,p243,p254,Martin Outram,123381,R3(p29)
+data,p222,-1,-1,2021_04_03 13_41_59 GMT+13:00,1,11,0,0,0,,0,,93.7,LASE,Rick Sanders,DNF,,,p204,p221,Rick Sanders,178802,R5(p26)
+data,p347,0,0,,1,2,1757.031424045563,0,1757.031424045563,2022_11_09 18_35_15 GMT+13:00,0,,0,LASE,,,p358,,,p347,Martin Outram,123381,R1(p38)
+data,p212,199,109.0843,2021_04_03 13_14_09 GMT+13:00,1,10,1408.089336037636,1503,1408,2021_04_03 13_14_00 GMT+13:00,0,,93.7,LASE,,,p230,,p194,p213,Nan Jiang,124050,R4(p25)
+data,p189,-1,-1,,1,1,0,0,0,,0,,114.5,SBRD,,DNC,p207,,p171,p185,Ynknon5,1759,R3(p24)
+data,p301,0,0,,1,1,0,0,0,,0,,0,LASE,,DNC,p313,,,p429,Dunno2,44272,R1(p35)
+data,p324,0,0,,1,0,0,0,0,,0,,0,LASE,,DNC,p343,,,p467,Dunno5,176916,R2(p36)
+data,p386,102.1972609758377,110.2198,,1,5,1041.066540956497,1047,1041.066540956497,2023_12_03 10_35_52 GMT+13:00,0,,99.4,LASEM,,,p390,,,p370,John Robinson,162134,R1(p41)
+data,p581,0,0,2025_02_22 14_53_35 GMT+13:00,1,12,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASE,,DNC,p596,,p566,p605,Kevin Li,136740,R3(p57)
+data,p151,-1,-1,,1,14,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,93.7,LASE,Rick Sanders,DNC,p168,,,p151,Rick Sanders,178802,R1(p22)
+data,p326,0,0,2022_04_09 14_00_10 GMT+12:00,1,12,0,0,0,,0,,0,LASEM,Richard Mansell,DNC,,,p308,p427,Richard Mansell,44284,R3(p37)
+data,p608,0,0,2025_02_22 15_21_15 GMT+13:00,1,6,1367.212120890617,0,1367.212120890617,2025_02_22 15_20_26 GMT+13:00,0,,0,LASEM,,,,,p593,tCECF19EE-9DEC-4F46-9154-8B569B49AE28240,Andrew Robinson,136656,R4(p58)
+data,p49,0,93.7,,1,0,1852.242738962173,1977,1852,2020_11_07 10_57_35 GMT+13:00,0,,93.7,LASE,,,p60,,,p59,Peter Galloway,116033,R1(p14)
+data,p254,0,0,2021_11_28 14_13_36 GMT+13:00,1,5,1544.326774954796,0,1544.326774954796,2021_11_28 14_13_57 GMT+13:00,0,,0,LASEM,,,,,p247,p272,William Buick,179385,R4(p30)
+data,p327,0,0,2022_04_09 13_59_07 GMT+12:00,1,8,1679.693502902985,0,1679.693502902985,2022_04_09 13_54_32 GMT+12:00,0,,0,LASEM,,,,,p309,p450,Andrew Robinson,136656,R3(p37)
+data,p148,146,102.543,,1,6,1693.163698911667,1807,1693,2021_04_03 11_40_09 GMT+13:00,0,,93.7,LASE,,,p161,,,p147,Richard Mansell,44284,R1(p22)
+data,p515,6.395454545454641,1152.043,2024_09_28 15_23_26 GMT+12:00,1,11,1461,1274,1461,2024_09_28 15_24_47 GMT+12:00,0,,1147,LASEM,,,p540,,p504,p553,Sophie Borsboom,217315,R3(p52)
+data,p114,46,103.7834,2020_12_15 18_54_43 GMT+13:00,1,6,1090.661514043808,1098,1091,2020_12_15 18_54_24 GMT+13:00,0,,99.4,LASEM,,,p126,,p102,p121,Martin Outram,123381,R3(p19)
+data,p511,22.06182341671229,1118.339,2024_09_28 13_49_11 GMT+12:00,1,11,1345.323637962341,1223,1345.323637962341,2024_09_28 14_11_10 GMT+12:00,0,,1100,LASE,,,p525,,,p537,Phil Galloway,41985,R2(p51)
+data,p226,344,119.4596,2021_04_03 13_44_38 GMT+13:00,1,16,1596.372060060501,1703,1596,2021_04_03 13_47_54 GMT+13:00,0,,93.7,LASE,Unknown1,,,,p208,p235,,116033,R5(p26)
+data,p41,32,96.10835,2019_09_21 11_55_32 GMT+12:00,1,1,1277.312111020088,1363,1277,2019_09_21 11_55_17 GMT+12:00,0,,93.7,LASE,,,p27,,p34,p37,Robin Smith,72966,R3(p13)
+data,p504,0,1147,2024_09_28 13_49_06 GMT+12:00,1,13,1379.801182985306,1203,1379.801182985306,2024_09_28 14_11_44 GMT+12:00,0,,1147,LASEM,,,p515,,,p540,Sophie Borsboom,217315,R2(p51)
+data,p68,630,123.7489,2020_11_07 11_52_04 GMT+13:00,1,10,3203.98332297802,3223,3204,2020_11_07 12_05_12 GMT+13:00,0,,99.4,LASEM,,,p80,,p58,p69,Elise Bryant,116119,R2(p15)
+data,p566,0,0,2025_02_22 14_20_00 GMT+13:00,1,12,1674.112272024155,0,1674.112272024155,2025_02_22 14_16_33 GMT+13:00,0,,0,LASE,,,p581,,p551,p585,Kevin Li,136740,R2(p56)
+data,p160,147,123.3787,,1,16,2036.747745990753,1779,2037,2021_04_03 11_45_52 GMT+13:00,0,,114.5,SBRD,,,p171,,,p163,Ynknon5,1759,R1(p22)
+data,p2,0,0,,1,2,21.36373698711395,0,21,2018_08_30 20_08_15 GMT+12:00,0,,0,LASE,,,,,,p3,Tim Prickett,428,Race #1(p1)
+data,p227,-1,-1,,1,4,0,0,0,,0,,93.7,LASE,Unknown2,DNC,,,p209,p228,,797,R5(p26)
+data,p195,47,97.36504,2021_04_03 12_45_17 GMT+13:00,1,2,1244.245213031769,1328,1244,2021_04_03 12_42_59 GMT+13:00,0,,93.7,LASE,,,p213,,p177,p192,Richard Ineson,150010,R3(p24)
+data,p233,0,0,,1,0,1428.981768965721,0,1428.981768965721,2021_11_28 12_33_16 GMT+13:00,0,,0,LASEM,,,p241,,,p238,Dom Sutton,168688,R1(p27)
+data,p126,108,109.6999,2020_12_15 19_17_59 GMT+13:00,1,7,1145.127359986305,1152,1145,2020_12_15 19_18_53 GMT+13:00,0,,99.4,LASEM,,,p138,,p114,p133,Martin Outram,123381,R4(p20)
+data,p183,289,116.3058,2021_04_03 12_48_24 GMT+13:00,1,17,1486.070334076881,1586,1486,2021_04_03 12_47_01 GMT+13:00,0,,93.7,LASE,,,p201,,p165,p182,Unknown4,14945,R3(p24)
+data,p123,-1,-1,,1,3,0,0,0,,0,,96.1,LAS4.7,,DNC,p135,,p111,p130,Laura Harding,178659,R4(p20)
+data,p465,0,0,,1,6,0,0,0,,0,,0,LASEM,,DNC,p475,,p455,tCECF19EE-9DEC-4F46-9154-8B569B49AE28268,Mark Thompson,145572,R3(p47)
+data,p455,0,0,,1,1,0,0,0,,0,,0,LASEM,,DNC,p465,,p445,tCECF19EE-9DEC-4F46-9154-8B569B49AE28269,Mark Thompson,145572,R2(p46)
+data,p191,248,113.0969,2021_04_03 12_48_51 GMT+13:00,1,15,1444.829930067062,1542,1445,2021_04_03 12_46_20 GMT+13:00,0,,93.7,LASE,Unknown2,,p209,,p173,p191,,797,R3(p24)
+data,p419,268.4360896891628,118.4816,2023_12_03 11_36_54 GMT+13:00,1,13,1421.019694924355,1478,1421.019694924355,2023_12_03 11_37_05 GMT+13:00,0,,96.1,LAS4.7,,,p437,,p401,p397,Nikki Reid,157145,R3(p43)
+data,p187,199,109.2617,2021_04_03 12_46_50 GMT+13:00,1,10,1396.489809036255,1490,1396,2021_04_03 12_45_32 GMT+13:00,0,,93.7,LASE,,,p205,,p169,p188,Martin Outram,123381,R3(p24)
+data,p130,132,106.3466,2020_12_15 19_17_03 GMT+13:00,1,5,1110.424431920052,1185,1110,2020_12_15 19_18_18 GMT+13:00,0,,93.7,LASE,,,p142,,p118,p123,Duncan Cartwright,131808,R4(p20)
+data,p204,32,96.14606,2021_04_03 13_11_20 GMT+13:00,1,1,1240.995037078857,1324,1241,2021_04_03 13_11_13 GMT+13:00,0,,93.7,LASE,Rick Sanders,,p222,,p186,p206,Rick Sanders,178802,R4(p25)
+data,p137,92,107.6515,2020_12_15 19_49_42 GMT+13:00,1,7,1196.230623960495,1203,1196,2020_12_15 19_46_22 GMT+13:00,0,,99.4,LASEM,,,,,p125,p136,Rene Borsboom,11,R5(p21)
+data,p29,0,93.7,2019_09_21 10_57_15 GMT+12:00,1,0,1308.403846979141,1396,1308,2019_09_21 10_56_48 GMT+12:00,0,,93.7,LASE,,,p36,,p43,p28,Richard Mansell,44284,R1(p11)
+data,p80,75,103.572,2020_11_07 13_02_01 GMT+13:00,1,7,1857.071630001068,1868,1857,2020_11_07 12_39_34 GMT+13:00,0,,99.4,LASEM,,,,,p68,p78,Elise Bryant,116119,R3(p16)
+data,p169,148,104.13,2021_04_03 12_18_20 GMT+13:00,1,6,1475.467170000076,1574,1475,2021_04_03 12_14_31 GMT+13:00,0,,93.7,LASE,,,p187,,p144,p172,Martin Outram,123381,R2(p23)
+data,p509,-1,-1,2024_09_28 13_49_16 GMT+12:00,1,21,1574.603157043457,inf,1574.603157043457,2024_09_28 14_14_59 GMT+12:00,0,,0,LAS2000,,,p523,,,p538,Rainer  Kuprecht,512,R2(p51)
+data,p330,0,0,2022_04_09 13_58_38 GMT+12:00,1,6,1663.293955922127,0,1663.293955922127,2022_04_09 13_54_16 GMT+12:00,0,,0,LASE,,,,,p312,p457,Hannah Reeves,145572,R3(p37)
+data,p481,0,0,,1,5,926.9592260122299,0,926.9592260122299,2024_03_02 11_59_07 GMT+13:00,0,,0,LASEM,,,p491,,p471,p502,Phil Galloway,159768,R4(p48)
+data,p112,89,107.8739,2020_12_15 18_56_30 GMT+13:00,1,9,1133.815328001976,1141,1134,2020_12_15 18_55_07 GMT+13:00,0,,99.4,LASEM,,,p124,,p100,p113,Nikki Reid,157145,R3(p19)
+data,p530,86.76601004600525,1221.775,,1,10,1417.698688983917,1236,1417.698688983917,2024_09_28 15_12_21 GMT+12:00,0,,1147,LASEM,,,,,,p565,Gerard Brennan,131870,R4(p53)
+data,p143,305,112.1735,,1,9,1852.3764950037,1977,1852,2021_04_03 11_42_48 GMT+13:00,0,,93.7,LASE,,,p166,,,p159,Rainer  Kuprecht,512,R1(p22)
+data,p477,0,0,2024_03_02 11_58_30 GMT+13:00,1,7,960.4130100011826,0,960.4130100011826,2024_03_02 11_59_40 GMT+13:00,0,,0,LASEM,,,p487,,p467,p506,Martin Outram,123381,R4(p48)
+data,p259,0,0,2021_11_28 14_18_08 GMT+13:00,1,2,0,0,0,,0,,0,LAS4.7,,DNC,,,p252,p275,Gerard Brennan,167148,R4(p30)
+data,p471,0,0,2024_03_02 11_34_42 GMT+13:00,1,0,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p481,,p461,p498,Phil Galloway,159768,R3(p47)
+data,p363,0,0,2022_11_09 19_12_45 GMT+13:00,1,1,1754.255645990372,0,1754.255645990372,2022_11_09 19_13_28 GMT+13:00,0,,0,LASE,,,p375,,p351,p356,Dom Sutton,168688,R2(p39)
+data,p111,-1,-1,2020_12_15 18_55_26 GMT+13:00,1,0,0,0,0,,0,,96.1,LAS4.7,,DNF,p123,,p99,p119,Laura Harding,178659,R3(p19)
+data,p488,0,0,2024_03_02 12_24_39 GMT+13:00,1,5,975.6475520133972,0,975.6475520133972,2024_03_02 12_25_31 GMT+13:00,0,,0,LASEM,,,,,p478,p518,Andrew Robinson,136656,R5(p49)
+data,p532,132.8834862167562,1214.519,,1,9,1409.279255032539,1281,1409.279255032539,2024_09_28 15_12_12 GMT+12:00,0,,1100,LASE,,,,,,p568,Nan Jiang,124050,R4(p53)
+data,p534,97.01101023504384,1183.604,2024_09_28 14_48_43 GMT+12:00,1,7,1373.406779050827,1249,1373.406779050827,2024_09_28 15_11_36 GMT+12:00,0,,1100,LASE,,,,,,p560,Chris Maurice,136697,R4(p53)
+data,p206,101,101.4918,2021_04_03 13_12_25 GMT+13:00,1,7,1309.982730984688,1398,1310,2021_04_03 13_12_22 GMT+13:00,0,,93.7,LASE,,,p224,,p188,p202,Phil Galloway,41985,R4(p25)
+data,p230,177,106.9598,2021_04_03 13_44_46 GMT+13:00,1,15,1428.870124101639,1525,1429,2021_04_03 13_45_07 GMT+13:00,0,,93.7,LASE,,,,,p212,p223,Nan Jiang,124050,R5(p26)
+data,p420,57.60620105266548,104.2031,2023_12_03 11_33_43 GMT+13:00,1,7,1249.768676996231,1257,1249.768676996231,2023_12_03 11_34_14 GMT+13:00,0,,99.4,LASEM,,,p438,,p403,p400,Sophie Borsboom,217315,R3(p43)
+data,p289,0,0,2022_02_02 19_41_56 GMT+13:00,1,1,0,0,0,,0,,0,LASEM,,DNF,,,p282,p440,Dom Sutton,168688,R4(p34)
+data,p432,-1,-1,2023_12_03 12_03_08 GMT+13:00,1,0,0,0,0,,0,,93.7,LASE,,DNF,,,p415,p422,Chris Green,150073,R4(p44)
+data,p422,269.0185447281872,118.5302,,1,14,1421.602149963379,1479,1421.602149963379,2023_12_03 11_37_06 GMT+13:00,0,,96.1,LAS4.7,,,p436,,,p399,Tom Berliner,797,R3(p43)
+data,p328,0,0,2022_04_09 14_06_33 GMT+12:00,1,14,0,0,0,,0,,0,LAS4.7,,DNC,,,p310,p461,Rainer  Kuprecht,512,R3(p37)
+data,p100,107,108.9818,2020_12_15 18_31_13 GMT+13:00,1,9,1217.311468958855,1224,1217,2020_12_15 18_32_00 GMT+13:00,0,,99.4,LASEM,,,p112,,p88,p109,Nikki Reid,157145,R2(p18)
+data,p305,0,0,,1,16,3793.209125995636,0,3793.209125995636,2022_04_09 12_30_31 GMT+12:00,0,,0,LAS4.7,,,p317,,,p317,Jeanie Borsboom,1073,R1(p35)
+data,p105,37,96.98216,2020_12_15 18_32_19 GMT+13:00,1,0,1083.003643989563,1156,1083,2020_12_15 18_29_46 GMT+13:00,0,,93.7,LASE,,,p117,,p93,p101,Russ Benge,195538,R2(p18)
+data,p228,358,122.9027,2021_04_03 13_43_01 GMT+13:00,1,17,1641.803561091423,1709,1642,2021_04_03 13_48_40 GMT+13:00,0,,96.1,LAS4.7,,,,,p210,p226,Jeanie Borsboom,44272,R5(p26)
+data,p350,0,0,,1,4,1787.121938943863,0,1787.121938943863,2022_11_09 18_35_45 GMT+13:00,0,,0,LASE,,,p361,,,p346,William Buick,123384,R1(p38)
+data,p208,191,108.4645,2021_04_03 13_14_17 GMT+13:00,1,9,1399.657631993294,1494,1400,2021_04_03 13_13_52 GMT+13:00,0,,93.7,LASE,Unknown1,,p226,,p190,p215,,116033,R4(p25)
+data,p61,143,99.22312,,1,4,2568.744488954544,2742,2569,2020_11_07 11_54_37 GMT+13:00,0,,93.7,LASE,,,p72,,p50,p71,Graham Davies,181969,R2(p15)
+data,p321,0,0,2022_04_09 13_36_34 GMT+12:00,1,6,1793.429166078568,0,1793.429166078568,2022_04_09 13_07_14 GMT+12:00,0,,0,LASE,,,p340,,p295,p330,Richard Ineson,150010,R2(p36)
+data,p600,0,0,2025_02_22 15_21_32 GMT+13:00,1,10,1491.756875991821,0,1491.756875991821,2025_02_22 15_22_31 GMT+13:00,0,,0,LASEM,,,,,p585,tCECF19EE-9DEC-4F46-9154-8B569B49AE28244,Tim Prickett,86,R4(p58)
+data,p312,0,0,2022_04_09 13_37_46 GMT+12:00,1,7,1925.062757015228,0,1925.062757015228,2022_04_09 13_09_25 GMT+12:00,0,,0,LASE,,,p330,,p300,p327,Hannah Reeves,145572,R2(p36)
+data,p76,-1,-1,2020_11_07 12_49_55 GMT+13:00,1,0,0,0,0,,0,,93.7,LASE,,DNC,,,p64,p81,Michael Norriss,44293,R3(p16)
+data,p20,17.63929849744864,95.47827,,1,2,947.0809320211411,1010,947.0809320211411,2018_08_31 15_33_42 GMT+12:00,0,,93.7,LASE,,,,,,p270:p271,Phil Galloway,41985,Race #1(p9)
+data,p65,114,98.10305,2020_11_07 11_44_06 GMT+13:00,1,3,2540.309359908104,2711,2540,2020_11_07 11_54_09 GMT+13:00,0,,93.7,LASE,,,p77,,p55,p67,Tony Visker,36758,R2(p15)
+data,p57,561,124.4611,,1,9,2460.42370903492,2560,2460,2020_11_07 11_07_43 GMT+13:00,0,,96.1,LAS4.7,,,p59,,,p57,Hannah Reeves,175282,R1(p14)
+data,p341,0,0,2022_04_09 14_00_19 GMT+12:00,1,10,1718.749001979828,0,1718.749001979828,2022_04_09 13_55_11 GMT+12:00,0,,0,LASE,,,,,p322,p439,Dom Sutton,168688,R3(p37)
+data,p107,87,101.976,2020_12_15 18_55_03 GMT+13:00,1,5,1072.229050040245,1144,1072,2020_12_15 18_54_05 GMT+13:00,0,,93.7,LASE,,,p119,,p95,p114,Tony Visker,36758,R3(p19)
+data,p587,0,0,2025_02_22 14_49_43 GMT+13:00,1,2,1418.71285200119,0,1418.71285200119,2025_02_22 14_49_20 GMT+13:00,0,,0,LASE,,,p602,,p572,p608,Jack Dudley,198112,R3(p57)
+data,p353,0,0,,1,5,1797.553984999657,0,1797.553984999657,2022_11_09 18_35_55 GMT+13:00,0,,0,LASEM,,,p365,,,p349,Laura Harding,178659,R1(p38)
+data,p409,190.4163947648083,111.9765,2023_12_03 11_38_18 GMT+13:00,1,4,1343,1397,1343,2023_12_03 11_35_47 GMT+13:00,0,,96.1,LAS4.7,,,p426,,p393,p393,Annah Winheld,181876,R3(p43)
+data,p159,526,125.5592,,1,17,2072.922379016876,2212,2073,2021_04_03 11_46_28 GMT+13:00,0,,93.7,LASE,,,p174,,,p150,Unknown3,44272,R1(p22)
+data,p36,72,99.10577,2019_09_21 11_27_48 GMT+12:00,1,3,1320.028751015663,1409,1320,2019_09_21 11_28_00 GMT+12:00,0,,93.7,LASE,,,p43,,p29,p33,Richard Mansell,44284,R2(p12)
+data,p109,67,105.7811,2020_12_15 18_55_50 GMT+13:00,1,7,1111.979357004166,1119,1112,2020_12_15 18_54_45 GMT+13:00,0,,99.4,LASEM,,,p121,,p97,p111,Brian Dixon,6030,R3(p19)
+data,p367,0,0,2022_11_09 19_55_14 GMT+13:00,1,6,2534.932698011398,0,2534.932698011398,2022_11_09 20_03_42 GMT+13:00,0,,0,LASE,,,,,p360,p431,Chris Maurice,136697,R3(p40)
+data,p124,135,112.2867,2020_12_15 19_18_42 GMT+13:00,1,8,1171.810310006142,1179,1172,2020_12_15 19_19_20 GMT+13:00,0,,99.4,LASEM,,,p136,,p112,p126,Nikki Reid,157145,R4(p20)
+data,p186,51,97.67811,2021_04_03 12_44_55 GMT+13:00,1,3,1248.361700057983,1332,1248,2021_04_03 12_43_04 GMT+13:00,0,,93.7,LASE,Rick Sanders,,p204,,p168,p193,Rick Sanders,178802,R3(p24)
+data,p139,0,93.7,2020_12_15 19_42_43 GMT+13:00,1,3,1041.339311957359,1111,1041,2020_12_15 19_43_47 GMT+13:00,0,,93.7,LASE,,,,,p127,p145,George Wills,667,R5(p21)
+data,p119,152,108.2628,2020_12_15 19_17_40 GMT+13:00,1,6,1130.176795959473,1206,1130,2020_12_15 19_18_38 GMT+13:00,0,,93.7,LASE,,,p131,,p107,p125,Tony Visker,36758,R4(p20)
+data,p136,-1,-1,2020_12_15 19_45_57 GMT+13:00,1,0,0,0,0,,0,,99.4,LASEM,,DNC,,,p124,p140,Nikki Reid,157145,R5(p21)
+data,p478,0,0,2024_03_02 11_57_41 GMT+13:00,1,4,924.2599409818649,0,924.2599409818649,2024_03_02 11_59_04 GMT+13:00,0,,0,LASEM,,,p488,,p468,p505,Andrew Robinson,136656,R4(p48)
+data,p225,-1,-1,,1,6,0,0,0,,0,,114.5,SBRD,,DNC,,,p207,p232,Ynknon5,1759,R5(p26)
+data,p451,0,0,,1,7,960.0009390115738,0,960.0009390115738,2024_03_02 10_51_18 GMT+13:00,0,,0,LASEM,,,p461,,,p474,Phil Galloway,159768,R1(p45)
+data,p493,0,0,,1,4,0,0,0,,0,,0,LASE,,DNC,,,p483,p516,Chris Green,157003,R5(p49)
+data,p512,153.6446479558945,1274.722,2024_09_28 14_14_18 GMT+12:00,1,19,1533.4458309412,1337,1533.4458309412,2024_09_28 14_14_18 GMT+12:00,0,,1147,LASEM,,,,,,p533,Gerard Brennan,131870,R2(p51)
+data,p559,0,0,,1,12,0,0,0,,0,,0,LASEM,,DNC,p574,,,p583,Sophie Borsboom,159764,R1(p55)
+data,p553,0,0,,1,3,1708.091272950172,0,1708.091272950172,2025_02_22 13_37_59 GMT+13:00,0,,0,LASE,,,p568,,,p581,Martin Outram,123381,R1(p55)
+data,p73,-1,-1,2020_11_07 12_49_42 GMT+13:00,1,1,1672.428755998611,3.402823466385289e+38,1672,2020_11_07 12_36_29 GMT+13:00,0,,0,BOAT CLASS,Rick Sanders,,,,,p79,Rick Sanders,178802,R3(p16)
+data,p461,0,0,2024_03_02 11_11_21 GMT+13:00,1,4,928.069806098938,0,928.069806098938,2024_03_02 11_10_49 GMT+13:00,0,,0,LASEM,,,p471,,p451,p484,Phil Galloway,159768,R2(p46)
+data,p293,0,0,,1,7,3624.6507999897,0,3624.6507999897,2022_04_09 12_27_42 GMT+12:00,0,,0,LASE,,,p311,,,p312,Sean Dickey,188804,R1(p35)
+data,p603,0,0,2025_02_22 15_24_02 GMT+13:00,1,1,0,0,0,,0,,0,LASEM,,DNC,,,p588,tCECF19EE-9DEC-4F46-9154-8B569B49AE28237,Mark Thompson,145572,R4(p58)
+data,p241,0,0,2021_11_28 13_05_39 GMT+13:00,1,0,1416.170833110809,0,1416.170833110809,2021_11_28 13_05_26 GMT+13:00,0,,0,LASEM,,,p251,,p233,p244,Dom Sutton,168688,R2(p28)
+data,p365,0,0,2022_11_09 19_14_12 GMT+13:00,1,2,1782.934996962547,0,1782.934996962547,2022_11_09 19_13_57 GMT+13:00,0,,0,LASEM,,,p376,,p353,p351,Laura Harding,178659,R2(p39)
+data,p295,0,0,,1,4,3554.145820021629,0,3554.145820021629,2022_04_09 12_26_32 GMT+12:00,0,,0,LASE,,,p321,,,p315,Richard Ineson,150010,R1(p35)
+data,p128,192,114.4903,2020_12_15 19_19_28 GMT+13:00,1,9,1195.27966594696,1243,1195,2020_12_15 19_19_43 GMT+13:00,0,,96.1,LAS4.7,,,p140,,p116,p124,Matt Lang,44272,R4(p20)
