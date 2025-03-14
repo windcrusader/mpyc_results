@@ -1,0 +1,111 @@
+ScoringType,name,comments,hasMinimumRaces,highPointsAreGood,shouldAveragePoints
+data,Low Point System,Scoring matches boat placement in race,0,0,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,Sailing Club,,,,,
+Race,raceId,name,startTime,endTime,fleet:Fleet:fleetId,status,windForce,isFinalized,event:Event:eventId,scoreIsStale,distance,scoringMultiplier,teamTime:TeamRaceTime:teamRaceTimeId
+data,R1(p59),R1,2025_03_13 17_57_13 GMT+13:00,2025_03_13 18_24_52 GMT+13:00,(null)(p21),9,0,1,Thursday&comma; 13 March 2025(p17),0,0,1,p614:p613:p615:p616:p612:p617:p611:p618
+data,R2(p60),R2,2025_03_13 18_28_13 GMT+13:00,2025_03_13 18_54_58 GMT+13:00,(null)(p21),9,0,1,Thursday&comma; 13 March 2025(p17),0,0,1,p626:p625:p620:p624:p623:p622:p621:p619
+data,R3(p61),R3,2025_03_13 18_58_23 GMT+13:00,2025_03_13 19_23_35 GMT+13:00,(null)(p21),9,0,1,Thursday&comma; 13 March 2025(p17),0,0,1,p628:p632:p631:p627:p630:p633:p629:p634
+FinishCode,finishCode,boatFinished,isFinishCode,boatStarted,canBeThrownOut,details,groupingOrder,isDisqualification,isPenaltyCode,penaltyAdjustmentPercent,redressType,shouldMoveToBottom,shouldMoveToTop
+data,DNC,1,0,0,1,Did not start; did not come to starting area,0,0,0,0,x,1,0
+data,DNF,1,0,1,1,Did not finish,0,0,0,0,x,1,0
+TeamRaceTimeScoring,teamRaceTimeScoringId,finishPlace,finishPlaceIgnoringTie,isForEvent,isIncluded,inclusionCount,points,event:Event:eventId,series:Series:name
+data,p656,7,7,1,1,1,7,Thursday&comma; 13 March 2025(p17),
+data,p670,5,5,1,1,1,5,Thursday&comma; 13 March 2025(p17),
+data,p662,5,5,1,1,1,5,Thursday&comma; 13 March 2025(p17),
+data,p655,5,5,1,1,1,5,Thursday&comma; 13 March 2025(p17),
+data,p668,4,4,1,1,1,4,Thursday&comma; 13 March 2025(p17),
+data,p658,2,2,1,1,1,2,Thursday&comma; 13 March 2025(p17),
+data,p651,3,3,1,1,1,3,Thursday&comma; 13 March 2025(p17),
+data,p664,3,3,1,1,1,3,Thursday&comma; 13 March 2025(p17),
+data,p653,6,6,1,1,1,6,Thursday&comma; 13 March 2025(p17),
+data,p663,1,1,1,1,1,1,Thursday&comma; 13 March 2025(p17),
+data,p654,4,4,1,1,1,4,Thursday&comma; 13 March 2025(p17),
+data,p667,9,9,1,1,1,9,Thursday&comma; 13 March 2025(p17),
+data,p657,8,8,1,1,1,8,Thursday&comma; 13 March 2025(p17),
+data,p669,7,7,1,1,1,7,Thursday&comma; 13 March 2025(p17),
+data,p661,4,4,1,1,1,4,Thursday&comma; 13 March 2025(p17),
+data,p660,9,9,1,1,1,9,Thursday&comma; 13 March 2025(p17),
+data,p671,6,6,1,1,1,6,Thursday&comma; 13 March 2025(p17),
+data,p666,6,6,1,1,1,6,Thursday&comma; 13 March 2025(p17),
+data,p674,3,3,1,1,1,3,Thursday&comma; 13 March 2025(p17),
+data,p673,2,2,1,1,1,2,Thursday&comma; 13 March 2025(p17),
+data,p652,1,1,1,1,1,1,Thursday&comma; 13 March 2025(p17),
+data,p672,1,1,1,1,1,1,Thursday&comma; 13 March 2025(p17),
+data,p659,2,2,1,1,1,2,Thursday&comma; 13 March 2025(p17),
+data,p665,7,7,1,1,1,7,Thursday&comma; 13 March 2025(p17),
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,Sailing Club,,,,,
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Chris Maurice,Chris,Maurice,,Sailing Club,Sailing Club
+data,Dom Sutton,Dom,Sutton,,MPYC,MPYC
+data,Gerard Brennan,Gerard,Brennan,,Sailing Club,Sailing Club
+data,Julia Van Essen,Julia,Van Essen,,Sailing Club,Sailing Club
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Tim Prickett,Tim,Prickett,,MPYC,MPYC
+data,Ash Thyne,Ash,Thyne,,Sailing Club,Sailing Club
+data,Jack Dudley,Jack,Dudley,,Sailing Club,Sailing Club
+BoatClass,boatClassID,boatType,name,napyCode,isSystem,portsmouthNumber,isWindAdjustFormula
+data,LASE,Centerboard,Laser (Int.),LASE,0,91.1,
+data,LASEM,Centerboard,Laser Radial/Laser M,LASEM,0,96.7,
+Handicap,handicapCode,canBeDeleted,handicapCode,denominatorConstant,isRounded,isSelected,isTimeOnTime,isWindAdjustFormula,name,numeratorConstant,windHandicap1,windHandicap3,windHandicap4,windHandicap9,windHandicapType,decimalPlaces
+data,NAPY,0,NAPY,0,0,0,1,0,North American Portsmouth Yardstick,100,0,0,0,0,Class,1
+data,PY,0,PY,0,1,0,1,0,Portsmouth Yardstick,1000,0,0,0,0,None,1
+HandicapValues,name,customValue,customWindHandicap1,customWindHandicap3,customWindHandicap4,customWindHandicap9,value,windHandicap1,windHandicap3,windHandicap4,windHandicap9,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode
+data,PY_Laser (Int.),0,0,0,0,0,1100,0,0,0,0,LASE,PY
+data,NAPY_Laser (Int.),0,0,0,0,0,91.1,93.7,92.3,91,88.2,LASE,NAPY
+data,PY_Laser Radial/Laser M,0,0,0,0,0,1147,0,0,0,0,LASEM,PY
+data,NAPY_Laser Radial/Laser M,0,0,0,0,0,96.7,99.4,97.3,93.6,0,LASEM,NAPY
+Vessel,name,bowNumber,country,sailNumber,sortOrder,association:Association:name,primaryClub:Association:name,crew:Member:name,skipper:Member:name,boatClass:BoatClass:boatClassID,phrfRating
+data,168688,,,168688,    168688,Sailing Club,Sailing Club,,Dom Sutton,LASE,0
+data,136697,,,136697,    136697,Sailing Club,Sailing Club,,Chris Maurice,LASE,0
+data,198112,,,198112,    198112,Sailing Club,Sailing Club,,Jack Dudley,LASE,0
+data,159762,,,159762,    159762,Sailing Club,Sailing Club,,Ash Thyne,LASE,0
+data,86,,,86,        86,Sailing Club,Sailing Club,,Tim Prickett,LASEM,0
+data,41985,,,41985,     41985,Sailing Club,Sailing Club,,Phil Galloway,LASEM,0
+data,131870,,,131870,    131870,Sailing Club,Sailing Club,,Gerard Brennan,LASEM,0
+data,176916,,,176916,    176916,Sailing Club,Sailing Club,,Julia Van Essen,LASEM,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Chris Maurice,Chris,Maurice,,Sailing Club,Sailing Club
+data,Dom Sutton,Dom,Sutton,,MPYC,MPYC
+data,Gerard Brennan,Gerard,Brennan,,Sailing Club,Sailing Club
+data,Julia Van Essen,Julia,Van Essen,,Sailing Club,Sailing Club
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Tim Prickett,Tim,Prickett,,MPYC,MPYC
+data,Ash Thyne,Ash,Thyne,,Sailing Club,Sailing Club
+data,Jack Dudley,Jack,Dudley,,Sailing Club,Sailing Club
+TeamRaceTime,teamRaceTimeId,bce,bcr,expectedFinishTime,hasBeenMovedInTable,rowNumberInTable,rawElapsedTimeForSorting,correctedElapsedTime,elapsedTime,endTime,isJustForSeries,lastUpdateTime,handicapUsed,boatClass:BoatClass:boatClassID,crew:Member:name,finishCode:FinishCode:finishCode,nextRaceTime:TeamRaceTime:teamRaceTimeId,penalties:PenaltiesForTeam:penaltiesForTeamId,previousRaceTime:TeamRaceTime:teamRaceTimeId,scoringPoints:TeamRaceTimeScoring:teamRaceTimeScoringId,skipper:Member:name,boat:Vessel:name,race:Race:raceId
+data,p615,0,0,2025_03_13 18_19_31 GMT+13:00,1,2,1437.0564879179,0,1437.0564879179,2025_03_13 18_21_10 GMT+13:00,0,,0,LASEM,,,p623,,p631,p651,Tim Prickett,86,R1(p59)
+data,p630,0,0,2025_03_13 19_21_47 GMT+13:00,1,4,1385.98571896553,0,1385.98571896553,2025_03_13 19_21_29 GMT+13:00,0,,0,LASEM,,,p614,,p622,p668,Julia Van Essen,176916,R3(p61)
+data,p613,0,0,,1,3,1440,0,1440,2025_03_13 18_21_13 GMT+13:00,0,,0,LASE,,,p620,,p628,p654,Dom Sutton,168688,R1(p59)
+data,p627,0,0,2025_03_13 19_20_16 GMT+13:00,1,1,1323.24880194664,0,1323.24880194664,2025_03_13 19_20_26 GMT+13:00,0,,0,LASE,,,p612,,p619,p672,Jack Dudley,198112,R3(p61)
+data,p623,0,0,2025_03_13 18_52_10 GMT+13:00,1,2,1376.56990301609,0,1376.56990301609,2025_03_13 18_51_10 GMT+13:00,0,,0,LASEM,,,p631,,p615,p659,Tim Prickett,86,R2(p60)
+data,p618,0,0,2025_03_13 18_20_58 GMT+13:00,1,1,1398.611254930496,0,1398.611254930496,2025_03_13 18_20_32 GMT+13:00,0,,0,LASEM,,,p624,,p632,p658,Phil Galloway,41985,R1(p59)
+data,p612,0,0,2025_03_13 18_19_16 GMT+13:00,1,0,1378.662711024284,0,1378.662711024284,2025_03_13 18_20_12 GMT+13:00,0,,0,LASE,,,p619,,p627,p652,Jack Dudley,198112,R1(p59)
+data,p616,0,0,2025_03_13 18_21_33 GMT+13:00,1,7,1655.020061016083,0,1655.020061016083,2025_03_13 18_24_48 GMT+13:00,0,,0,LASE,,,p625,,p633,p657,Chris Maurice,136697,R1(p59)
+data,p620,0,0,2025_03_13 18_52_13 GMT+13:00,1,0,0,0,0,,0,,0,LASE,,DNF,p628,,p613,p660,Dom Sutton,168688,R2(p60)
+data,p633,0,0,2025_03_13 19_25_05 GMT+13:00,1,6,1459.656754970551,0,1459.656754970551,2025_03_13 19_22_43 GMT+13:00,0,,0,LASE,,,p616,,p625,p671,Chris Maurice,136697,R3(p61)
+data,p622,0,0,2025_03_13 18_54_20 GMT+13:00,1,5,1404.155241966248,0,1404.155241966248,2025_03_13 18_51_38 GMT+13:00,0,,0,LASEM,,,p630,,p614,p661,Julia Van Essen,176916,R2(p60)
+data,p629,0,0,2025_03_13 19_21_21 GMT+13:00,1,7,1508.372959017754,0,1508.372959017754,2025_03_13 19_23_31 GMT+13:00,0,,0,LASE,,,p611,,p621,p669,Ash Thyne,159762,R3(p61)
+data,p614,0,0,2025_03_13 18_20_19 GMT+13:00,1,6,1566.383937954903,0,1566.383937954903,2025_03_13 18_23_20 GMT+13:00,0,,0,LASEM,,,p622,,p630,p656,Julia Van Essen,176916,R1(p59)
+data,p624,0,0,2025_03_13 18_51_32 GMT+13:00,1,4,1415,0,1415,2025_03_13 18_51_48 GMT+13:00,0,,0,LASEM,,,p632,,p618,p662,Phil Galloway,41985,R2(p60)
+data,p628,0,0,,1,0,0,0,0,,0,,0,LASE,,DNC,p613,,p620,p667,Dom Sutton,168688,R3(p61)
+data,p632,0,0,2025_03_13 19_21_58 GMT+13:00,1,5,1424.554651021957,0,1424.554651021957,2025_03_13 19_22_07 GMT+13:00,0,,0,LASEM,,,p618,,p624,p670,Phil Galloway,41985,R3(p61)
+data,p611,0,0,2025_03_13 18_22_22 GMT+13:00,1,4,1497,0,1497,2025_03_13 18_22_10 GMT+13:00,0,,0,LASE,,,p621,,p629,p655,Ash Thyne,159762,R1(p59)
+data,p617,0,0,2025_03_13 18_20_06 GMT+13:00,1,5,1548.362929940224,0,1548.362929940224,2025_03_13 18_23_01 GMT+13:00,0,,0,LASEM,,,p626,,p634,p653,Gerard Brennan,131870,R1(p59)
+data,p626,0,0,2025_03_13 18_54_02 GMT+13:00,1,6,1458.015074014664,0,1458.015074014664,2025_03_13 18_52_31 GMT+13:00,0,,0,LASEM,,,p634,,p617,p666,Gerard Brennan,131870,R2(p60)
+data,p631,0,0,2025_03_13 19_21_19 GMT+13:00,1,2,1337.773186922073,0,1337.773186922073,2025_03_13 19_20_41 GMT+13:00,0,,0,LASEM,,,p615,,p623,p673,Tim Prickett,86,R3(p61)
+data,p621,0,0,2025_03_13 18_53_10 GMT+13:00,1,3,1378,0,1378,2025_03_13 18_51_11 GMT+13:00,0,,0,LASE,,,p629,,p611,p664,Ash Thyne,159762,R2(p60)
+data,p634,0,0,2025_03_13 19_22_41 GMT+13:00,1,3,1372.926957964897,0,1372.926957964897,2025_03_13 19_21_16 GMT+13:00,0,,0,LASEM,,,p617,,p626,p674,Gerard Brennan,131870,R3(p61)
+data,p625,0,0,2025_03_13 18_55_48 GMT+13:00,1,7,1602.194458007812,0,1602.194458007812,2025_03_13 18_54_56 GMT+13:00,0,,0,LASE,,,p633,,p616,p665,Chris Maurice,136697,R2(p60)
+data,p619,0,0,2025_03_13 18_51_12 GMT+13:00,1,1,1312.654991984367,0,1312.654991984367,2025_03_13 18_50_06 GMT+13:00,0,,0,LASE,,,p627,,p612,p663,Jack Dudley,198112,R2(p60)
+Fleet,fleetId,name,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode,numUniqueDigits,boat:Vessel:name,burgee:Burgee:name
+data,Fleet Name(p21),Fleet Name,,,6,41985:86:159762:131870:136697:198112:176916:168688,1
+Event,eventId,name,eventDate,scoringType:ScoringType:name,countdownMinutes,racePrepMinutes,aboutToStartMinutes,throwOuts,penaltyBasedOnStarting,minimumRaces,raceOfficer:Member:name,scoringType:ScoringType:name,official:Member:name,primaryClub:Association:name,scoringMultiplier,fleet:Fleet:fleetId
+data,Thursday&comma; 13 March 2025(p17),Thursday&comma; 13 March 2025,2025_03_13 17_51_39 GMT+13:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p21)
