@@ -46,6 +46,10 @@ parser.add_argument('-calc_corrections',
                     action="store_true",
                     help="""Calculate PY corrections based on race data""")
 
+parser.add_argument('-fpp',
+                    action="store_true",
+                    help="input file is first past the post scoring")
+
 
 class Globals():
     """Convenience wrapper for Globals"""
@@ -53,7 +57,7 @@ class Globals():
     today = datetime.datetime.today()
     todayformat = '%s' % (today.strftime('%d %b %y %H:%M'))
     rank_method = 'PCT'
-    season = "2425"
+    season = "2526"
     table_position_file = "historical_positions.json"
     # Minimum number of yachts of a class in a race for consideration in
     # handicap adjustment calculation.
@@ -149,7 +153,7 @@ def sort_matrix(matin, key, key2=False):
             row.sort(key=lambda b: (f(b), f2(b)))
 
 
-def read_sailwave_series_summary(division):
+def read_sailwave_series_summary(division, args):
     '''Reads the sailwave data file and generates a series summary dict.
 
     Grabs a particular division e.g SENIOR
@@ -161,8 +165,12 @@ def read_sailwave_series_summary(division):
 
     This is used for calculating handicap corrections.
     '''
+    if args.fpp:
 
-    filename = (Globals.season + "/" + "MPYC_Master_Template_" +
+        filename = (Globals.season + "/" + "MPYC_Master_Template_" +
+                Globals.season + "_FPP.blw")
+    else:
+        filename = (Globals.season + "/" + "MPYC_Master_Template_" +
                 Globals.season + ".blw")
 
     with open(filename) as csvfile:
@@ -275,12 +283,15 @@ def read_sailwave_series_summary(division):
     return helms, races, races_detail
 
 
-def generate_html(matin):
+def generate_html(matin, args):
     '''Generates the laser league table using jinja2 and the template in the
     directory templates'''
 
     print('Generating league table...')
-    outfilename = "htmloutput/leaguetable" + Globals.season + ".htm"
+    if args.fpp:
+        outfilename = "htmloutput/leaguetable" + Globals.season + "_fpp.htm"
+    else:    
+        outfilename = "htmloutput/leaguetable" + Globals.season + ".htm"
     file = open(outfilename, 'w')
     # sort rows based on sort method
     if Globals.rank_method == 'PCT':
@@ -398,14 +409,17 @@ def save_table_position(formatted_res, no_races):
     return jdecode[laststatekey]
 
 
-def generate_points_table(sailresults, highpoint, num_races, nom_sail = True):
+def generate_points_table(sailresults, highpoint, num_races, args):
     '''This method generates the HTML points table
     If nom_sail is True then the table is processed with the sailor's results based on 
     using that sail in every race, even if on the day they did not use that sail.
     '''
 
     print('Generating points table...')
-    outfilename = "htmloutput/pointstable" + Globals.season + ".htm"
+    if args.fpp:
+        outfilename = "htmloutput/pointstable" + Globals.season + "_fpp.htm"
+    else:
+        outfilename = "htmloutput/pointstable" + Globals.season + ".htm"
     file = open(outfilename, 'w')
 
     sortedsailresults = sorted(sailresults, key=lambda b: b.props.name)
@@ -501,7 +515,10 @@ def generate_points_table(sailresults, highpoint, num_races, nom_sail = True):
     if not highpoint:
         template = env.get_template('points_table_template.html')
     else:
-        template = env.get_template('points_table_template_highpoint.html')
+        if args.fpp:
+            template = env.get_template('points_table_template_highpoint_fpp.html')
+        else:
+            template = env.get_template('points_table_template_highpoint.html')
     print(template.render(updatetime=Globals.todayformat,
                           table=formattedresults,
                           races=num_races), file=file)
@@ -627,7 +644,7 @@ def handicap_adjust(races_detail):
 
 if __name__ == '__main__':
     args = parser.parse_args()
-    sailresults, races, racesdetail = read_sailwave_series_summary("SENIOR")
+    sailresults, races, racesdetail = read_sailwave_series_summary("SENIOR", args)
     # print(sailresults)
     # print(races)
     matrix = initialise_matrix(sailresults)
@@ -647,9 +664,9 @@ if __name__ == '__main__':
     print(f"Total person races: {sum(races_list)}")
     print(f"Average sailors per race: {sum(races_list) / len(races)}")
 
-    generate_html(matrix)
+    generate_html(matrix, args)
     # print(matrix)
-    generate_points_table(sailresults, True, raceno)
+    generate_points_table(sailresults, True, raceno, args)
 
     if args.calc_corrections is True:
         handicap_adjust(racesdetail)
