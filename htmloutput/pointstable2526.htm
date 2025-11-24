@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('#sorttable').DataTable({"order": [[1,'dsc']],
     "pageLength":50,
     "rowCallback": function( row, data, index ) {
-        if ( data[4] > 24 )
+        if ( data[3] > 24 )
         {
             $('td', row).css('background-color', 'LightSkyBlue');
         }
@@ -23,12 +23,12 @@ $(document).ready(function() {
 } );
 </script>
 
-<title>MPYC Point Table as at 17 Nov 25 21:06</title>
+<title>MPYC Point Table as at 24 Nov 25 17:55</title>
 </head>
 <body>
-<h1>Points Table for Members</h1><p>Last updated 17 Nov 25 21:06</p>
+<h1>Points Table for Members</h1><p>Last updated 24 Nov 25 17:55</p>
 
-<p>This table shows the current standing in the seasonal points competiton after 32 races. 
+<p>This table shows the current standing in the seasonal points competiton after 36 races. 
 Points are scored by members in every race according to the
 Rinderle B high point scoring system.  <br/><br/>
 Points are scored according to race position and the number of other boats in the race. <br/>
@@ -63,6 +63,18 @@ The Rinderle B scoring table can be found at: <br/>
 <th>Mean points per race</th>
 </tr>
 </thead>
+
+<tr>
+<td>Dom Sutton</td>
+<td>1537</td>
+<td>1,2,1,1,2,4,5,1,3,3</td>
+<td>22</td>
+<td>10</td>
+<td>3</td>
+<td>4</td>
+<td>45.5</td>
+<td>69.9</td>
+</tr>
 
 <tr>
 <td>Rosa Borsboom</td>
@@ -102,14 +114,26 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Phil Galloway</td>
-<td>527</td>
-<td>5,3,1,4,8,1,5,7,4</td>
-<td>9</td>
-<td>2</td>
+<td>723</td>
+<td>3,1,4,5,3,1,4,8,1,5</td>
+<td>12</td>
+<td>3</td>
 <td>0</td>
-<td>1</td>
-<td>22.2</td>
-<td>58.6</td>
+<td>2</td>
+<td>25.0</td>
+<td>60.2</td>
+</tr>
+
+<tr>
+<td>Laura Harding</td>
+<td>752</td>
+<td>2,5,2,3,1,2,3,1,2,1</td>
+<td>10</td>
+<td>3</td>
+<td>4</td>
+<td>2</td>
+<td>30.0</td>
+<td>75.2</td>
 </tr>
 
 <tr>
@@ -125,15 +149,27 @@ The Rinderle B scoring table can be found at: <br/>
 </tr>
 
 <tr>
+<td>Jack Dudley</td>
+<td>857</td>
+<td>6,4,5,3,4,4,4,4,5,5</td>
+<td>18</td>
+<td>1</td>
+<td>1</td>
+<td>2</td>
+<td> 5.6</td>
+<td>47.6</td>
+</tr>
+
+<tr>
 <td>Gerard Brennan</td>
-<td>1054</td>
-<td>5,9,7,8,9,6,2,2,2,2</td>
-<td>24</td>
+<td>1104</td>
+<td>7,7,4,5,9,7,8,9,6,2</td>
+<td>27</td>
 <td>0</td>
 <td>7</td>
 <td>2</td>
 <td> 0.0</td>
-<td>43.9</td>
+<td>40.9</td>
 </tr>
 
 <tr>
@@ -161,42 +197,6 @@ The Rinderle B scoring table can be found at: <br/>
 </tr>
 
 <tr>
-<td>Jack Dudley</td>
-<td>714</td>
-<td>4,4,4,4,5,5,1,4,6,2</td>
-<td>14</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td> 7.1</td>
-<td>51.0</td>
-</tr>
-
-<tr>
-<td>Dom Sutton</td>
-<td>1193</td>
-<td>2,4,5,1,3,3,1,2,1,3</td>
-<td>18</td>
-<td>7</td>
-<td>2</td>
-<td>4</td>
-<td>38.9</td>
-<td>66.3</td>
-</tr>
-
-<tr>
-<td>Laura Harding</td>
-<td>576</td>
-<td>3,1,2,3,1,2,1</td>
-<td>7</td>
-<td>3</td>
-<td>2</td>
-<td>2</td>
-<td>42.9</td>
-<td>82.3</td>
-</tr>
-
-<tr>
 <td>Sophie Borsboom</td>
 <td>550</td>
 <td>1,1,1,1,1,1</td>
@@ -210,14 +210,14 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Martin Outram</td>
-<td>781</td>
-<td>2,1,1,2,2,2,3,4,3,3</td>
-<td>11</td>
+<td>933</td>
+<td>4,6,6,2,2,1,1,2,2,2</td>
+<td>15</td>
 <td>2</td>
-<td>4</td>
+<td>5</td>
 <td>3</td>
-<td>18.2</td>
-<td>71.0</td>
+<td>13.3</td>
+<td>62.2</td>
 </tr>
 
 <tr>
@@ -254,6 +254,18 @@ The Rinderle B scoring table can be found at: <br/>
 <td>0</td>
 <td> 0.0</td>
 <td>27.9</td>
+</tr>
+
+<tr>
+<td>Nick Reid</td>
+<td>629</td>
+<td>5,3,2,5,3,3,5,3,3,2</td>
+<td>12</td>
+<td>0</td>
+<td>3</td>
+<td>6</td>
+<td> 0.0</td>
+<td>52.4</td>
 </tr>
 
 <tr>
@@ -338,18 +350,6 @@ The Rinderle B scoring table can be found at: <br/>
 <td>2</td>
 <td> 0.0</td>
 <td>41.4</td>
-</tr>
-
-<tr>
-<td>Nick Reid</td>
-<td>462</td>
-<td>3,3,5,3,3,2,2,3</td>
-<td>8</td>
-<td>0</td>
-<td>2</td>
-<td>5</td>
-<td> 0.0</td>
-<td>57.8</td>
 </tr>
 
 <tr>
