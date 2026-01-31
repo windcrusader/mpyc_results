@@ -32,6 +32,7 @@ import argparse
 from jinja2 import Environment, PackageLoader
 from collections import namedtuple
 from collections import defaultdict
+from datetime import timedelta
 
 env = Environment(loader=PackageLoader('generate_webcontent', 'templates'))
 
@@ -151,6 +152,26 @@ def sort_matrix(matin, key, key2=False):
             row.sort(key=lambda b: f(b))
         else:
             row.sort(key=lambda b: (f(b), f2(b)))
+
+def convert_time_to_secs(timestring):
+    # Standardize separator
+    timestring = timestring.replace(".", ":")
+    parts = list(map(int, timestring.split(":")))
+    
+    if len(parts) == 1:
+        # Input was just minutes (e.g., "75")
+        delta = timedelta(minutes=parts[0])
+    elif len(parts) == 2:
+        # Input was hours:minutes (e.g., "1:75")
+        delta = timedelta(hours=parts[0], minutes=parts[1])
+    elif len(parts) == 3:
+        # Input was hours:minutes:seconds
+        delta = timedelta(hours=parts[0], minutes=parts[1], seconds=parts[2])
+    else:
+        return 0
+
+    # .total_seconds() returns a float, so we convert to int
+    return int(delta.total_seconds())
 
 
 def read_sailwave_series_summary(division, args):
@@ -534,30 +555,6 @@ def initialise_matrix(sailresults):  # initialise matrix
                              sailresultssorted[j].props))
 
     return matrix
-
-
-def convert_time_to_secs(timestring):
-    """Takes a timestring and converts it into a Python time object
-
-    Expecting one of the following formats:
-    H:MM:SS
-    HH:MM:SS
-    HH.MM.SS
-    MM:SS
-    MM.SS
-
-    """
-    # Replace dots with :
-    timestring = timestring.replace(".",":")
-    if len(timestring) == 7:
-            time = datetime.time.fromisoformat("0" + timestring)
-    elif len(timestring) == 5:
-            time = datetime.time.fromisoformat("00:" + timestring)
-    else:
-            time = datetime.time.fromisoformat(timestring)
-
-    # return total seconds
-    return (time.hour * 60 + time.minute) * 60 + time.second
 
 
 def handicap_adjust(races_detail):
