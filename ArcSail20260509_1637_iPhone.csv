@@ -1,0 +1,248 @@
+ScoringType,name,comments,hasMinimumRaces,highPointsAreGood,shouldAveragePoints
+data,Low Point System,Scoring matches boat placement in race,0,0,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,Sailing Club,,,,,
+Race,raceId,name,startTime,endTime,fleet:Fleet:fleetId,status,windForce,isFinalized,event:Event:eventId,scoreIsStale,distance,scoringMultiplier,teamTime:TeamRaceTime:teamRaceTimeId
+data,R4(p68),R4,2026_05_09 12_48_22 GMT+12:00,2026_05_09 13_09_03 GMT+12:00,Fleet Name(p23),9,0,1,Saturday&comma; 9 May 2026(p19),0,0,1,p704:p703:p721:p719:p717:p715:p713:p711:p709:p707:p705:p720:p718:p716:p714:p712:p710:p708:p706
+data,R2(p66),R2,2026_05_09 11_24_56 GMT+12:00,2026_05_09 12_17_05 GMT+12:00,Fleet Name(p23),9,0,1,Saturday&comma; 9 May 2026(p19),0,0,1,p672:p670:p668:p683:p681:p679:p677:p675:p673:p671:p669:p684:p682:p680:p678:p676:p674
+data,R1(p65),R1,2026_05_09 10_23_23 GMT+12:00,2026_05_09 11_04_27 GMT+12:00,Fleet Name(p23),9,0,1,Saturday&comma; 9 May 2026(p19),0,0,1,p663:p661:p659:p657:p655:p652:p650:p666:p664:p662:p660:p658:p656:p654:p651:p667:p665
+data,R3(p67),R3,2026_05_09 12_23_57 GMT+12:00,2026_05_09 12_45_02 GMT+12:00,Fleet Name(p23),9,0,1,Saturday&comma; 9 May 2026(p19),0,0,1,p693:p691:p689:p687:p685:p702:p700:p698:p696:p694:p692:p690:p688:p686:p701:p699:p697:p695
+FinishCode,finishCode,boatFinished,isFinishCode,boatStarted,canBeThrownOut,details,groupingOrder,isDisqualification,isPenaltyCode,penaltyAdjustmentPercent,redressType,shouldMoveToBottom,shouldMoveToTop
+data,DNC,1,0,0,1,Did not start; did not come to starting area,0,0,0,0,x,1,0
+TeamRaceTimeScoring,teamRaceTimeScoringId,finishPlace,finishPlaceIgnoringTie,isForEvent,isIncluded,inclusionCount,points,event:Event:eventId,series:Series:name
+data,p724,3,3,1,1,1,3,Saturday&comma; 9 May 2026(p19),
+data,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC84,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p696,1,1,1,1,1,1,Saturday&comma; 9 May 2026(p19),
+data,p752,13,13,1,1,1,13,Saturday&comma; 9 May 2026(p19),
+data,p736,12,12,1,1,1,12,Saturday&comma; 9 May 2026(p19),
+data,p751,4,4,1,1,1,4,Saturday&comma; 9 May 2026(p19),
+data,p697,13,13,1,1,1,13,Saturday&comma; 9 May 2026(p19),
+data,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC82,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p738,5,5,1,1,1,5,Saturday&comma; 9 May 2026(p19),
+data,p711,14,14,1,1,1,14,Saturday&comma; 9 May 2026(p19),
+data,p753,8,8,1,1,1,8,Saturday&comma; 9 May 2026(p19),
+data,p686,5,5,1,1,1,5,Saturday&comma; 9 May 2026(p19),
+data,p737,1,1,1,1,1,1,Saturday&comma; 9 May 2026(p19),
+data,p741,7,7,1,1,1,7,Saturday&comma; 9 May 2026(p19),
+data,p712,9,9,1,1,1,9,Saturday&comma; 9 May 2026(p19),
+data,p710,2,2,1,1,1,2,Saturday&comma; 9 May 2026(p19),
+data,p731,14,14,1,1,1,14,Saturday&comma; 9 May 2026(p19),
+data,p729,4,4,1,1,1,4,Saturday&comma; 9 May 2026(p19),
+data,p703,8,8,1,1,1,8,Saturday&comma; 9 May 2026(p19),
+data,p705,1,1,1,1,1,1,Saturday&comma; 9 May 2026(p19),
+data,p758,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p730,9,9,1,1,1,9,Saturday&comma; 9 May 2026(p19),
+data,p704,7,7,1,1,1,7,Saturday&comma; 9 May 2026(p19),
+data,p760,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p690,14,14,1,1,1,14,Saturday&comma; 9 May 2026(p19),
+data,p746,6,6,1,1,1,6,Saturday&comma; 9 May 2026(p19),
+data,p706,13,13,1,1,1,13,Saturday&comma; 9 May 2026(p19),
+data,p692,9,9,1,1,1,9,Saturday&comma; 9 May 2026(p19),
+data,p759,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p691,4,4,1,1,1,4,Saturday&comma; 9 May 2026(p19),
+data,p717,12,12,1,1,1,12,Saturday&comma; 9 May 2026(p19),
+data,p747,2,2,1,1,1,2,Saturday&comma; 9 May 2026(p19),
+data,p745,11,11,1,1,1,11,Saturday&comma; 9 May 2026(p19),
+data,p716,16,16,1,1,1,16,Saturday&comma; 9 May 2026(p19),
+data,p718,5,5,1,1,1,5,Saturday&comma; 9 May 2026(p19),
+data,p727,16,16,1,1,1,16,Saturday&comma; 9 May 2026(p19),
+data,p754,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p700,7,7,1,1,1,7,Saturday&comma; 9 May 2026(p19),
+data,p728,7,7,1,1,1,7,Saturday&comma; 9 May 2026(p19),
+data,p726,2,2,1,1,1,2,Saturday&comma; 9 May 2026(p19),
+data,p756,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p699,15,15,1,1,1,15,Saturday&comma; 9 May 2026(p19),
+data,p701,11,11,1,1,1,11,Saturday&comma; 9 May 2026(p19),
+data,p755,12,12,1,1,1,12,Saturday&comma; 9 May 2026(p19),
+data,p688,10,10,1,1,1,10,Saturday&comma; 9 May 2026(p19),
+data,p742,14,14,1,1,1,14,Saturday&comma; 9 May 2026(p19),
+data,p687,2,2,1,1,1,2,Saturday&comma; 9 May 2026(p19),
+data,p715,10,10,1,1,1,10,Saturday&comma; 9 May 2026(p19),
+data,p713,11,11,1,1,1,11,Saturday&comma; 9 May 2026(p19),
+data,p743,15,15,1,1,1,15,Saturday&comma; 9 May 2026(p19),
+data,p757,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p689,3,3,1,1,1,3,Saturday&comma; 9 May 2026(p19),
+data,p744,9,9,1,1,1,9,Saturday&comma; 9 May 2026(p19),
+data,p714,4,4,1,1,1,4,Saturday&comma; 9 May 2026(p19),
+data,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC85,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p734,13,13,1,1,1,13,Saturday&comma; 9 May 2026(p19),
+data,p707,3,3,1,1,1,3,Saturday&comma; 9 May 2026(p19),
+data,p733,10,10,1,1,1,10,Saturday&comma; 9 May 2026(p19),
+data,p740,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p709,15,15,1,1,1,15,Saturday&comma; 9 May 2026(p19),
+data,p708,6,6,1,1,1,6,Saturday&comma; 9 May 2026(p19),
+data,p694,6,6,1,1,1,6,Saturday&comma; 9 May 2026(p19),
+data,p735,6,6,1,1,1,6,Saturday&comma; 9 May 2026(p19),
+data,p750,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p748,10,10,1,1,1,10,Saturday&comma; 9 May 2026(p19),
+data,p719,17,17,1,1,1,17,Saturday&comma; 9 May 2026(p19),
+data,p695,8,8,1,1,1,8,Saturday&comma; 9 May 2026(p19),
+data,p693,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+data,p721,15,15,1,1,1,15,Saturday&comma; 9 May 2026(p19),
+data,p720,1,1,1,1,1,1,Saturday&comma; 9 May 2026(p19),
+data,p749,3,3,1,1,1,3,Saturday&comma; 9 May 2026(p19),
+data,p723,11,11,1,1,1,11,Saturday&comma; 9 May 2026(p19),
+data,p722,5,5,1,1,1,5,Saturday&comma; 9 May 2026(p19),
+data,p725,8,8,1,1,1,8,Saturday&comma; 9 May 2026(p19),
+data,p698,12,12,1,1,1,12,Saturday&comma; 9 May 2026(p19),
+data,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC83,20,20,1,1,1,20,Saturday&comma; 9 May 2026(p19),
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,Sailing Club,,,,,
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Dom Sutton,Dom,Sutton,,MPYC,MPYC
+data,Jack Dudley,Jack,Dudley,,Sailing Club,Sailing Club
+data,Unknown1,Unknown1,,,Sailing Club,Sailing Club
+data,Martin Outram,Martin,Outram,,Sailing Club,Sailing Club
+data,Chris Maurice,Chris,Maurice,,Sailing Club,Sailing Club
+data,Ash Thyne,Ash,Thyne,,Sailing Club,Sailing Club
+data,Tim Friedel,Tim,Friedel,,Sailing Club,Sailing Club
+data,Tim Prickett,Tim,Prickett,,MPYC,MPYC
+data,Julia Van Essen,Julia,Van Essen,,Sailing Club,Sailing Club
+data,Brian Dixon,Brian,Dixon,,Sailing Club,Sailing Club
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Nick Reid,Nick,Reid,,Sailing Club,Sailing Club
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Annah Winheld,Annah,Winheld,,MPYC,MPYC
+BoatClass,boatClassID,boatType,name,napyCode,isSystem,portsmouthNumber,isWindAdjustFormula
+data,LAS4.7,Centerboard,Laser 4.7 (Int.),LAS4.7,0,95.4,
+data,LASEM,Centerboard,Laser Radial/Laser M,LASEM,0,96.7,
+data,LASE2,Centerboard,Laser II (Int. w/Trap & Spi),LASE2,0,92.8,
+data,LASE,Centerboard,Laser (Int.),LASE,0,91.1,
+Handicap,handicapCode,canBeDeleted,handicapCode,denominatorConstant,isRounded,isSelected,isTimeOnTime,isWindAdjustFormula,name,numeratorConstant,windHandicap1,windHandicap3,windHandicap4,windHandicap9,windHandicapType,decimalPlaces
+data,PY,0,PY,0,1,0,1,0,Portsmouth Yardstick,1000,0,0,0,0,None,1
+data,NAPY,0,NAPY,0,0,0,1,0,North American Portsmouth Yardstick,100,0,0,0,0,Class,1
+HandicapValues,name,customValue,customWindHandicap1,customWindHandicap3,customWindHandicap4,customWindHandicap9,value,windHandicap1,windHandicap3,windHandicap4,windHandicap9,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode
+data,PY_Laser 4.7 (Int.),0,0,0,0,0,1208,0,0,0,0,LAS4.7,PY
+data,PY_Laser II (Int. w/Trap & Spi),0,0,0,0,0,1085,0,0,0,0,LASE2,PY
+data,NAPY_Laser 4.7 (Int.),0,0,0,0,0,95.4,96.1,95.2,94.9,0,LAS4.7,NAPY
+data,NAPY_Laser II (Int. w/Trap & Spi),0,0,0,0,0,92.8,95.6,94.6,93.6,88.8,LASE2,NAPY
+data,NAPY_Laser (Int.),0,0,0,0,0,91.1,93.7,92.3,91,88.2,LASE,NAPY
+data,NAPY_Laser Radial/Laser M,0,0,0,0,0,96.7,99.4,97.3,93.6,0,LASEM,NAPY
+data,PY_Laser (Int.),0,0,0,0,0,1100,0,0,0,0,LASE,PY
+data,PY_Laser Radial/Laser M,0,0,0,0,0,1147,0,0,0,0,LASEM,PY
+Vessel,name,bowNumber,country,sailNumber,sortOrder,association:Association:name,primaryClub:Association:name,crew:Member:name,skipper:Member:name,boatClass:BoatClass:boatClassID,phrfRating
+data,31357,,,31357,     31357,Sailing Club,Sailing Club,,Nick Reid,LASEM,0
+data,123384,,,123384,    123384,Sailing Club,Sailing Club,,William Buick,LASEM,0
+data,2984,,,2984,      2984,Sailing Club,Sailing Club,,,,0
+data,176916,,,176916,    176916,Sailing Club,Sailing Club,,Julia Van Essen,LASEM,0
+data,136697,,,136697,    136697,Sailing Club,Sailing Club,,Chris Maurice,LASE,0
+data,181965,,,181965,    181965,Sailing Club,Sailing Club,,Phil Galloway,LASEM,0
+data,159762,,,159762,    159762,Sailing Club,Sailing Club,,Ash Thyne,LASE,0
+data,2687,,,2687,      2687,Sailing Club,Sailing Club,,Annah Winheld,LASEM,0
+data,86,,,86,        86,Sailing Club,Sailing Club,,Tim Prickett,LASE,0
+data,168688,,,168688,    168688,Sailing Club,Sailing Club,,Dom Sutton,LASE,0
+data,198112,,,198112,    198112,Sailing Club,Sailing Club,,Jack Dudley,LASE,0
+data,123381,,,123381,    123381,Sailing Club,Sailing Club,,Martin Outram,LASE,0
+data,93247,,,93247,     93247,Sailing Club,Sailing Club,,Brian Dixon,LASE,0
+data,116033,,,116033,    116033,Sailing Club,Sailing Club,Unknown1,,LASE,0
+data,131737,,,131737,    131737,Sailing Club,Sailing Club,,,LASEM,0
+data,2983,,,2983,      2983,Sailing Club,Sailing Club,,,LASE2,0
+data,136737,,,136737,    136737,Sailing Club,Sailing Club,,,,0
+data,9225,,,9225,      9225,Sailing Club,Sailing Club,,Tim Friedel,LASE2,0
+data,159764,,,159764,    159764,Sailing Club,Sailing Club,,,LAS4.7,0
+Association,name,comments,acronym,contactInfo,websiteUrl,burgee:Burgee:name
+data,MPYC,,,,,
+data,Sailing Club,,,,,
+Member,name,firstName,lastName,isafNumber,memberOf:Association:name,primaryClub:Association:name
+data,Dom Sutton,Dom,Sutton,,MPYC,MPYC
+data,William Buick,William,Buick,,Sailing Club,Sailing Club
+data,Jack Dudley,Jack,Dudley,,Sailing Club,Sailing Club
+data,Unknown1,Unknown1,,,Sailing Club,Sailing Club
+data,Martin Outram,Martin,Outram,,Sailing Club,Sailing Club
+data,Chris Maurice,Chris,Maurice,,Sailing Club,Sailing Club
+data,Ash Thyne,Ash,Thyne,,Sailing Club,Sailing Club
+data,Tim Friedel,Tim,Friedel,,Sailing Club,Sailing Club
+data,Amber Judkins,Amber,Judkins,,Sailing Club,Sailing Club
+data,Tim Prickett,Tim,Prickett,,MPYC,MPYC
+data,Julia Van Essen,Julia,Van Essen,,Sailing Club,Sailing Club
+data,Ben Judkins,Ben,Judkins,,Sailing Club,Sailing Club
+data,Brian Dixon,Brian,Dixon,,Sailing Club,Sailing Club
+data,Josh Judkins,Josh,Judkins,,Sailing Club,Sailing Club
+data,George Ward,George,Ward,,Sailing Club,Sailing Club
+data,Nick Reid,Nick,Reid,,Sailing Club,Sailing Club
+data,Phil Galloway,Phil,Galloway,,MPYC,MPYC
+data,Annah Winheld,Annah,Winheld,,MPYC,MPYC
+TeamRaceTime,teamRaceTimeId,bce,bcr,expectedFinishTime,hasBeenMovedInTable,rowNumberInTable,rawElapsedTimeForSorting,correctedElapsedTime,elapsedTime,endTime,isJustForSeries,lastUpdateTime,handicapUsed,boatClass:BoatClass:boatClassID,crew:Member:name,finishCode:FinishCode:finishCode,nextRaceTime:TeamRaceTime:teamRaceTimeId,penalties:PenaltiesForTeam:penaltiesForTeamId,previousRaceTime:TeamRaceTime:teamRaceTimeId,scoringPoints:TeamRaceTimeScoring:teamRaceTimeScoringId,skipper:Member:name,boat:Vessel:name,race:Race:raceId
+data,p720,0,0,2026_05_09 13_06_46 GMT+12:00,1,0,0,0,0,,0,,0,LASEM,,DNC,,,p701,p750,Annah Winheld,2687,R4(p68)
+data,p661,0,0,,1,10,2190.333274960518,0,2190.333274960518,2026_05_09 10_59_54 GMT+12:00,0,,0,LASE2,,,p669,,,p688,Tim Friedel,9225,R1(p65)
+data,p659,0,0,,1,11,2201.338811993599,0,2201.338811993599,2026_05_09 11_00_05 GMT+12:00,0,,0,LASE,,,p672,,,p701,Ash Thyne,159762,R1(p65)
+data,p719,0,0,2026_05_09 13_06_00 GMT+12:00,1,14,1115.306853055954,0,1115.306853055954,2026_05_09 13_06_58 GMT+12:00,0,,0,LASE,,,,,p700,p745,Ash Thyne,159762,R4(p68)
+data,p687,0,0,2026_05_09 13_12_03 GMT+12:00,1,4,1046.312915921211,0,1046.312915921211,2026_05_09 12_41_23 GMT+12:00,0,,0,LASEM,,,p706,,p673,p722,Chris Maurice,136697,R3(p67)
+data,p686,0,0,2026_05_09 13_14_46 GMT+12:00,1,13,1116.115499019623,0,1116.115499019623,2026_05_09 12_42_33 GMT+12:00,0,,0,LASE,Unknown1,,p704,,p684,p731,,116033,R3(p67)
+data,p675,0,0,2026_05_09 12_00_00 GMT+12:00,1,10,2897.24072098732,0,2897.24072098732,2026_05_09 12_13_13 GMT+12:00,0,,0,LASEM,,,p690,,p656,p713,Phil Galloway,181965,R2(p66)
+data,p706,0,0,2026_05_09 13_05_49 GMT+12:00,1,10,1078.664201021194,0,1078.664201021194,2026_05_09 13_06_21 GMT+12:00,0,,0,LASEM,,,,,p687,p741,Chris Maurice,136697,R4(p68)
+data,p688,0,0,2026_05_09 13_10_38 GMT+12:00,1,9,1095.002388000488,0,1095.002388000488,2026_05_09 12_42_12 GMT+12:00,0,,0,LASE,,,p707,,p681,p733,Brian Dixon,93247,R3(p67)
+data,p677,0,0,2026_05_09 12_03_40 GMT+12:00,1,16,3120.138049960136,0,3120.138049960136,2026_05_09 12_16_56 GMT+12:00,0,,0,LASE2,,,p692,,p665,p716,,2983,R2(p66)
+data,p676,0,0,,1,15,3101.579780936241,0,3101.579780936241,2026_05_09 12_16_37 GMT+12:00,0,,0,LAS4.7,,,p685,,p667,p709,,159764,R2(p66)
+data,p701,0,0,2026_05_09 13_15_12 GMT+12:00,1,11,1104.215294957161,0,1104.215294957161,2026_05_09 12_42_21 GMT+12:00,0,,0,LASEM,,,p720,,p670,p736,Annah Winheld,2687,R3(p67)
+data,p699,0,0,2026_05_09 13_11_33 GMT+12:00,1,12,1111.899973988533,0,1111.899973988533,2026_05_09 12_42_28 GMT+12:00,0,,0,LASEM,,,p718,,p674,p734,Tim Prickett,86,R3(p67)
+data,p678,0,0,2026_05_09 11_58_57 GMT+12:00,1,0,2719.138114929199,0,2719.138114929199,2026_05_09 12_10_15 GMT+12:00,0,,0,LASE,,,p695,,p650,p705,Martin Outram,123381,R2(p66)
+data,p707,0,0,2026_05_09 13_06_37 GMT+12:00,1,15,1117.658758044243,0,1117.658758044243,2026_05_09 13_07_00 GMT+12:00,0,,0,LASE,,,,,p688,p755,Brian Dixon,93247,R4(p68)
+data,p705,0,0,2026_05_09 13_09_25 GMT+12:00,1,2,0,0,0,,0,,0,,,DNC,p724,,p702,p740,,136737,R4(p68)
+data,p671,0,0,,1,11,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p693,,p666,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC83,,131737,R2(p66)
+data,p669,0,0,2026_05_09 12_01_26 GMT+12:00,1,12,3007.695855021477,0,3007.695855021477,2026_05_09 12_15_04 GMT+12:00,0,,0,LASE2,,,p689,,p661,p717,Tim Friedel,9225,R2(p66)
+data,p666,0,0,,1,0,0,0,0,,0,,0,LASEM,,DNC,p671,,,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC84,,131737,R1(p65)
+data,p665,0,0,,1,13,2323.690199971199,0,2323.690199971199,2026_05_09 11_02_07 GMT+12:00,0,,0,LASE2,Ben Judkins,,p677,,,p697,Amber Judkins,2983,R1(p65)
+data,p700,0,0,2026_05_09 13_09_44 GMT+12:00,1,6,1057.427587985992,0,1057.427587985992,2026_05_09 12_41_34 GMT+12:00,0,,0,LASE,,,p719,,p672,p728,Ash Thyne,159762,R3(p67)
+data,p693,0,0,,1,16,0,0,0,2001_01_01 13_00_00 GMT+13:00,0,,0,LASEM,,DNC,p712,,p671,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC85,,131737,R3(p67)
+data,p667,0,0,,1,1,0,0,0,,0,,0,LAS4.7,,DNC,p676,,,p693,Josh Judkins,159764,R1(p65)
+data,p670,0,0,2026_05_09 12_04_07 GMT+12:00,1,14,3075.694851994514,0,3075.694851994514,2026_05_09 12_16_12 GMT+12:00,0,,0,LASEM,,,p701,,p663,p711,Annah Winheld,2687,R2(p66)
+data,p695,0,0,2026_05_09 13_09_16 GMT+12:00,1,0,983.5019899606705,0,983.5019899606705,2026_05_09 12_40_20 GMT+12:00,0,,0,LASE,,,p714,,p678,p720,Martin Outram,123381,R3(p67)
+data,p694,0,0,2026_05_09 13_09_31 GMT+12:00,1,1,996.6040970087051,0,996.6040970087051,2026_05_09 12_40_33 GMT+12:00,0,,0,LASE,,,p713,,p680,p726,Dom Sutton,168688,R3(p67)
+data,p683,0,0,2026_05_09 12_00_20 GMT+12:00,1,3,2765.371263980865,0,2765.371263980865,2026_05_09 12_11_01 GMT+12:00,0,,0,LASE,,,p696,,p651,p714,Jack Dudley,198112,R2(p66)
+data,p651,0,0,,1,16,2124,0,2124,2026_05_09 10_58_47 GMT+12:00,0,,0,LASE,,,p683,,,p694,Jack Dudley,198112,R1(p65)
+data,p712,0,0,,1,3,0,0,0,,0,,0,LASEM,,DNC,,,p693,tD80660C9-D66A-44BF-85FF-EA5B9AFD6EC82,,131737,R4(p68)
+data,p684,0,0,2026_05_09 12_02_49 GMT+12:00,1,13,3049.710775971413,0,3049.710775971413,2026_05_09 12_15_46 GMT+12:00,0,,0,LASE,Unknown1,,p686,,p664,p706,George Ward,116033,R2(p66)
+data,p682,0,0,2026_05_09 11_58_37 GMT+12:00,1,4,2765.971917033195,0,2765.971917033195,2026_05_09 12_11_02 GMT+12:00,0,,0,LASEM,,,p697,,p660,p718,Nick Reid,31357,R2(p66)
+data,p654,0,0,,1,4,2078.512904047966,0,2078.512904047966,2026_05_09 10_58_02 GMT+12:00,0,,0,LASE,,,p680,,,p689,Dom Sutton,168688,R1(p65)
+data,p711,0,0,2026_05_09 13_06_07 GMT+12:00,1,16,1175.2237200737,0,1175.2237200737,2026_05_09 13_07_57 GMT+12:00,0,,0,LASE2,,,,,p692,p752,,2983,R4(p68)
+data,p713,0,0,2026_05_09 13_04_59 GMT+12:00,1,4,986.3261320590973,0,986.3261320590973,2026_05_09 13_04_49 GMT+12:00,0,,0,LASE,,,,,p694,p737,Dom Sutton,168688,R4(p68)
+data,p662,0,0,,1,6,2120.237596988678,0,2120.237596988678,2026_05_09 10_58_43 GMT+12:00,0,,0,LASE,,,p681,,,p686,Brian Dixon,93247,R1(p65)
+data,p652,0,0,,1,8,2137.532474040985,0,2137.532474040985,2026_05_09 10_59_01 GMT+12:00,0,,0,LASEM,,,p674,,,p695,Tim Prickett,86,R1(p65)
+data,p664,0,0,,1,12,2273.255637049675,0,2273.255637049675,2026_05_09 11_01_16 GMT+12:00,0,,0,LASE,Unknown1,,p684,,,p698,George Ward,116033,R1(p65)
+data,p655,0,0,,1,9,2176.339468002319,0,2176.339468002319,2026_05_09 10_59_40 GMT+12:00,0,,0,LASEM,,,p673,,,p692,Chris Maurice,136697,R1(p65)
+data,p689,0,0,2026_05_09 13_14_04 GMT+12:00,1,14,1148.524814963341,0,1148.524814963341,2026_05_09 12_43_05 GMT+12:00,0,,0,LASE2,,,p708,,p669,p721,Tim Friedel,9225,R3(p67)
+data,p668,0,0,2026_05_09 12_00_28 GMT+12:00,1,6,2849.307844996452,0,2849.307844996452,2026_05_09 12_12_25 GMT+12:00,0,,0,LASEM,,,p698,,p658,p704,William Buick,123384,R2(p66)
+data,p721,0,0,,1,13,1112.272648096085,0,1112.272648096085,2026_05_09 13_06_54 GMT+12:00,0,,0,,,,p726,,,p748,,2984,R4(p68)
+data,p691,0,0,2026_05_09 13_11_55 GMT+12:00,1,8,1076.988117933273,0,1076.988117933273,2026_05_09 12_41_54 GMT+12:00,0,,0,LASEM,,,p710,,p679,p730,Julia Van Essen,176916,R3(p67)
+data,p663,0,0,,1,14,2351.059808015823,0,2351.059808015823,2026_05_09 11_02_34 GMT+12:00,0,,0,LASEM,,,p670,,,p690,Annah Winheld,2687,R1(p65)
+data,p679,0,0,2026_05_09 12_04_53 GMT+12:00,1,8,2878.852578997612,0,2878.852578997612,2026_05_09 12_12_55 GMT+12:00,0,,0,LASEM,,,p691,,p657,p712,Julia Van Essen,176916,R2(p66)
+data,p690,0,0,2026_05_09 13_12_14 GMT+12:00,1,10,1098.316337943077,0,1098.316337943077,2026_05_09 12_42_15 GMT+12:00,0,,0,LASEM,,,p709,,p675,p723,Phil Galloway,181965,R3(p67)
+data,p692,0,0,2026_05_09 13_15_57 GMT+12:00,1,7,1065.293089985847,0,1065.293089985847,2026_05_09 12_41_42 GMT+12:00,0,,0,LASE2,,,p711,,p677,p725,,2983,R3(p67)
+data,p681,0,0,2026_05_09 12_00_16 GMT+12:00,1,5,2801.72039103508,0,2801.72039103508,2026_05_09 12_11_38 GMT+12:00,0,,0,LASE,,,p688,,p662,p708,Brian Dixon,93247,R2(p66)
+data,p710,0,0,2026_05_09 13_06_19 GMT+12:00,1,9,1065.150042057037,0,1065.150042057037,2026_05_09 13_06_07 GMT+12:00,0,,0,LASEM,,,,,p691,p746,Julia Van Essen,176916,R4(p68)
+data,p680,0,0,2026_05_09 11_59_34 GMT+12:00,1,1,2734.827747941017,0,2734.827747941017,2026_05_09 12_10_31 GMT+12:00,0,,0,LASE,,,p694,,p654,p710,Dom Sutton,168688,R2(p66)
+data,p708,0,0,2026_05_09 13_07_31 GMT+12:00,1,1,0,0,0,,0,,0,LASE2,,DNC,,,p689,p754,Tim Friedel,9225,R4(p68)
+data,p722,0,0,,,-1,0,0,0,,0,,0,,,DNC,,,,p756,,136737,R1(p65)
+data,p726,0,0,2026_05_09 12_42_29 GMT+12:00,,-1,0,0,0,,0,,0,,,DNC,,,p721,p760,,2984,R3(p67)
+data,p702,0,0,,1,17,1262.706262946129,0,1262.706262946129,2026_05_09 12_44_59 GMT+12:00,0,,0,,,,p705,,,p719,,136737,R3(p67)
+data,p709,0,0,2026_05_09 13_06_41 GMT+12:00,1,8,1051.867226004601,0,1051.867226004601,2026_05_09 13_05_54 GMT+12:00,0,,0,LASEM,,,,,p690,p738,Phil Galloway,181965,R4(p68)
+data,p650,0,0,,1,3,2041.544407963753,0,2041.544407963753,2026_05_09 10_57_25 GMT+12:00,0,,0,LASE,,,p678,,,p687,Martin Outram,123381,R1(p65)
+data,p673,0,0,2026_05_09 12_01_12 GMT+12:00,1,9,2886.170037984848,0,2886.170037984848,2026_05_09 12_13_02 GMT+12:00,0,,0,LASEM,,,p687,,p655,p715,Chris Maurice,136697,R2(p66)
+data,p703,0,0,2026_05_09 13_08_51 GMT+12:00,1,18,1185.566143035889,0,1185.566143035889,2026_05_09 13_08_08 GMT+12:00,0,,0,LAS4.7,,,,,p685,p743,,159764,R4(p68)
+data,p672,0,0,2026_05_09 12_01_37 GMT+12:00,1,2,2747.397047996521,0,2747.397047996521,2026_05_09 12_10_43 GMT+12:00,0,,0,LASE,,,p700,,p659,p707,Ash Thyne,159762,R2(p66)
+data,p723,0,0,2026_05_09 10_41_56 GMT+12:00,,-1,0,0,0,,0,,0,,,DNC,,,,p757,,2984,R1(p65)
+data,p697,0,0,2026_05_09 13_10_03 GMT+12:00,1,3,1041.661515951157,0,1041.661515951157,2026_05_09 12_41_18 GMT+12:00,0,,0,LASEM,,,p716,,p682,p729,Nick Reid,31357,R3(p67)
+data,p704,0,0,2026_05_09 13_06_58 GMT+12:00,1,12,1103.62940299511,0,1103.62940299511,2026_05_09 13_06_46 GMT+12:00,0,,0,LASE,Unknown1,,,,p686,p744,,116033,R4(p68)
+data,p674,0,0,2026_05_09 12_00_33 GMT+12:00,1,7,2856.010350942612,0,2856.010350942612,2026_05_09 12_12_32 GMT+12:00,0,,0,LASEM,,,p699,,p652,p703,Tim Prickett,86,R2(p66)
+data,p685,0,0,2026_05_09 13_15_38 GMT+12:00,1,15,1228.929386019707,0,1228.929386019707,2026_05_09 12_44_25 GMT+12:00,0,,0,LAS4.7,,,p703,,p676,p727,,159764,R3(p67)
+data,p724,0,0,,,-1,0,0,0,,0,,0,,,DNC,,,p705,p759,,136737,R2(p66)
+data,p714,0,0,2026_05_09 13_04_46 GMT+12:00,1,5,1022.188965082169,0,1022.188965082169,2026_05_09 13_05_24 GMT+12:00,0,,0,LASE,,,,,p695,p747,Martin Outram,123381,R4(p68)
+data,p698,0,0,2026_05_09 13_11_26 GMT+12:00,1,5,1049.045678973198,0,1049.045678973198,2026_05_09 12_41_26 GMT+12:00,0,,0,LASE,,,p717,,p668,p735,William Buick,123384,R3(p67)
+data,p696,0,0,2026_05_09 13_10_02 GMT+12:00,1,2,1008.408154964447,0,1008.408154964447,2026_05_09 12_40_45 GMT+12:00,0,,0,LASE,,,p715,,p683,p724,Jack Dudley,198112,R3(p67)
+data,p716,0,0,2026_05_09 13_05_44 GMT+12:00,1,7,1048.397420048714,0,1048.397420048714,2026_05_09 13_05_51 GMT+12:00,0,,0,LASEM,,,,,p697,p751,Nick Reid,31357,R4(p68)
+data,p656,0,0,,1,5,2103.62642800808,0,2103.62642800808,2026_05_09 10_58_27 GMT+12:00,0,,0,LASEM,,,p675,,,p691,Phil Galloway,181965,R1(p65)
+data,p660,0,0,,1,2,2020.748872041702,0,2020.748872041702,2026_05_09 10_57_04 GMT+12:00,0,,0,LASEM,,,p682,,,p696,Nick Reid,31357,R1(p65)
+data,p725,0,0,2026_05_09 11_43_28 GMT+12:00,,-1,0,0,0,,0,,0,,,DNC,,,,p758,,2984,R2(p66)
+data,p715,0,0,2026_05_09 13_05_11 GMT+12:00,1,6,1034.549576997757,0,1034.549576997757,2026_05_09 13_05_37 GMT+12:00,0,,0,LASE,,,,,p696,p749,Jack Dudley,198112,R4(p68)
+data,p718,0,0,2026_05_09 13_06_54 GMT+12:00,1,11,1090.40541100502,0,1090.40541100502,2026_05_09 13_06_33 GMT+12:00,0,,0,LASEM,,,,,p699,p753,Tim Prickett,86,R4(p68)
+data,p657,0,0,,1,15,2396.8607660532,0,2396.8607660532,2026_05_09 11_03_20 GMT+12:00,0,,0,LASEM,,,p679,,,p699,Julia Van Essen,176916,R1(p65)
+data,p717,0,0,2026_05_09 13_05_51 GMT+12:00,1,17,1181.612275004387,0,1181.612275004387,2026_05_09 13_08_04 GMT+12:00,0,,0,LASE,,,,,p698,p742,William Buick,123384,R4(p68)
+data,p658,0,0,,1,7,2131.895437002182,0,2131.895437002182,2026_05_09 10_58_55 GMT+12:00,0,,0,LASE,,,p668,,,p700,William Buick,123384,R1(p65)
+Fleet,fleetId,name,boatClass:BoatClass:boatClassID,handicap:Handicap:handicapCode,numUniqueDigits,boat:Vessel:name,burgee:Burgee:name
+data,Fleet Name(p23),Fleet Name,,,6,136737:159764:2687:123384:86:159762:198112:93247:116033:2984:131737:2983:9225:181965:176916:31357:136697:168688:123381,1
+Event,eventId,name,eventDate,scoringType:ScoringType:name,countdownMinutes,racePrepMinutes,aboutToStartMinutes,throwOuts,penaltyBasedOnStarting,minimumRaces,raceOfficer:Member:name,scoringType:ScoringType:name,official:Member:name,primaryClub:Association:name,scoringMultiplier,fleet:Fleet:fleetId
+data,Saturday&comma; 9 May 2026(p19),Saturday&comma; 9 May 2026,2026_05_09 10_19_07 GMT+12:00,Low Point System,3,2,1,,0,0,,Low Point System,,Sailing Club,1,Fleet Name(p23)
