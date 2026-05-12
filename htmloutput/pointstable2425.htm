@@ -11,10 +11,10 @@
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-    $('#sorttable').DataTable({"order": [[2,'dsc']],
+    $('#sorttable').DataTable({"order": [[1,'dsc']],
     "pageLength":50,
     "rowCallback": function( row, data, index ) {
-        if ( data[4] > 24 )
+        if ( data[3] > 24 )
         {
             $('td', row).css('background-color', 'LightSkyBlue');
         }
@@ -23,25 +23,19 @@ $(document).ready(function() {
 } );
 </script>
 
-<title>MPYC Point Table as at 04 May 25 16:03</title>
+<title>MPYC Point Table as at 12 May 26 19:53</title>
 </head>
 <body>
-<h1>Points Table for Members</h1><p>Last updated 04 May 25 16:03</p>
+<h1>Points Table for Members</h1><p>Last updated 12 May 26 19:53</p>
 
 <p>This table shows the current standing in the seasonal points competiton after 122 races. 
 Points are scored by members in every race according to the
 Rinderle B high point scoring system.  <br/><br/>
 Points are scored according to race position and the number of other boats in the race. <br/>
-Race position is determined according to corrected time based on PY 2020 numbers. <br/>
+Race position is determined according to corrected time based on PY 2025 numbers. <br/>
 You must be a financial member of MPYC to score points. <br/>
 Non members and members from affiliated clubs cannot score points but can push members down the point tables.
 <br/> 
-<p style="color:red;"><em>
-Note that MPYC is trialling a new "nominated" sail size scoring system this season. All results in the season table
-are recalculated with the handicap from the largest sail the sailor has used in the season so far regardless of what
-sail was used on a particular day.
-</em>
-</p>
 
 The Rinderle B scoring table can be found at: <br/>
 <a href="http://www.regattanetwork.com/clubmgmt/regatta_uploads/13936/rinderle_b_table.pdf">Rinderle B Table</a>
@@ -59,7 +53,6 @@ The Rinderle B scoring table can be found at: <br/>
 <thead>
 <tr>
 <th>Helm Name</th>
-<th>Nominated sail</th>
 <th>Season Points</th>
 <th>(Form) Last 10 races</th>
 <th>Races</th>
@@ -73,7 +66,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Joshua Judkins</td>
-<td>ILCA 4</td>
 <td>815</td>
 <td>6,19,9,4,9,1,2,1,5,8</td>
 <td>19</td>
@@ -86,7 +78,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Robin Smith</td>
-<td>ILCA 4</td>
 <td>1587</td>
 <td>10,9,9,6,8,6,6,4,1,12</td>
 <td>29</td>
@@ -99,7 +90,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Richard Mansell</td>
-<td>ILCA 7</td>
 <td>1088</td>
 <td>8,13,14,9,11,10,3,6,2,4</td>
 <td>27</td>
@@ -112,7 +102,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Shane Foster</td>
-<td>ILCA 4</td>
 <td>96</td>
 <td>9,11,7</td>
 <td>3</td>
@@ -125,7 +114,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Julia Van Essen</td>
-<td>ILCA 7</td>
 <td>1926</td>
 <td>11,8,9,8,8,7,3,3,7,9</td>
 <td>54</td>
@@ -138,7 +126,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Tony Visker</td>
-<td>ILCA 6</td>
 <td>263</td>
 <td>17,17,10,12,13,12,9</td>
 <td>7</td>
@@ -151,7 +138,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Jack Dudley</td>
-<td>ILCA 7</td>
 <td>3227</td>
 <td>12,11,5,6,6,5,4,8,6,2</td>
 <td>62</td>
@@ -164,7 +150,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Mark Thompson</td>
-<td>ILCA 7</td>
 <td>674</td>
 <td>9,10,9,12,16,16,5,7,12,11</td>
 <td>25</td>
@@ -177,7 +162,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Gerard Brennan</td>
-<td>ILCA 7</td>
 <td>3194</td>
 <td>13,16,14,15,11,8,7,6,5,8</td>
 <td>91</td>
@@ -190,7 +174,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Nan Jiang</td>
-<td>ILCA 7</td>
 <td>1037</td>
 <td>16,14,9,12,13,11,9,9,7,9</td>
 <td>35</td>
@@ -203,7 +186,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Nick Saunders</td>
-<td>ILCA 6</td>
 <td>792</td>
 <td>4,3,3,1,1,1,3,2,2</td>
 <td>9</td>
@@ -216,7 +198,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>George Wills</td>
-<td>ILCA 6</td>
 <td>750</td>
 <td>2,2,2,1,1,1,2,1</td>
 <td>8</td>
@@ -229,7 +210,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Tim</td>
-<td>LASER II</td>
 <td>72</td>
 <td>7,9,7</td>
 <td>3</td>
@@ -242,7 +222,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Amber Judkins</td>
-<td>ILCA 6</td>
 <td>738</td>
 <td>8,10,12,14,16,7,9,5,9,14</td>
 <td>25</td>
@@ -255,7 +234,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Phil Galloway</td>
-<td>ILCA 7</td>
 <td>4372</td>
 <td>4,5,6,7,4,6,7,4,1,1</td>
 <td>71</td>
@@ -268,7 +246,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Tim Friedel</td>
-<td>LASER II</td>
 <td>184</td>
 <td>15,16,6,5,13,10</td>
 <td>6</td>
@@ -281,7 +258,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Annah Winheld</td>
-<td>ILCA 7</td>
 <td>1109</td>
 <td>15,9,11,11,10,5,3,6,5,DNF</td>
 <td>39</td>
@@ -294,7 +270,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Rene Borsboom</td>
-<td>ILCA 7</td>
 <td>542</td>
 <td>4,5,3,2,3,2,2,5,5,5</td>
 <td>11</td>
@@ -307,7 +282,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Brian Dixon</td>
-<td>ILCA 7</td>
 <td>1419</td>
 <td>14,12,7,9,10,8,8,9,7,9</td>
 <td>38</td>
@@ -320,7 +294,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Chris Maurice</td>
-<td>ILCA 7</td>
 <td>1886</td>
 <td>23,18,13,9,12,6,7,9,7,13</td>
 <td>59</td>
@@ -333,7 +306,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Andrew Robinson</td>
-<td>ILCA 6</td>
 <td>5016</td>
 <td>2,2,1,1,1,1,2,1,1,1</td>
 <td>55</td>
@@ -346,7 +318,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Sophie Borsboom</td>
-<td>ILCA 6</td>
 <td>1104</td>
 <td>21,4,5,3,4,1,11,5,1,11</td>
 <td>17</td>
@@ -359,7 +330,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Rosa Borsboom</td>
-<td>ILCA 6</td>
 <td>1228</td>
 <td>4,1,2,1,3,5,13,12,4,3</td>
 <td>21</td>
@@ -372,7 +342,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Ash Thyne</td>
-<td>ILCA 7</td>
 <td>1005</td>
 <td>20,10,12,7,3,5,8,11,11,9</td>
 <td>34</td>
@@ -385,7 +354,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Alex Drysdale</td>
-<td>ILCA 6</td>
 <td>280</td>
 <td>4,7,3,8,9,8,11</td>
 <td>7</td>
@@ -398,7 +366,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Luke Thompson</td>
-<td>ILCA 6</td>
 <td>427</td>
 <td>3,5,6,2,3,4,5</td>
 <td>7</td>
@@ -411,7 +378,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Kevin Li</td>
-<td>ILCA 7</td>
 <td>211</td>
 <td>11,11,6,6,8,9,5,7,12,12</td>
 <td>11</td>
@@ -424,7 +390,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>JP Brouwers</td>
-<td>ILCA 6</td>
 <td>96</td>
 <td>22,21,10,11,DNF,15,14,14</td>
 <td>8</td>
@@ -437,7 +402,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Warren Judkins</td>
-<td>ILCA 4</td>
 <td>42</td>
 <td>19,20</td>
 <td>2</td>
@@ -450,7 +414,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Jeanie Borsboom</td>
-<td>SUNBURST</td>
 <td>51</td>
 <td>18,10,8</td>
 <td>3</td>
@@ -463,7 +426,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Laura Harding</td>
-<td>ILCA 6</td>
 <td>2253</td>
 <td>3,3,3,4,3,2,4,3,4,3</td>
 <td>29</td>
@@ -476,7 +438,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Rainer Kuprecht</td>
-<td>PHASE 2</td>
 <td>140</td>
 <td>9,7,11,9,10,10,8</td>
 <td>7</td>
@@ -489,7 +450,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Dom Sutton</td>
-<td>ILCA 7</td>
 <td>3618</td>
 <td>3,3,1,1,2,2,DNF,4,2,2</td>
 <td>51</td>
@@ -502,7 +462,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>William Buick</td>
-<td>ILCA 7</td>
 <td>3719</td>
 <td>1,7,4,4,5,6,7,6,6,2</td>
 <td>57</td>
@@ -515,7 +474,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Joseph Sopers</td>
-<td>ILCA 7</td>
 <td>262</td>
 <td>7,5,14,7,8,12,12,10</td>
 <td>8</td>
@@ -528,7 +486,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Rome Geary</td>
-<td>ILCA 4</td>
 <td>34</td>
 <td>9</td>
 <td>1</td>
@@ -541,7 +498,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Brad Henderson</td>
-<td>ILCA 7</td>
 <td>3278</td>
 <td>3,5,4,2,2,1,1,3,5,4</td>
 <td>41</td>
@@ -554,7 +510,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Martin Outram</td>
-<td>ILCA 7</td>
 <td>3781</td>
 <td>10,6,7,7,9,3,5,4,3,4</td>
 <td>62</td>
@@ -567,7 +522,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Tom Berliner</td>
-<td>ILCA 7</td>
 <td>142</td>
 <td>11,12,8,DNF,10,15,11</td>
 <td>7</td>
@@ -580,7 +534,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Isabelle Harding</td>
-<td>ILCA 4</td>
 <td>298</td>
 <td>2,3,2,1</td>
 <td>4</td>
@@ -593,7 +546,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Tim Prickett</td>
-<td>ILCA 6</td>
 <td>2526</td>
 <td>5,15,6,8,5,8,2,3,3,2</td>
 <td>36</td>
@@ -606,7 +558,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Nick Reid</td>
-<td>ILCA 7</td>
 <td>1354</td>
 <td>9,13,8,5,8,6,6,6,3,2</td>
 <td>24</td>
@@ -619,7 +570,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Cate Ambury</td>
-<td>ILCA 4</td>
 <td>213</td>
 <td>5,3,3</td>
 <td>3</td>
@@ -632,7 +582,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Leon Maritz</td>
-<td>ILCA 7</td>
 <td>21</td>
 <td>16,17</td>
 <td>2</td>
@@ -645,7 +594,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Noa Salonius</td>
-<td>ILCA 4</td>
 <td>208</td>
 <td>3,4,5</td>
 <td>3</td>
@@ -658,7 +606,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>John Robinson</td>
-<td>ILCA 6</td>
 <td>1792</td>
 <td>7,1,2,3,3,2,2,3,6,3</td>
 <td>24</td>
@@ -671,7 +618,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Michael Galloway</td>
-<td>ILCA 7</td>
 <td>142</td>
 <td>9,10,7</td>
 <td>3</td>
@@ -684,7 +630,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Dave Stockman</td>
-<td>ILCA 7</td>
 <td>141</td>
 <td>14,15,13,11,10,13,12</td>
 <td>7</td>
@@ -697,7 +642,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Diane Sowerby</td>
-<td>ILCA 4</td>
 <td>122</td>
 <td>8,10,4</td>
 <td>3</td>
@@ -710,7 +654,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Nikki Reid</td>
-<td>ILCA 6</td>
 <td>117</td>
 <td>10,15,8</td>
 <td>3</td>
@@ -723,7 +666,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Chris Green</td>
-<td>ILCA 7</td>
 <td>1152</td>
 <td>3,1,2,3,4,2,6,2,4,1</td>
 <td>14</td>
@@ -736,7 +678,6 @@ The Rinderle B scoring table can be found at: <br/>
 
 <tr>
 <td>Unknown</td>
-<td>ILCA 4</td>
 <td>10</td>
 <td>12</td>
 <td>1</td>

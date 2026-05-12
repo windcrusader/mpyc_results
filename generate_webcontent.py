@@ -154,24 +154,30 @@ def sort_matrix(matin, key, key2=False):
             row.sort(key=lambda b: (f(b), f2(b)))
 
 def convert_time_to_secs(timestring):
-    # Standardize separator
-    timestring = timestring.replace(".", ":")
-    parts = list(map(int, timestring.split(":")))
-    
-    if len(parts) == 1:
-        # Input was just minutes (e.g., "75")
-        delta = timedelta(minutes=parts[0])
-    elif len(parts) == 2:
-        # Input was hours:minutes (e.g., "1:75")
-        delta = timedelta(hours=parts[0], minutes=parts[1])
-    elif len(parts) == 3:
-        # Input was hours:minutes:seconds
-        delta = timedelta(hours=parts[0], minutes=parts[1], seconds=parts[2])
-    else:
-        return 0
+    """Convert Sailwave time strings to seconds.
 
-    # .total_seconds() returns a float, so we convert to int
-    return int(delta.total_seconds())
+    Supports:
+    H:MM:SS
+    HH:MM:SS
+    MM:SS
+    MM.SS
+    whole minutes, e.g. "75"
+    """
+    timestring = timestring.strip().replace(".", ":")
+    parts = list(map(int, timestring.split(":")))
+
+    if len(parts) == 1:
+        return parts[0] * 60
+
+    if len(parts) == 2:
+        minutes, seconds = parts
+        return minutes * 60 + seconds
+
+    if len(parts) == 3:
+        hours, minutes, seconds = parts
+        return hours * 3600 + minutes * 60 + seconds
+
+    return 0
 
 
 def read_sailwave_series_summary(division, args):
@@ -186,13 +192,16 @@ def read_sailwave_series_summary(division, args):
 
     This is used for calculating handicap corrections.
     '''
-    if args.fpp:
-
-        filename = (Globals.season + "/" + "MPYC_Master_Template_" +
-                Globals.season + "_FPP.blw")
+    if args.fpp and not args.calc_corrections:
+        filename = (
+        Globals.season + "/" +
+        "MPYC_Master_Template_" + Globals.season + "_FPP.blw"
+    )
     else:
-        filename = (Globals.season + "/" + "MPYC_Master_Template_" +
-                Globals.season + ".blw")
+        filename = (
+        Globals.season + "/" +
+        "MPYC_Master_Template_" + Globals.season + ".blw"
+    )
 
     with open(filename) as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
@@ -642,6 +651,10 @@ def handicap_adjust(races_detail):
 if __name__ == '__main__':
     args = parser.parse_args()
     sailresults, races, racesdetail = read_sailwave_series_summary("SENIOR", args)
+    assert convert_time_to_secs("24:12") == 1452
+    assert convert_time_to_secs("24.12") == 1452
+    assert convert_time_to_secs("1:24:12") == 5052
+    assert convert_time_to_secs("75") == 4500
     # print(sailresults)
     # print(races)
     matrix = initialise_matrix(sailresults)
