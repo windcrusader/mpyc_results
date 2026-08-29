@@ -320,8 +320,6 @@ h2 {
   width: 9px; height: 9px; border-radius: 50%;
   background: var(--gold); flex: none;
 }
-.standings a.secondary { font-weight: 500; color: var(--muted); }
-.standings a.secondary .dot { background: var(--line); }
 .toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -432,7 +430,7 @@ footer {
     <h2>Season standings</h2>
     <div class="standings">
 <?php foreach ($standings as $table): ?>
-      <a class="<?php echo $table['fpp'] ? 'secondary' : ''; ?>" href="<?php echo href($table['file']); ?>">
+      <a href="<?php echo href($table['file']); ?>">
         <span class="dot" aria-hidden="true"></span><?php echo e(mpyc_table_label($table)); ?>
       </a>
 <?php endforeach; ?>
@@ -442,7 +440,7 @@ footer {
 
   <section>
     <div class="toolbar">
-      <h2>Race results<?php echo $raceCount ? ' &middot; <span id="count">' . $raceCount . '</span> races' : ''; ?></h2>
+      <h2>Race results<?php echo $raceCount ? ' &middot; <span id="count">' . $raceCount . '</span> race days' : ''; ?></h2>
 <?php if ($raceCount > 6): ?>
       <input id="q" type="search" placeholder="Search races&hellip;" aria-label="Search races" autocomplete="off">
 <?php endif; ?>
