@@ -621,38 +621,25 @@ def generate_points_table(sailresults, highpoint, num_races, args):
                 races=num_races),
             file=file)
 
-    outfilename = f"htmloutput/pointstable_ilca7_{Globals.season}.htm"
-    with open(outfilename, 'w') as file:
+    # Per-class tables. Only written on the handicap run: the -fpp pass
+    # reads different data and has no _fpp variant of these files, so it
+    # would otherwise overwrite them with line-honours results under a
+    # heading that describes handicap scoring.
+    if highpoint and not args.fpp:
         template = env.get_template('points_table_by_class_template.html')
-        print(
-            template.render(
-                boat_class='ILCA 7',
-                updatetime=Globals.todayformat,
-                table=formattedresults_ilca7,
-                races=num_races),
-            file=file)
-
-    outfilename = f"htmloutput/pointstable_ilca6_{Globals.season}.htm"
-    with open(outfilename, 'w') as file:
-        template = env.get_template('points_table_by_class_template.html')
-        print(
-            template.render(
-                boat_class='ILCA 6',
-                updatetime=Globals.todayformat,
-                table=formattedresults_ilca6,
-                races=num_races),
-            file=file)
-
-    outfilename = f"htmloutput/pointstable_ilca4_{Globals.season}.htm"
-    with open(outfilename, 'w') as file:
-        template = env.get_template('points_table_by_class_template.html')
-        print(
-            template.render(
-                boat_class='ILCA 4',
-                updatetime=Globals.todayformat,
-                table=formattedresults_ilca4,
-                races=num_races),
-            file=file)
+        for boat_class, results in (('ILCA 7', formattedresults_ilca7),
+                                    ('ILCA 6', formattedresults_ilca6),
+                                    ('ILCA 4', formattedresults_ilca4)):
+            slug = boat_class.replace(' ', '').lower()
+            outfilename = f"htmloutput/pointstable_{slug}_{Globals.season}.htm"
+            with open(outfilename, 'w') as file:
+                print(
+                    template.render(
+                        boat_class=boat_class,
+                        updatetime=Globals.todayformat,
+                        table=results,
+                        races=num_races),
+                    file=file)
 
 
 def initialise_matrix(sailresults):  # initialise matrix
