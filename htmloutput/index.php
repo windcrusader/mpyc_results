@@ -33,6 +33,15 @@ function mpyc_season_label($code)
     return '20' . substr($code, 0, 2) . '/' . substr($code, 2, 2);
 }
 
+/** Season code that a timestamp falls in: 5 Sep 2026 -> "2627". */
+function mpyc_season_of($stamp)
+{
+    $year = (int) date('Y', $stamp);
+    $startYear = (int) date('n', $stamp) >= 7 ? $year : $year - 1;
+
+    return substr((string) $startYear, 2, 2) . substr((string) ($startYear + 1), 2, 2);
+}
+
 /**
  * Split the directory listing into race reports and standings tables.
  *
@@ -148,20 +157,39 @@ function mpyc_compare_tables($a, $b)
 $dir = __DIR__;
 list($allRaces, $tables) = mpyc_scan($dir);
 
-// Current season: the newest one we have a standings table for, otherwise
-// infer it from the most recent race report.
+// Current season: whichever is later, the newest standings table or the
+// newest race report. Racing restarts in September but the standings tables
+// for the new season are not written until results are published, so going
+// by the tables alone leaves the page a season behind and silently hides the
+// opening day results.
 $season = null;
 if (!empty($tables)) {
     $seasonCodes = array_keys($tables);
     $season = (string) $seasonCodes[0];
-} elseif (!empty($allRaces)) {
-    $newest = $allRaces[0]['stamp'];
-    $year = (int) date('Y', $newest);
-    $startYear = (int) date('n', $newest) >= 7 ? $year : $year - 1;
-    $season = substr((string) $startYear, 2, 2) . substr((string) ($startYear + 1), 2, 2);
+}
+// A mistyped year in a filename would otherwise strand the page in a season
+// that has not started, so skip past anything dated later than today.
+$thisSeason = (int) mpyc_season_of(time());
+foreach ($allRaces as $race) {
+    $raceSeason = mpyc_season_of($race['stamp']);
+    if ((int) $raceSeason > $thisSeason) {
+        continue;
+    }
+    if ($season === null || (int) $raceSeason > (int) $season) {
+        $season = $raceSeason;
+    }
+    break;
 }
 
-$standings = ($season !== null && isset($tables[$season])) ? $tables[$season] : array();
+// Between the first race of a season and the first results upload there are
+// no standings for the current season, so show the previous season's final
+// tables rather than nothing, and say so in the heading.
+$standingsSeason = ($season !== null && isset($tables[$season])) ? $season : null;
+if ($standingsSeason === null && !empty($tables)) {
+    $fallbackCodes = array_keys($tables);
+    $standingsSeason = (string) $fallbackCodes[0];
+}
+$standings = $standingsSeason !== null ? $tables[$standingsSeason] : array();
 usort($standings, 'mpyc_compare_tables');
 
 // Keep only this season's races on the front page; anything older is a
@@ -427,7 +455,9 @@ footer {
 
 <?php if (!empty($standings)): ?>
   <section>
-    <h2>Season standings</h2>
+    <h2><?php echo $standingsSeason === $season
+        ? 'Season standings'
+        : e(mpyc_season_label($standingsSeason)) . ' final standings'; ?></h2>
     <div class="standings">
 <?php foreach ($standings as $table): ?>
       <a href="<?php echo href($table['file']); ?>">
