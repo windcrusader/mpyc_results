@@ -36,10 +36,9 @@ from datetime import timedelta
 
 env = Environment(loader=PackageLoader('generate_webcontent', 'templates'))
 
-RaceEntry = namedtuple("RaceEntry",
-                       "name, yclass, sailno, club, division, forkey,\
-                            comprating,\
-                           comptotal")
+RaceEntry = namedtuple(
+    "RaceEntry",
+    "name, yclass, sailno, club, forkey, comprating, comptotal")
 
 parser = argparse.ArgumentParser(description='generate_webcontent_\
                                                 from_sailwave')
@@ -103,10 +102,10 @@ class HelmRes:
     RaceEntry. In addition there are some statistical metrics stored such
     as number of races and points total.'''
 
-    def __init__(self, name="", yclass="", sailno="", club="", division="",
+    def __init__(self, name="", yclass="", sailno="", club="",
                  forkey="", comprating="", comptotal=0.0):
         self.props = RaceEntry(name=name, yclass=yclass, sailno=sailno,
-                               club=club, division=division,
+                               club=club,
                                forkey=forkey, comprating=comprating,
                                comptotal=comptotal)
         # series results a list of tuples of the results for the race entry
@@ -180,7 +179,7 @@ def convert_time_to_secs(timestring):
     return 0
 
 
-def read_sailwave_series_summary(division, args):
+def read_sailwave_series_summary(args):
     '''Reads the sailwave data file and generates a series summary dict.
 
     Grabs a particular division e.g SENIOR
@@ -226,12 +225,6 @@ def read_sailwave_series_summary(division, args):
                         helm['yclass'] = row[1]
                 except UnboundLocalError:
                     continue
-            elif row[0] == "compdivision":
-                try:
-                    if row[2] == helm['forkey']:
-                        helm['division'] = row[1]
-                except UnboundLocalError:
-                    continue
             elif row[0] == "compclub":
                 try:
                     if row[2] == helm['forkey']:
@@ -248,8 +241,7 @@ def read_sailwave_series_summary(division, args):
                 try:
                     if row[2] == helm['forkey']:
                         helm['name'] = row[1]
-                        if helm['division'] == division:
-                            helms.append(HelmRes(**helm))
+                        helms.append(HelmRes(**helm))
                 except UnboundLocalError:
                     continue
 
@@ -453,7 +445,7 @@ def generate_points_table(sailresults, highpoint, num_races, args):
     # results e.g DNF-DNC-1-4-5-OCS
 
     for helmres in sortedsailresults:
-        if helmres.props.club == 'mpyc':
+        if helmres.props.club.lower() == 'mpyc':
             # print(helm.name)
             # print(series_sum[helm])
             # todo need to interleave results from different classes in the
@@ -494,7 +486,7 @@ def generate_points_table(sailresults, highpoint, num_races, args):
         resultshighpoint = {}
 
         for helmres in table:
-            if helmres.props.club != "mpyc":
+            if helmres.props.club.lower() != "mpyc":
                 continue
 
             if helmres.props.yclass in results_class.keys():
@@ -738,7 +730,7 @@ def handicap_adjust(races_detail):
 
 if __name__ == '__main__':
     args = parser.parse_args()
-    sailresults, races, racesdetail = read_sailwave_series_summary("SENIOR", args)
+    sailresults, races, racesdetail = read_sailwave_series_summary(args)
     assert convert_time_to_secs("24:12") == 1452
     assert convert_time_to_secs("24.12") == 1452
     assert convert_time_to_secs("1:24:12") == 5052
