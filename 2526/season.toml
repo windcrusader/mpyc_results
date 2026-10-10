@@ -1,0 +1,20 @@
+# Season scoring settings for season_scoring.py (see 2627/season.toml).
+
+# The combined twilight file repeats races from the individual twilight days.
+exclude = ["TwilightSailing_Combined.blw"]
+
+[ratings]
+"ILCA 7" = 1104
+"ILCA 7 / LASER" = 1104
+"ILCA 6" = 1154
+"ILCA 4" = 1216
+"SUNBURST" = 1270
+"470" = 973
+
+# Not included in the 2025-26 master file, so left out to match it.
+[days."260425 Buxton Cup.blw"]
+exclude = true
+
+# Class as typed in a day file = class to use in the tables.
+[class_aliases]
+"ILCA 7 / LASER" = "ILCA 7"

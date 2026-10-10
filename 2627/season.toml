@@ -1,0 +1,21 @@
+# Season scoring settings for season_scoring.py.
+# Every .blw file in this directory is a day of racing, except the
+# MPYC_Master files and anything listed in `exclude`.
+
+# Portsmouth Yardstick numbers used for the handicap table. A rating set for
+# a single race in Sailwave (e.g. 1000 for a non-handicap race) still wins.
+[ratings]
+"ILCA 7" = 1103
+"ILCA 6" = 1156
+"ILCA 4" = 1218
+"LASER II" = 1117
+
+# Name as typed in a day file = name to use in the tables, e.g.
+# [aliases]
+# "Dominic Sutton" = "Dom Sutton"
+
+# Per-day overrides, e.g.
+# [days."20261128 Buxton Cup.blw"]
+# order = "positions"   # rank by recorded places (pursuit race)
+# handicap = false      # rank by elapsed time in the handicap table too
+# exclude = true        # leave this day out of the season

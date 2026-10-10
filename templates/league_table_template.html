@@ -46,7 +46,7 @@ sailor's lines in the table. </p>
 <th><h3>League Table</h3></th>
 
  </tr>
-{% for skipper in table if skipper[0].helmi.club == 'mpyc' %}
+{% for skipper in table if skipper[0].helmi.club|lower == 'mpyc' %}
  <tr>
 <td class='goodfont'>{{skipper[0].helmi.yclass}}</td>
 <td class='goodfont'>{{skipper[0].helmi.sailno}}</td>

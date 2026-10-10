@@ -50,6 +50,11 @@ parser.add_argument('-fpp',
                     action="store_true",
                     help="input file is first past the post scoring")
 
+parser.add_argument('-from_day_files',
+                    action="store_true",
+                    help="score the season from the individual day files "
+                         "(see season_scoring.py) instead of the master file")
+
 
 class Globals():
     """Convenience wrapper for Globals"""
@@ -303,6 +308,33 @@ def read_sailwave_series_summary(args):
                     races_detail[row[3]][row[2]]["elapsed"] = \
                         convert_time_to_secs(row[1])
     return helms, races, races_detail
+
+
+def read_day_files(args):
+    '''Scores the season from the day files and returns the same
+    (helms, races, races_detail) as read_sailwave_series_summary.'''
+    import season_scoring
+
+    config = season_scoring.load_config(Globals.season)
+    mode = season_scoring.FPP if args.fpp and not args.calc_corrections \
+        else season_scoring.HANDICAP
+    season = season_scoring.score_season(config, mode)
+    for warning in season.warnings:
+        print("warning:", warning)
+
+    helms = []
+    for helm in season.helms:
+        helmres = HelmRes(name=helm.name, yclass=helm.yclass,
+                          sailno=helm.sailno, club=helm.club,
+                          forkey=f"{helm.name}|{helm.yclass}",
+                          comprating=str(helm.rating),
+                          comptotal=str(helm.total))
+        helmres.results = list(helm.results)
+        helmres.points = list(helm.points)
+        helmres.races = helm.races
+        helmres.placetally = dict(helm.placetally)
+        helms.append(helmres)
+    return helms, season.races, season.details
 
 
 def generate_html(matin, args):
@@ -730,7 +762,10 @@ def handicap_adjust(races_detail):
 
 if __name__ == '__main__':
     args = parser.parse_args()
-    sailresults, races, racesdetail = read_sailwave_series_summary(args)
+    if args.from_day_files:
+        sailresults, races, racesdetail = read_day_files(args)
+    else:
+        sailresults, races, racesdetail = read_sailwave_series_summary(args)
     assert convert_time_to_secs("24:12") == 1452
     assert convert_time_to_secs("24.12") == 1452
     assert convert_time_to_secs("1:24:12") == 5052
