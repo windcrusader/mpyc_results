@@ -10,9 +10,17 @@
 "ILCA 4" = 1218
 "LASER II" = 1117
 
-# Name as typed in a day file = name to use in the tables, e.g.
-# [aliases]
-# "Dominic Sutton" = "Dom Sutton"
+# Name as typed in a day file = name to use in the tables.
+[aliases]
+"Tim Friedel & Jenny" = "Tim Friedel"
+"Josh Judkins" = "Joshua Judkins"
+"J P Brouwers" = "JP Brouwers"
+
+# Class as typed in a day file = class to use in the tables (and ratings).
+[class_aliases]
+"ILCA 7 / Laser" = "ILCA 7"
+"ILCA 6 / Laser Radial" = "ILCA 6"
+"ILCA 4 / Laser 4.7" = "ILCA 4"
 
 # Per-day overrides, e.g.
 # [days."20261128 Buxton Cup.blw"]

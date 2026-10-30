@@ -34,20 +34,34 @@ RATING_DIFFERENCES_2526 = {
     '20260427-01', '20260427-03', '20260427-05', '20260509-01',
     '20260509-02', '20260509-03', '20260509-04'}
 
+# 2627: the master files were retired after 3 Oct (later tables are built
+# from the day files), so only the days up to then are compared.
+LAST_MASTER_DAY_2627 = '20261003'
+
 # 2627 handicap: the master has no rating for George Ward or Leon Mantz, so
 # Sailwave scored them as 1000.
 UNRATED_IN_MASTER_2627 = {('George Ward', 'ILCA 7'), ('Leon Mantz', 'ILCA 6')}
 
 
-def differing_races(season, mode):
+def load_config(season, last_day=None):
+    '''Season config, leaving out any days after `last_day` (YYYYMMDD).'''
     config = ss.load_config(season, ROOT)
+    if last_day:
+        for date, filename in ss.day_files(config):
+            if date > last_day:
+                config.days.setdefault(filename, {})['exclude'] = True
+    return config
+
+
+def differing_races(season, mode, last_day=None):
+    config = load_config(season, last_day)
     path = ss.master_path(config, mode)
     return {race_key for race_key, _, _ in
             ss.compare_races(config, mode, path)}
 
 
-def differing_totals(season, mode):
-    config = ss.load_config(season, ROOT)
+def differing_totals(season, mode, last_day=None):
+    config = load_config(season, last_day)
     rows, _ = ss.compare_with_master(config, mode,
                                      ss.master_path(config, mode))
     return {(name, yclass) for name, yclass, _, _ in rows}
@@ -56,11 +70,13 @@ def differing_totals(season, mode):
 class TestSeason2627(unittest.TestCase):
 
     def test_fpp_matches_master(self):
-        self.assertEqual(differing_totals('2627', ss.FPP), set())
+        self.assertEqual(
+            differing_totals('2627', ss.FPP, LAST_MASTER_DAY_2627), set())
 
     def test_handicap_matches_master_except_unrated(self):
-        self.assertEqual(differing_totals('2627', ss.HANDICAP),
-                         UNRATED_IN_MASTER_2627)
+        self.assertEqual(
+            differing_totals('2627', ss.HANDICAP, LAST_MASTER_DAY_2627),
+            UNRATED_IN_MASTER_2627)
 
 
 class TestSeason2526(unittest.TestCase):
