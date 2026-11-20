@@ -1,0 +1,267 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <head >
+        <meta charset="UTF-8" />
+        <title>Scott Park Weather Weather Conditions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script>
+            // Home page layout: ?view= in the address, else the visitor's last choice, else home_view (see style.css)
+            // Visitors who switched units: hide the page until belchertown-units.js has converted it
+            try {
+                if (localStorage.getItem("belchertown_units") === "alt") {
+                    document.documentElement.classList.add("units-pending");
+                    setTimeout(function() { document.documentElement.classList.remove("units-pending"); }, 3000);
+                }
+            } catch (e) {}
+            (function() {
+                var view = (location.search.match(/[?&]view=([a-z]+)/) || [])[1];
+                if (view === "kiosk") { document.documentElement.classList.add("view-kiosk"); return; }
+            })();
+        </script>
+
+        <meta name="description" content="Weather conditions for Scott Park Weather as observed by a personal weather station and the weewx weather software"/>
+        <meta name="robots" content="noodp"/>
+        <link rel="canonical" href="https://mpyc.nz/weather/graphs/" />
+        <meta property="og:locale" content="en_GB" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Scott Park Weather Weather Conditions" />
+        <meta property="og:description" content="Weather conditions for Scott Park Weather as observed by a personal weather station and the weewx weather software" />
+        <meta property="og:url" content="https://mpyc.nz/weather" />
+        <meta property="og:site_name" content="Scott Park Weather Weather Conditions" />
+
+        <link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
+        <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+        <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
+        <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+
+        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700&#038;ver=1.0' type='text/css' media='all' />
+        <link rel='stylesheet' href='//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css' media='all' />
+        <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css?ver=4.7.4' type='text/css' media='all' />
+        <link rel='stylesheet' href='../style.css?ver=1794902417' type='text/css' media='all' id="belchertownStyle" />
+
+        <link rel="manifest" href="../manifest.json" crossorigin="use-credentials">
+        <link rel="apple-touch-icon" href="../images/station.png">
+        <link rel="apple-touch-icon" sizes="48x48" href="../images/station48.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/station72.png">
+        <link rel="apple-touch-icon" sizes="96x96" href="../images/station96.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../images/station144.png">
+        <link rel="apple-touch-icon" sizes="168x168" href="../images/station168.png">
+        <link rel="apple-touch-icon" sizes="192x192" href="../images/station192.png">
+        
+        <!--[if lt IE 9]>
+        <script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js'></script>
+        <![endif]-->
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script type='text/javascript' src='//stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/dayjs.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/plugin/utc.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/plugin/timezone.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/plugin/localizedFormat.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/plugin/advancedFormat.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/plugin/localeData.min.js"></script>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.23/locale/en-gb.min.js"></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/highcharts@13/highstock.js'></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/highcharts@13/highcharts-more.js'></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/highcharts@13/modules/solid-gauge.js'></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/highcharts@13/modules/exporting.js'></script>
+        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/highcharts@13/modules/accessibility.js'></script>
+        <script type='text/javascript' src='../js/belchertown-config.js?1794902417'></script>
+        <script type='text/javascript' src='../js/belchertown.js?1794902417'></script>
+        <script type='text/javascript' src='../js/belchertown-units.js?1794902417'></script>
+        <script type='text/javascript' src='../js/belchertown-theme.js?1794902417'></script>
+        <script type='text/javascript' src='../js/belchertown-forecast.js?1794902417'></script>
+        <script type='text/javascript' src='../js/belchertown-live.js?1794902417'></script>
+        <script type='text/javascript' src='../js/belchertown-charts.js?1794902417'></script>
+        <script>
+            // Set the session variables for the theme
+            if ( sessionStorage.getItem('theme') === null ) {
+                sessionStorage.setItem('theme', 'auto');
+            }
+            if ( sessionStorage.getItem('currentTheme') === null ) {
+                sessionStorage.setItem('currentTheme', 'dark');
+            }
+        </script>
+        
+        <link rel='shortlink' href="https://mpyc.nz/weather" />
+                
+        <link rel="icon" href="../favicon.ico" />
+        
+
+
+    </head>
+    
+    <body class="page-template-default page full-width-content dark sticky-header" itemscope itemtype="https://schema.org/WebPage">
+        <div class="site-container">
+            <header class="site-header">
+                <div class="wrap">
+                    <div class="title-area">
+                        <p class="site-title" itemprop="headline">
+                            <a href="../">
+                                <img src="https://mpyc.nz/weather/bannerlogo_dark.png" id="logo_image" title="Scott Park Weather Weather Conditions" alt="Scott Park Weather Weather Conditions">
+                            </a>
+                        </p>
+                    </div>
+                    <div class="widget-area header-widget-area">
+                        <section id="nav_menu">
+                            <div class="widget-wrap">
+                                <nav class="nav-header" itemscope itemtype="https://schema.org/SiteNavigationElement">
+                                    <input type="checkbox" id="menu-toggle" class="menu-toggle-state">
+                                    <label for="menu-toggle" class="menu-toggle" title="Menu" aria-label="Menu"><i class="fa fa-bars" aria-hidden="true"></i></label>
+                                    <ul id="menu-menu" class="menu genesis-nav-menu responsive-menu">
+                                        <!-- class = current-menu-item -->
+                                        <li class="menu-item menu-item-home"><a href=".." itemprop="url"><span itemprop="name">Home</span></a></li>
+                                        <li class="menu-item menu-item-1"><a href="../graphs/" itemprop="url"><span itemprop="name">Graphs</span></a></li>
+                                        <li class="menu-item menu-item-2"><a href="../records/" itemprop="url"><span itemprop="name">Records</span></a></li>
+                                        <li class="menu-item menu-item-3"><a href="../reports/" itemprop="url"><span itemprop="name">Reports</span></a></li>
+                                        <li class="menu-item menu-item-4"><a href="../about/" itemprop="url"><span itemprop="name">About</span></a></li>
+                                    </ul>
+                                </nav>
+                                <div class="header-toggles">
+                                    <button type="button" id="unitSwitch" class="wx-icon-button wx-unit-button" title="Switch units" aria-label="Switch units"><span></span></button>
+                                    <button type="button" id="themeSwitch" class="wx-icon-button" title="Light or dark" aria-label="Light or dark"><i class="fa fa-sun-o" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </header>
+
+    <div class="site-inner">
+        <main class="content">	
+            <article class="weewx graphs" itemscope itemtype="https://schema.org/CreativeWork">
+
+                <script type="text/javascript">
+                    var graph = getURLvar("graph");
+                    if ( graph === undefined ) {
+                        // If no URL VAR, default to the graph group defined in Extras
+                        graph = "day";
+                    }
+                    var thisPageGraphs = graphgroups_raw[graph];
+                    
+                    wx_ready(function() {
+                        if (graph == "all") { 
+                            // Build all graphs
+                            var i = 0;
+                            for (var graphgroup in graphgroups_raw) {
+                                // Rename the graph-outer div to remove CSS
+                                wx_all(".graph-outer").forEach(function(el) { el.className = "graph-outer-all"; });
+                                
+                                var page_content = "";
+                                if ( graphpage_content[graphgroup] ) {
+                                    page_content = graphpage_content[graphgroup];
+                                }
+                                
+                                // Loop through every graph group defined and add a title section
+                                wx_all(".graph-outer-all").forEach(function(el) { el.insertAdjacentHTML("beforeend", '\
+                                    <div class="' + graphgroup + '_outer graphgroup-outer">\
+                                        <div class="graphpage-title wx-buttons-description">\
+                                            <a href="./?graph='+graphgroup+'">'+ graphgroups_titles[graphgroup] +'</a>\
+                                        </div>\
+                                        <div class="graphpage-content">'+page_content+'</div>\
+                                        <div class="' + graphgroup + ' wx-chart-grid"></div>\
+                                    </div>\
+                                '); });
+                                
+                                if ( i > 0 ) {
+                                    wx_css("." + CSS.escape(graphgroup + "_outer"), "border-top", "1px solid #ccc");
+                                }
+                                
+                                // Within each title section add the chart divs with the graph group prepending to avoid conflicts
+                                graphgroups_raw[graphgroup].forEach( graphID => {
+                                    wx_all("." + CSS.escape(graphgroup)).forEach(function(el) { el.insertAdjacentHTML("beforeend", '<div class="wx-chart"><div id="' + graphgroup + "_" + graphID + '" style="width:100%;height:100%;margin-top:20px;"></div></div>'); });
+                                });
+                                
+                                // Render the charts with the prepend_renderTo set to true
+                                showChart(graphgroup, true);
+                                
+                                i++;
+                            };
+                        } else {
+                            // Loop through the graph group for this page and add the graph divs to the page
+                            try {
+                                thisPageGraphs.forEach( graphID => {
+                                    wx_all(".graph-outer").forEach(function(el) { el.insertAdjacentHTML("beforeend", '<div class="wx-chart"><div id="' + graphID + '" style="width:100%;height:100%;margin-top:20px;"></div></div>'); });
+                                });
+                                
+                                // Set page title
+                                wx_html(".graphpage-title", graphgroups_titles[graph]);
+                                
+                                // Set page content
+                                wx_html(".graphpage-content", graphpage_content[graph]);
+                                
+                                // Render the charts
+                                showChart(graph);
+                            } catch(err) {
+                                console.log("ERROR: Cannot add graphs from [" + graph + "] graph group: " + err.message);
+                            }
+                        }
+                    });
+                </script>
+                
+<div class="wx-stn-info-container wx-page-header">
+    <div class="wx-stn-info-current-obs">
+        <span class="obs-header-icon">
+            <img id="wxicon" src="../images/mostly-clear-day.png" alt="">
+        </span>
+        <span class="obs-header-outtemp">13.7 &#176;C</span>
+    </div>
+    <div class="wx-stn-name">
+        <h1>Weather Observation Graphs</h1>
+    </div>
+    <div class="wx-page-header-info">
+        <div class="wx-stn-info">
+            Ecowitt WS90 (GW2001)
+        </div>
+    </div>
+</div>
+
+                <div class="wx-buttons">
+                        <a href="./?graph=all"><button type="button" class="btn btn-primary wx-btn-year">All</button></a>
+                        <a href="./?graph=homepage"><button type="button" class="btn btn-primary">homepage</button></a> <a href="./?graph=day"><button type="button" class="btn btn-primary">Today</button></a> <a href="./?graph=yesterday"><button type="button" class="btn btn-primary">Yesterday</button></a> <a href="./?graph=week"><button type="button" class="btn btn-primary">Week</button></a> <a href="./?graph=month"><button type="button" class="btn btn-primary">Month</button></a> <a href="./?graph=year"><button type="button" class="btn btn-primary">Year</button></a> 
+                </div>
+                <div class="wx-buttons-description">
+                    <span class='graphpage-title'></span>
+                </div>
+
+                <div class="graphpage-content"></div><!-- JS populated -->
+
+                <div class="graph-outer wx-chart-grid wx-chart-grid-1"></div><!-- JS populated -->
+                
+                <div class="clear"></div>
+                
+            </article>
+        </main>
+    </div>
+
+
+		</div><!-- close div tag from header.html.tmpl -->
+
+		<footer class="site-footer">
+			<div class="wrap">
+                <div class="footer-columns">
+                    <div class="footerLeft">
+                        Copyright &copy; 2026 Mount Pleasant Yacht Club
+                    </div>
+                    <div class="footerCenter">
+                        <strong>Never make important decisions from this website.</strong>
+                    </div>
+                    <div class="footerRight">
+                        weewx theme by <a href="https://github.com/poblabs/weewx-belchertown" target="_blank">Pat O'Brien</a>
+                    </div>
+                </div>
+			</div>
+		</footer>
+		
+		
+		<!-- Belchertown Skin Version: 3.0.1 -->
+        <!-- Page Generated: 17/11/26 21:00:00 -->
+
+    </body>
+</html>
+
